@@ -1,6 +1,8 @@
 # TUF-CN-Translation
 此处为TUF网站的翻译存放处
 
+TUF译文校验器：https://tuforums.com/translation
+
 ## 如何参与翻译
 ### 翻译人员：
 你们拥有编辑权限
