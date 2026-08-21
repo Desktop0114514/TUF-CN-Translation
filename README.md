@@ -18,3 +18,7 @@ TUF译文校验器以及如何做翻译工作：https://tuforums.com/translation
 使用 github 的 Fork + Pull Request 方法
 
 具体使用方法可以询问AI
+
+
+
+此页面禁止非工作人员更改
