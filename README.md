@@ -1,7 +1,9 @@
 # TUF-CN-Translation
 此处为TUF网站的翻译存放处
 
-TUF译文校验器：https://tuforums.com/translation
+TUF译文校验器以及如何做翻译工作：https://tuforums.com/translation
+
+校验：把当前的译文下载并打包（记得把压缩包里的README.md删了）放到校验器里校验，根据校验器返回信息进行校正
 
 ## 如何参与翻译
 ### 翻译人员：
