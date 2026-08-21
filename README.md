@@ -12,4 +12,5 @@
 ### 非翻译人员想参与翻译贡献：
 
 使用 github 的 Fork + Pull Request 方法
+
 具体使用方法可以询问AI
