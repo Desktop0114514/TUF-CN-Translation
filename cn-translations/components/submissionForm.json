@@ -1,0 +1,41 @@
+{
+  "sections": {
+    "common": "基础信息",
+    "levelDetails": "关卡详细信息",
+    "passDetails": "通关记录详细信息",
+    "judgements": "判定"
+  },
+  "fields": {
+    "videoLink": "视频链接",
+    "song": "曲名",
+    "artist": "曲师",
+    "charter": "采音师",
+    "vfxer": "特效师",
+    "team": "团队",
+    "diff": "难度",
+    "dlLink": "下载链接",
+    "workshopLink": "工坊链接",
+    "levelId": "关卡 ID",
+    "speed": "飙速速度",
+    "feelingRating": "体感难度",
+    "ePerfect": "稍快！",
+    "perfect": "完美！",
+    "lPerfect": "稍慢！",
+    "tooEarly": "太快！！",
+    "early": "太快！",
+    "late": "太慢！",
+    "isNoHold": "非默认长按设置长按",
+    "is12K": "12键",
+    "is16K": "16键"
+  },
+  "errors": {
+    "required": "此字段为必填",
+    "requiredEither": "需要下载链接或工坊链接",
+    "pendingProfiles": "请等待个人资料创建",
+    "submitFailed": "提交失败"
+  },
+  "submit": "提交",
+  "warnings": {
+    "pendingProfiles": "将请求创建下列个人资料:"
+  }
+} 

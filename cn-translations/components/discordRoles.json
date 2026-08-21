@@ -1,0 +1,82 @@
+{
+  "title": "同步 Discord 身份组",
+  "loading": "加载中……",
+  "errors": {
+    "loadGuilds": "加载 Discord 服务器失败",
+    "createGuild": "创建服务器失败",
+    "updateGuild": "更新服务器失败",
+    "deleteGuild": "删除服务器失败",
+    "createRole": "创建身份组失败",
+    "updateRole": "更新身份组失败",
+    "deleteRole": "删除身份组失败",
+    "reorderRoles": "重排身份组顺序失败"
+  },
+  "success": {
+    "guildCreated": "服务器创建成功",
+    "guildUpdated": "服务器更新成功",
+    "guildDeleted": "服务器删除成功",
+    "roleCreated": "身份组创建成功",
+    "roleUpdated": "身份组更新成功",
+    "roleDeleted": "身份组删除成功",
+    "rolesReordered": "身份组顺序重排成功"
+  },
+  "empty": {
+    "noGuilds": "尚未配置任何 Discord 服务器。",
+    "noGuildsHint": "添加服务器即可开始配置身份组同步。",
+    "noRoles": "尚未为 {{type}} 配置身份组。"
+  },
+  "guild": {
+    "add": "添加服务器",
+    "edit": "编辑服务器",
+    "rolesFor": "{{type}} 的身份组",
+    "roleCount": "{{count}} 个身份组",
+    "roleCountPlural": "{{count}} 个身份组",
+    "status": {
+      "active": "已激活",
+      "inactive": "未激活"
+    },
+    "confirmDelete": "你确定删除此服务器及其所有身份组吗？",
+    "form": {
+      "guildId": "Discord 服务器 ID",
+      "guildIdPlaceholder": "例如，1234567890123456789",
+      "displayName": "显示名称",
+      "displayNamePlaceholder": "例如，TUForums Official",
+      "botToken": "机器人令牌",
+      "botTokenPlaceholder": "Discord 机器人令牌",
+      "botTokenPlaceholderEdit": "保持不变或输入新令牌",
+      "botTokenHint": "机器人必须在此服务器中并拥有管理身份组权限。",
+      "active": "已激活"
+    }
+  },
+  "role": {
+    "add": "添加身份组",
+    "edit": "编辑身份组",
+    "group": "组：{{group}}",
+    "confirmDelete": "你确定删除此身份组吗？",
+    "form": {
+      "roleId": "Discord 身份组 ID",
+      "roleIdPlaceholder": "例如，1234567890123456789",
+      "label": "标签",
+      "labelPlaceholder": "例如，U10+ Clear",
+      "minimumDifficulty": "最低难度",
+      "selectDifficulty": "选择难度……",
+      "difficultyHint": "通过了不低于此难度的谱面的用户将获得此身份组。",
+      "curationType": "精选类型",
+      "selectCurationType": "选择精选类型……",
+      "curationTypeHint": "创作了此类型的精选关卡的创作者将获得此身份组。",
+      "conflictGroup": "冲突组（可选）",
+      "conflictGroupPlaceholder": "例如：difficulty-tier",
+      "conflictGroupHint": "在同一冲突组中的身份组将相互替代（仅使用最高身份组）。",
+      "active": "已激活"
+    }
+  },
+  "types": {
+    "difficulty": "难度",
+    "curation": "精选"
+  },
+  "confirmClose": {
+    "title": "未保存更改",
+    "message": "你有未保存更改。你确定关闭页面吗？",
+    "discard": "放弃更改"
+  }
+}

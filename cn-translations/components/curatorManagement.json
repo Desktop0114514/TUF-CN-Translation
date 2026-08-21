@@ -1,0 +1,39 @@
+{
+  "title": "管理精选委员",
+  "loading": "加载精选委员中……",
+  "search": {
+    "placeholder": "按用户名或 ID 搜索"
+  },
+  "superAdmin": {
+    "password": {
+      "placeholder": "输入超管密码"
+    }
+  },
+  "addCurator": {
+    "placeholder": "输入用户名",
+    "button": "添加策展人"
+  },
+  "userEntry": {
+    "unknown": "未知",
+    "buttons": {
+      "delete": "删除"
+    }
+  },
+  "roles": {
+    "curator": "精选委员",
+    "headCurator": "精选委员长"
+  },
+  "errors": {
+    "passwordRequired": "需要密码",
+    "invalidPassword": "超管密码无效",
+    "deleteConfirm": "确认删除精选委员？",
+    "updateRoleFailed": "更新角色失败",
+    "deleteFailed": "删除精选委员失败",
+    "loadFailed": "加载精选委员失败",
+    "addFailed": "添加精选委员失败",
+    "userNotFound": "未找到用户",
+    "alreadyHighestRole": "用户已拥有最高身份",
+    "alreadyLowestRole": "用户已拥有最低身份",
+    "noRoleToRemove": "用户没有可移除的身份"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "title": "管理精选关卡类型",
+  "description": "浏览并管理所有精选关卡类型",
+  "create": {
+    "title": "创建新精选关卡类型",
+    "description": "向系统中添加新精选关卡类型"
+  },
+  "edit": {
+    "title": "编辑精选关卡类型",
+    "description": "修改精选关卡类型设置"
+  },
+  "loading": "正在加载类型……",
+  "empty": "未找到精选关卡类型",
+  "hasAbilities": "允许自定义",
+  "noAbilities": "不允许自定义",
+  "actions": {
+    "create": "创建新类型",
+    "edit": "编辑类型",
+    "delete": "删除类型"
+  },
+  "confirmations": {
+    "deleteType": "你确定要删除 \"{{name}}\" 精选关卡类型吗？ 此操作不可撤销。"
+  },
+  "notifications": {
+    "created": "精选关卡类型创建成功",
+    "updated": "精选关卡类型更新成功",
+    "deleted": "精选关卡类型删除成功",
+    "reordered": "精选关卡类型重排序成功",
+    "reorderFailed": "精选关卡类型重排序失败",
+    "groupsReordered": "精选关卡类型分组重排序成功",
+    "groupReorderFailed": "精选关卡类型分组重排序失败"
+  },
+  "tabs": {
+    "types": "类型",
+    "groups": "分组"
+  },
+  "groups": {
+    "ungrouped": "未分组",
+    "empty": "无分组",
+    "typeCount": "{{count}} 个类型"
+  },
+  "form": {
+    "name": "类型名称",
+    "namePlaceholder": "输入精选关卡类型名称",
+    "group": "分组",
+    "groupPlaceholder": "可选 —— 相同的标签将不同的类型分为一组",
+    "color": "颜色",
+    "icon": "图标",
+    "iconHelp": "为此精选关卡类型上传图标（JPEG、PNG、WebP、SVG，最大1MB)",
+    "selectIcon": "选择图标",
+    "changeIcon": "更改图标",
+    "abilities": "允许自定义"
+  },
+  "abilities": {
+    "customCSS": "自定义 CSS",
+    "curatorAssignable": "精选委员可分配",
+    "raterAssignable": "评级员可分配",
+    "showAssigner": "显示分配者",
+    "forceDescription": "必填描述",
+    "frontPageEligible": "可选入每周精选",
+    "customColorTheme": "自定义颜色主题",
+    "levelListBasicGlow": "基本关卡列表辉度",
+    "levelListLegendaryGlow": "传奇关卡列表辉度"
+  },
+  "buttons": {
+    "create": "创建类型",
+    "update": "更新类型",
+    "submitting": "正在提交……"
+  }
+}

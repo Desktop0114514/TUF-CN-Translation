@@ -1,0 +1,97 @@
+{
+  "title": "管理歌曲 {{name}}",
+  "tabs": {
+    "update": "更新",
+    "merge": "合并",
+    "aliases": "别名",
+    "links": "链接",
+    "credits": "制作人",
+    "evidence": "凭证",
+    "levelSuffix": "关卡后缀"
+  },
+  "form": {
+    "name": "名称",
+    "verificationState": "认证状态"
+  },
+  "merge": {
+    "info": "将此音乐合并到另一音乐中。所有数据都将被转移。",
+    "search": "搜索目标音乐",
+    "placeholder": "按名称搜索……"
+  },
+  "aliases": {
+    "add": "添加别名",
+    "placeholder": "输入别名"
+  },
+  "links": {
+    "add": "添加链接",
+    "placeholder": "输入链接"
+  },
+  "credits": {
+    "search": "搜索艺术家",
+    "placeholder": "按名称搜索……",
+    "role": "身份组（可选",
+    "rolePlaceholder": "例如，Producer, Composer",
+    "existing": "现有制作人",
+    "add": "添加制作人"
+  },
+  "entityExtraInfo": {
+    "label": "额外信息",
+    "placeholder": "关于 {{type}} 的额外说明或信息",
+    "empty": "无额外信息"
+  },
+  "evidence": {
+    "add": "上传凭证图片",
+    "addLink": "添加额外凭证链接",
+    "linkPlaceholder": "输入外部链接",
+    "extraInfo": "额外信息",
+    "extraInfoPlaceholder": "关于此凭证的额外说明或信息",
+    "pendingUpload": "待上传",
+    "uploaded": "已上传凭证",
+    "existing": "现有凭证",
+    "dropZoneText": "拖拽图像至此处或点击选择",
+    "dropZoneHint": "支持多文件选择",
+    "deleteConfirm": "你确定删除此凭证吗/"
+  },
+  "buttons": {
+    "merge": "合并",
+    "merging": "合并中……",
+    "addCredit": "添加制作人"
+  },
+  "messages": {
+    "updated": "歌曲更新成功",
+    "merged": "歌曲合并成功",
+    "creditAdded": "制作人添加成功",
+    "creditRemoved": "制作人移除成功",
+    "evidenceAdded": "凭证添加成功",
+    "evidenceUpdated": "凭证更新成功",
+    "evidenceDeleted": "凭证删除成功",
+    "suffixUpdated": "关卡后缀更新成功",
+    "entityExtraInfoUpdated": "额外信息更新成功"
+  },
+  "levelSuffix": {
+    "description": "更新使用此音乐的所有关卡的后缀",
+    "currentSuffix": "当前后缀",
+    "newSuffix": "新后缀",
+    "placeholder": "输入新后缀",
+    "clearSuffix": "清除后缀",
+    "applyToAll": "应用至全部",
+    "levelsAffected": "将影响到 {{count}} 个关卡",
+    "noLevels": "未找到此歌曲的关卡",
+    "differentSuffixes": "对于不同的关卡找到不同的后缀",
+    "suffixUpdated": "关卡后缀更新成功"
+  },
+  "errors": {
+    "updateFailed": "歌曲更新失败",
+    "mergeFailed": "歌曲合并失败",
+    "selectTarget": "请选择目标歌曲",
+    "selectArtist": "请选择艺术家",
+    "loadSongsFailed": "加载音乐失败",
+    "deleteFailed": "删除失败",
+    "creditFailed": "制作人添加失败",
+    "evidenceFailed": "凭证添加失败",
+    "noFile": "请选择文件",
+    "invalidFileType": "请仅选择图像文件",
+    "invalidLink": "请输入有效链接",
+    "suffixUpdateFailed": "关卡后缀更新失败"
+  }
+}

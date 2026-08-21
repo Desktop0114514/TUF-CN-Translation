@@ -1,0 +1,58 @@
+{
+  "title": "编辑关卡精选",
+  "description": "自定义此关卡的精选设置",
+  "descriptionLevel": "选择精选类型（标签），并编辑本关卡的描述、CSS 与颜色。每个关卡只有一条精选记录承载这些内容。",
+  "rowTitle": "精选 {{n}}",
+  "emptyHint": "暂无精选。点击下方添加，或直接保存以清空本关卡全部精选。",
+  "form": {
+    "types": "精选类型",
+    "typesCurrent": "已选类型",
+    "typesAdd": "添加类型",
+    "typesSearchPlaceholder": "搜索类型…",
+    "typesNoneSelected": "尚未选择类型。",
+    "typesNoResults": "没有匹配的类型。",
+    "typesNoneAvailable": "没有可再分配的类型。",
+    "removeType": "移除类型",
+    "addType": "添加类型",
+    "type": "精选类型",
+    "selectType": "选择一个精选关卡类型",
+    "shortDescription": "简短描述",
+    "shortDescriptionPlaceholder": "简要描述（最多 255 个字符）……",
+    "shortDescriptionHelp": "将在画廊视图和预览中显示的简要描述",
+    "description": "描述",
+    "descriptionPlaceholder": "输入此精选关卡的描述……",
+    "descriptionRequired": "此精选关卡类型需要描述",
+    "descriptionRequiredType": "类型「{{name}}」需要填写描述",
+    "descriptionRequiredPlaceholder": "需要描述……",
+    "customColor": "自定义颜色",
+    "customCSS": "自定义 CSS",
+    "previewCSS": "预览 CSS",
+    "customCSSPlaceholder": "/* 为此关卡的详细页面自定义 CSS */\n.curation-custom {\n  /* 你的自定义信息 */\n}",
+    "customCSSHelp": "此 CSS 将应用于关卡详情页面。使用它来自定义外观和布局。",
+    "thumbnail": "关卡缩略图",
+    "isDuplicate": "是否重复",
+    "isDuplicateHelp": "将此精选关卡在创作者统计页面和 Discord 身份组同步系统中排除。它仍会显示在关卡中。"
+  },
+  "actions": {
+    "save": "保存更改",
+    "addCuration": "添加精选",
+    "removeCuration": "移除此精选",
+    "saveAll": "全部保存"
+  },
+  "warnings": {
+    "cssUnsupported": "所选类型不支持在关卡页使用自定义 CSS。"
+  },
+  "notifications": {
+    "updated": "精选已保存",
+    "thumbnailUpdated": "缩略图更新成功",
+    "thumbnailRemoved": "缩略图删除成功"
+  },
+  "errors": {
+    "cannotManageCuration": "以当前类型组合，您的角色无法编辑此精选。",
+    "loadFailed": "加载本关卡精选失败",
+    "typeRequired": "请为每一行选择类型，或删除空行",
+    "updateFailed": "保存失败",
+    "thumbnailUpdateFailed": "缩略图更新失败",
+    "thumbnailRemoveFailed": "缩略图删除失败"
+  }
+}

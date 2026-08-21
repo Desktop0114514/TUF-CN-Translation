@@ -1,0 +1,13 @@
+{
+  "noLevels": "没有要公布的新关卡",
+  "errors": {
+    "removeLevel": "删除{{song}}失败，请重试。"
+  },
+  "card": {
+    "team": " • {{team}}"
+  },
+  "buttons": {
+    "edit": "编辑关卡",
+    "remove": "删除关卡"
+  }
+} 

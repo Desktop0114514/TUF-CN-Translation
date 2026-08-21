@@ -1,0 +1,57 @@
+{
+  "title": "选择歌曲",
+  "loading": "加载中……",
+  "currentSong": {
+    "label": "当前歌曲",
+    "none": "未选择歌曲"
+  },
+  "search": {
+    "placeholder": "搜索歌曲……",
+    "noResults": "未找到歌曲"
+  },
+  "buttons": {
+    "createNew": "请求新歌曲",
+    "assign": "保存",
+    "create": "请求新歌曲",
+    "creating": "更新中"
+  },
+  "createForm": {
+    "title": "请求新歌曲",
+    "name": "歌曲名称",
+    "namePlaceholder": "输入歌曲名称",
+    "description": "这将创建一首由已认证艺术家创作的歌曲"
+  },
+  "stats": {
+    "title": "统计数据",
+    "levels": "关卡",
+    "artists": "艺术家"
+  },
+  "status": {
+    "allowed": "已授权",
+    "ysmodOnly": "仅限 YSMod",
+    "conditional": "有条件使用",
+    "pending": "申请中",
+    "declined": "已拒绝"
+  },
+  "messages": {
+    "success": {
+      "songAssigned": "请求更新成功",
+      "songCreated": "请求更新成功"
+    },
+    "newArtistRestriction": "已设置新艺术家请求。仅可添加新歌曲请求。",
+    "onlyNewSongsAllowed": "已设置新艺术家请求时仅允许新歌曲请求。",
+    "filteredByArtist": "展示由 {{artistName}} 创作的歌曲",
+    "info": {
+      "requestNote": "选择歌曲将更新你的提交申请。当你的申请通过时此歌曲将分配"
+    },
+    "error": {
+      "searchFailed": "歌曲搜索失败",
+      "loadDetailsFailed": "歌曲详细信息加载失败",
+      "songNotFound": "未找到歌曲",
+      "assignFailed": "请求更新失败",
+      "createFailed": "请求更新失败",
+      "cannotAssignExistingWithNewArtist": "已设置新艺术家请求是不可分配现有歌曲",
+      "songNotByArtist": "此歌曲不属于选中的艺术家"
+    }
+  }
+}

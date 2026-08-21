@@ -1,0 +1,10 @@
+{
+  "placeholder": "搜索……",
+  "loading": "搜索中……",
+  "noResults": "未找到个人资料",
+  "noTeamsResults": "未找到团队",
+  "requestNew": "请求新个人资料",
+  "requestNewTeam": "创建新团队",
+  "newRequest": "新个人资料",
+  "newTeamRequest": "新团队"
+} 

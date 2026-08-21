@@ -1,0 +1,19 @@
+{
+  "noPasses": "没有要公布的通关记录",
+  "errors": {
+    "removePass": "删除{{playerName}}的通关记录失败，请重试。",
+    "invalidPass": "无效通关数据："
+  },
+  "card": {
+    "title": "{{playerName}}通关{{songName}}的记录",
+    "stats": {
+      "score": "分数：{{score}}",
+      "scoreNA": "分数：N/A",
+      "accuracy": "精准度：{{accuracy}}%",
+      "difficulty": " • {{difficultyName}}"
+    }
+  },
+  "buttons": {
+    "remove": "删除通关记录"
+  }
+} 

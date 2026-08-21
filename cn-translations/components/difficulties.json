@@ -1,0 +1,14 @@
+{
+  "special": {
+    "title": "特殊难度",
+    "buttons": {
+      "selectAll": "全选",
+      "deselectAll": "取消全选"
+    },
+    "groups": {
+      "Quantum": "Q等级",
+      "Extra": "额外等级",
+      "Hidden": "隐藏等级"
+    }
+  }
+} 

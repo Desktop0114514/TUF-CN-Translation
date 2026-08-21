@@ -1,0 +1,112 @@
+{
+  "title": "管理艺术家 {{name}}",
+  "tabs": {
+    "update": "更新",
+    "merge": "合并",
+    "split": "拆分",
+    "aliases": "别名",
+    "links": "链接",
+    "evidence": "凭证",
+    "relations": "归属于"
+  },
+  "form": {
+    "name": "名称",
+    "avatarUrl": "头像",
+    "avatarUrlPlaceholder": "输入头像链接",
+    "avatarCdnInfo": "CDN 托管的头像只能通过上传或删除的方式更改。",
+    "verificationState": "认证状态"
+  },
+  "merge": {
+    "info": "将此艺术家合并至另一位艺术家。所有数据都将被转移。",
+    "search": "搜索目标艺术家",
+    "placeholder": "按名称搜索……"
+  },
+  "split": {
+    "info": "将此艺术家拆分为两位现有艺术家。所有数据（别名、链接、凭证、头像）和歌曲信息将复制到两位目标艺术家名下。",
+    "entity1": "目标艺术家一",
+    "entity2": "目标艺术家二",
+    "entity1Placeholder": "搜索并选择目标艺术家一……",
+    "entity2Placeholder": "搜索并选择目标艺术家二……",
+    "deleteOriginal": "拆分后删除原始艺术家"
+  },
+  "aliases": {
+    "add": "添加别名",
+    "placeholder": "输入别名名称"
+  },
+  "links": {
+    "add": "添加链接",
+    "placeholder": "输入链接"
+  },
+  "entityExtraInfo": {
+    "label": "额外信息",
+    "placeholder": "关于 {{type}} 的额外说明或信息",
+    "empty": "无额外信息"
+  },
+  "evidence": {
+    "add": "上传凭证",
+    "addLink": "添加额外凭证链接",
+    "linkPlaceholder": "输入外部链接",
+    "extraInfo": "额外信息",
+    "extraInfoPlaceholder": "关于此凭证的额外说明或信息",
+    "pendingUpload": "待上传",
+    "uploaded": "已上传凭证",
+    "dropZoneText": "拖拽图像到此处或点击上传",
+    "dropZoneHint": "选择多个图像文件",
+    "existing": "现有凭证",
+    "deleteConfirm": "你确定删除此凭证吗？"
+  },
+  "relations": {
+    "search": "搜索艺术家",
+    "placeholder": "按名称搜索……",
+    "existing": "现有所属团队",
+    "none": "未找到所属团队",
+    "treeView": "树状图",
+    "addRelation": "添加所属团队",
+    "typeToSearch": "键入以搜索艺术家……",
+    "noResults": "未找到艺术家"
+  },
+  "buttons": {
+    "merge": "合并",
+    "merging": "合并中……",
+    "split": "拆分",
+    "splitting": "拆分中……",
+    "checking": "检查中……",
+    "proceed": "已完成",
+    "deleteAvatar": "删除头像",
+    "selectAvatar": "选择头像文件",
+    "addRelation": "添加所属团队",
+    "removeRelation": "移除所属团队"
+  },
+  "messages": {
+    "updated": "艺术家更新成功",
+    "merged": "艺术家合并成功",
+    "split": "将艺术家拆分为 '{{name1}}' 和 '{{name2}}'",
+    "splitSuccess": "艺术家拆分成功",
+    "avatarUploaded": "头像更新成功",
+    "avatarDeleted": "头像删除成功",
+    "evidenceAdded": "凭证添加成功",
+    "evidenceUpdated": "凭证更新成功",
+    "evidenceDeleted": "凭证删除成功",
+    "entityExtraInfoUpdated": "额外信息更新成功",
+    "relationAdded": "所属团队添加成功",
+    "relationRemoved": "所属团队移除成功"
+  },
+  "errors": {
+    "updateFailed": "更新艺术家失败",
+    "mergeFailed": "合并艺术家失败",
+    "splitFailed": "拆分艺术家失败",
+    "selectTarget": "请选择目标艺术家",
+    "bothNamesRequired": "艺术家名称均必填",
+    "namesMustBeDifferent": "艺术家名称必须不同",
+    "bothEntitiesRequired": "请选择所有目标艺术家",
+    "entitiesMustBeDifferent": "目标艺术家必须不同",
+    "checkFailed": "检查现存艺术家失败",
+    "loadArtistsFailed": "加载艺术家失败",
+    "noFile": "请选择文件",
+    "uploadFailed": "上传头像失败",
+    "deleteFailed": "删除失败",
+    "evidenceFailed": "添加凭证失败",
+    "invalidFileType": "请只选择图像文件",
+    "invalidLink": "请输入有效链接"
+  }
+}

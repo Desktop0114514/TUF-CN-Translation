@@ -1,0 +1,224 @@
+{
+  "helpPopup": {
+    "title": "搜索帮助",
+    "closeButton": "关闭",
+    "v2": {
+      "subtitle": "通关记录高级搜索与关卡使用相同的查询语法。使用字段标记、运算符和范围可快速缩小结果。",
+      "examplesTitle": "示例",
+      "groups": {
+        "basics": {
+          "title": "基础（查询解析方式）",
+          "intro": "条件写作 field:value 或 field=value。“,” 表示与，“|” 表示或。",
+          "examples": {
+            "and": "<b><code>player:Name, video:youtube</code></b><br/>两个条件都必须匹配。",
+            "or": "<b><code>player=Exact | player:Partial</code></b><br/>任一组匹配即可。",
+            "not": "<b><code>player:Name, \\!hidden</code></b><br/>排除包含某词的结果。"
+          }
+        },
+        "playerAndMedia": {
+          "title": "玩家与视频字段",
+          "intro": "这些字段匹配通关玩家名称和视频信息。: 为部分匹配，= 为完全匹配。",
+          "examples": {
+            "partialVsExact": "<b><code>player:yo</code></b> 部分匹配，<b><code>player=yoon</code></b> 完全匹配。",
+            "videoAndTitle": "<b><code>video:youtube.com</code></b> 匹配视频链接；<b><code>vidtitle:clear</code></b> 匹配视频标题。",
+            "mixFields": "<b><code>player:Name, vidtitle:run</code></b><br/>在同一组中组合玩家与视频字段。"
+          }
+        },
+        "levelContext": {
+          "title": "关卡字段（通关记录中）",
+          "intro": "按关联关卡的属性搜索通关记录。字段名使用点号表示法。",
+          "examples": {
+            "songArtist": "<b><code>level.song:hello, level.artist:cam</code></b> 按关卡歌曲和艺术家搜索。",
+            "dlLink": "<b><code>level.dlLink:drive.google</code></b> 匹配关卡下载链接文本。"
+          }
+        },
+        "numeric": {
+          "title": "通关数据（范围）",
+          "intro": "可按键数、分数、X精准度（百分比）或倍速搜索。支持数值和比较运算。使用 >、<、>=、<= 表示范围；多个条件可用逗号（AND）组合。",
+          "examples": {
+            "exact": "<b><code>keycount:12</code></b> 或 <b><code>score=2500</code></b> 表示数值。",
+            "range": "<b><code>keycount:>8, keycount:<12</code></b> 搜索使用键数介于 8 到 12 之间。",
+            "xaccNearPerfect": "<b><code>xacc:>99.9, xacc:<100</code></b> 搜索精准度接近 100% 的通关（精准度使用百分数，例如 99.95）。",
+            "combine": "<b><code>player:Name, score:>=2000, speed:>1</code></b><br/>可将通关数据与玩家或关卡条件组合使用。"
+          }
+        },
+        "judgements": {
+          "title": "判定数量",
+          "intro": "按各类判定数量搜索通关记录。每个字段对应一种判定的数量。",
+          "examples": {
+            "exactCount": "<b><code>perfect:500</code></b> 或 <b><code>toolate=0</code></b> 表示精确判定数量。",
+            "nearPerfect": "<b><code>xacc:>99.9, toolate:0</code></b> 查找精准度接近 100% 且没有“太慢！！”判定的通关。",
+            "combine": "<b><code>level.song:hello, eperfect:>100, late:0</code></b><br/>可将判定条件与关卡或精准度条件组合使用。"
+          }
+        },
+        "idsAndShortcuts": {
+          "title": "ID 与快捷方式",
+          "intro": "跳转到指定通关或按数字玩家 ID 搜索。",
+          "examples": {
+            "hashtag": "<b><code>#123</code></b> 在搜索栏输入可直接打开通关记录ID为 123 的通关记录。",
+            "idRange": "<b><code>id:>1000</code></b> 搜索通关记录ID大于 1000 的通关记录（支持数值和范围）。",
+            "playerId": "<b><code>player.id=456</code></b> 按精确玩家 ID 搜索。"
+          }
+        },
+        "tips": {
+          "title": "提示",
+          "intro": "以下细节可帮助你获得更准确的搜索结果。",
+          "bullets": {
+            "caseInsensitive": "搜索不区分大小写：“PLAYER”和“player”效果相同。",
+            "spacesAllowed": "字段值中允许空格，例如：player:Epic player。",
+            "orderDoesNotMatter": "组内条件顺序无关紧要：player:foo, video:bar 与 video:bar, player:foo 相同。",
+            "groupingMentalModel": "可这样理解 (A AND B) OR (C AND D)：“,” 表示与，“|” 表示或。",
+            "plainSearch": "没有字段前缀时，会搜索玩家名称、关卡歌曲、艺术家、视频链接等内容。"
+          }
+        }
+      },
+      "fields": {
+        "operatorColon": {
+          "title": "部分匹配",
+          "desc": "使用 : 进行部分匹配（例如：player:yo）。"
+        },
+        "operatorEquals": {
+          "title": "完全匹配",
+          "desc": "使用 = 进行完全匹配（例如：player=yoon）。"
+        },
+        "operatorComma": {
+          "title": "与",
+          "desc": "使用逗号分隔多个条件，要求同一组内所有条件都满足。"
+        },
+        "operatorPipe": {
+          "title": "或",
+          "desc": "使用 | 将查询拆分为多个组，只要任一组匹配即可。"
+        },
+        "operatorNot": {
+          "title": "非",
+          "desc": "在条件前加上 \\! 可排除包含该内容的结果。"
+        },
+        "player": {
+          "title": "玩家名称",
+          "desc": "按玩家显示名称或用户名搜索。"
+        },
+        "id": {
+          "title": "通关记录 ID",
+          "desc": "按通关记录ID搜索，支持数值和范围。"
+        },
+        "playerId": {
+          "title": "玩家 ID",
+          "desc": "按数字玩家 ID 搜索（完全匹配）。"
+        },
+        "video": {
+          "title": "视频链接",
+          "desc": "按视频 URL 文本搜索。"
+        },
+        "vidtitle": {
+          "title": "视频标题",
+          "desc": "按通关视频标题搜索。"
+        },
+        "levelSong": {
+          "title": "关卡歌曲",
+          "desc": "按关联关卡歌曲名称搜索。"
+        },
+        "levelArtist": {
+          "title": "关卡曲师",
+          "desc": "按关联关卡艺术家名称搜索。"
+        },
+        "levelDlLink": {
+          "title": "关卡下载链接",
+          "desc": "按关卡下载链接文本搜索。"
+        },
+        "keycount": {
+          "title": "键数",
+          "desc": "按键数搜索，支持数值和范围。"
+        },
+        "score": {
+          "title": "分数",
+          "desc": "按通关得分搜索，支持数值和范围。"
+        },
+        "xacc": {
+          "title": "精准度",
+          "desc": "按精准度百分数搜索（例如 99.95，而不是 0.9995），支持数值和范围。"
+        },
+        "speed": {
+          "title": "倍速",
+          "desc": "按游戏倍速搜索，支持数值和范围。"
+        },
+        "eperfect": {
+          "title": "稍快！",
+          "desc": "按“稍快！”判定数量搜索。"
+        },
+        "perfect": {
+          "title": "完美！",
+          "desc": "按“完美！”判定数量搜索。"
+        },
+        "lperfect": {
+          "title": "稍慢！",
+          "desc": "按“稍慢！”判定数量搜索。"
+        },
+        "early": {
+          "title": "太快！",
+          "desc": "按“太快！”判定数量搜索。"
+        },
+        "miss": {
+          "title": "太快！！",
+          "desc": "按“太快！！”判定数量搜索。"
+        },
+        "late": {
+          "title": "太慢！",
+          "desc": "按“太慢！”判定数量搜索。"
+        },
+        "toolate": {
+          "title": "太慢！！",
+          "desc": "按“太慢！！”判定数量搜索。"
+        },
+        "hashtag": {
+          "title": "通关 ID（快捷方式）",
+          "desc": "在搜索栏输入 <code>#123</code> 可直接打开通关 ID 为123的通关记录。"
+        }
+      }
+    },
+    "sections": {
+      "search": {
+        "title": "特定字段搜索",
+        "description": "你可以使用两个不同的运算符搜索特定字段：冒号（:）表示部分匹配，等号（=）表示完全匹配。",
+        "examples": {
+          "title": "字段示例",
+          "playerField": "使用“player:Name”进行部分匹配，或使用“player=Name”进行完全匹配。",
+          "videoField": "使用“video:Link”进行部分匹配，或使用“video=Link”进行完全匹配。"
+        }
+      },
+      "operators": {
+        "title": "搜索运算符",
+        "description": "你可以使用运算符组合多个搜索条件。",
+        "examples": {
+          "title": "运算符示例",
+          "and": "搜索同时满足两个条件（AND）的通关记录。",
+          "or": "搜索满足任一条件（OR）的通关记录。",
+          "complex": "组合使用 AND 与 OR 的复杂搜索。"
+        }
+      },
+      "numeric": {
+        "title": "键数",
+        "description": "使用 keycount: 按键数搜索通关记录。可使用 >、<、>= 或 <= 表示范围。同一搜索组内可使用逗号组合多个条件（AND）。",
+        "examples": {
+          "title": "键数示例",
+          "exact": "精确键数（也支持 keycount=12）",
+          "range": "键数严格介于 8 和 12 之间（使用 >= 或 <= 表示包含边界）",
+          "min": "键数至少为 13",
+          "combine": "与玩家或歌曲搜索条件组合，例如：player:Name, keycount:>=13"
+        },
+        "fields": {
+          "keycount": "本次通关使用的键数"
+        }
+      },
+      "tips": {
+        "title": "搜索技巧",
+        "points": {
+          "caseSensitive": "搜索不区分大小写——“PLAYER”和“player”得到的结果相同。",
+          "partial": "冒号（:）支持部分匹配——“player:yo”可匹配“yoonsu”和“yoon”。",
+          "exact": "等号（=）要求完全匹配——“player=yoon”只会匹配“yoon”。",
+          "spaces": "搜索词中允许空格——“player:Epic player”有效。",
+          "order": "每个组内条件的顺序不会影响搜索结果。"
+        }
+      }
+    }
+  }
+}

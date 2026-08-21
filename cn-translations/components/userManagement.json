@@ -1,0 +1,65 @@
+{
+  "title": "用户管理",
+  "modeToggle": {
+    "rater": "评级员",
+    "curator": "精选委员"
+  },
+  "loading": "正在加载用户……",
+  "search": {
+    "placeholder": "按用户名或ID搜索……"
+  },
+  "superAdmin": {
+    "password": {
+      "placeholder": "输入超管密码"
+    }
+  },
+  "addUser": {
+    "placeholder": "输入用户名",
+    "button": "添加用户"
+  },
+  "userEntry": {
+    "unknown": "未知",
+    "buttons": {
+      "remove": "删除"
+    }
+  },
+  "roles": {
+    "rater": "评级员",
+    "superadmin": "超级管理员",
+    "curator": "精选委员",
+    "headCurator": "精选委员长"
+  },
+  "buttons": {
+    "promote": "升职",
+    "demote": "降职",
+    "promoteTo": "升职至 {{role}}",
+    "demoteTo": "降职至 {{role}}"
+  },
+
+  "errors": {
+    "passwordRequired": "需要密码",
+    "invalidPassword": "超管密码无效",
+    "deleteConfirm": "你确定删除此用户？",
+    "updateRoleFailed": "更新身份组失败",
+    "deleteFailed": "删除用户失败",
+    "loadFailed": "加载用户失败",
+    "addFailed": "添加用户失败",
+    "userNotFound": "未找到用户",
+    "alreadyHighestRole": "该用户已有最高身份组",
+    "alreadyLowestRole": "该用户已有最低身份组",
+    "noRoleToRemove": "该用户没有可删除的身份组",
+    "cannotRemoveBottomRole": "无法从基础身份组中删除用户 - 他们只能被降级",
+    "scheduleAccountConfirm": "为该用户安排账户注销？3 天内其资料将从排行榜隐藏，之后永久注销。",
+    "scheduleWithCreatorConfirm": "安排账户注销，并在执行时清理其关联的创作者资料？仅由其署名的关卡将永久删除；合作谱面将移除其署名。",
+    "scheduleOwnConfirm": "你正在为自己的管理员账户安排注销，是否继续？",
+    "scheduleDeletionFailed": "无法安排账户注销。"
+  },
+  "adminDeletion": {
+    "regionLabel": "账户注销（超级管理员）",
+    "pendingTitle": "已安排账户注销",
+    "executesAt": "永久注销：{{date}}",
+    "includesCreator": "执行时将包含创作者资料清理。",
+    "includeCreator": "执行时也清理关联的创作者资料（单人关卡软删除，移除署名）",
+    "scheduleButton": "安排账户注销"
+  }
+}

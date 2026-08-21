@@ -1,0 +1,50 @@
+{
+  "title": "选择艺术家",
+  "currentArtist": {
+    "label": "当前艺术家",
+    "none": "未选中艺术家"
+  },
+  "search": {
+    "placeholder": "搜索艺术家……",
+    "noResults": "未找到艺术家"
+  },
+  "buttons": {
+    "createNew": "请求新建",
+    "assign": "分配艺术家",
+    "create": "请求",
+    "creating": "请求中……"
+  },
+  "createForm": {
+    "title": "请求新艺术家",
+    "name": "艺术家名称",
+    "namePlaceholder": "输入艺术家名称",
+    "verificationState": "认证状态"
+  },
+  "stats": {
+    "title": "艺术家统计数据",
+    "levels": "关卡",
+    "songs": "歌曲"
+  },
+  "status": {
+    "unverified": "未认证",
+    "pending": "申请中",
+    "declined": "已拒绝",
+    "mostlyDeclined": "多数拒绝",
+    "mostlyAllowed": "多数允许",
+    "allowed": "已授权",
+    "ysmodOnly": "仅限 YSMod"
+  },
+  "messages": {
+    "success": {
+      "artistAssigned": "艺术家分配成功",
+      "artistCreated": "艺术家请求添加成功"
+    },
+    "error": {
+      "searchFailed": "搜索艺术家失败",
+      "loadDetailsFailed": "加载艺术家信息失败",
+      "artistNotFound": "未找到艺术家",
+      "assignFailed": "分配艺术家失败",
+      "createFailed": "请求艺术家失败"
+    }
+  }
+}

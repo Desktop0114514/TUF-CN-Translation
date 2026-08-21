@@ -1,0 +1,12 @@
+{
+  "aliases": {
+    "title": "也就是："
+  },
+  "links": {
+    "title": "链接"
+  },
+  "viewDetails": "查看完整信息",
+  "relations": {
+    "title": "所属团队"
+  }
+}

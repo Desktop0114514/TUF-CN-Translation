@@ -1,0 +1,43 @@
+{
+  "title": {
+    "create": "创建精选关卡类型",
+    "edit": "编辑精选关卡类型"
+  },
+  "description": {
+    "create": "创建新的精选类型来对关卡进行分类",
+    "edit": "修改精选关卡类型设置"
+  },
+  "form": {
+    "name": "名称",
+    "namePlaceholder": "输入精选关卡类型名称",
+    "icon": "图标",
+    "iconPlaceholder": "输入图标名称或表情符号",
+    "iconHelp": "上传精选关卡类型图标的图片文件（JPEG、PNG、WebP、SVG）。保存更改时，图标将会上传。",
+    "color": "颜色",
+    "abilitiesTitle": "自定义",
+    "abilities": {
+      "Custom CSS": "自定义 CSS",
+      "Curator Assignable": "精选委员可分配",
+      "Show Assigner": "显示分配者",
+      "Force Description": "必填描述",
+      "Front Page Eligible": "可选入每周精选",
+      "Custom Color Theme": "自定义颜色主题",
+      "Level List Basic Glow": "基本关卡列表辉度",
+      "Level List Legendary Glow": "传奇关卡列表辉度"
+    }
+  },
+  "actions": {
+    "create": "创建",
+    "update": "更新",
+    "submitting": "提交中……"
+  },
+
+  "errors": {
+    "nameRequired": "需要名称",
+    "submitFailed": "提交失败。请重试。"
+  },
+  "notifications": {
+    "created": "精选关卡类型创建成功",
+    "updated": "精选关卡类型更新成功"
+  }
+}

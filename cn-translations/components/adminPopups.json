@@ -1,0 +1,86 @@
+{
+  "player": {
+    "title": "编辑玩家",
+    "close": "×",
+    "form": {
+      "name": {
+        "label": "玩家名称",
+        "placeholder": "输入玩家名称",
+        "button": "更新"
+      },
+      "country": {
+        "label": "国家",
+        "button": "更新"
+      },
+      "aliases": {
+        "label": "搜索别名",
+        "placeholder": "添加曾用名以便搜索",
+        "add": "添加",
+        "save": "保存别名"
+      },
+      "ban": {
+        "label": "封禁玩家",
+        "confirm": {
+          "ban": "确认封禁该玩家？",
+          "unban": "确认解封该玩家？"
+        }
+      },
+      "pause": {
+        "label": "暂停提交申请",
+        "confirm": {
+          "pause": "确认暂停该玩家的提交申请？",
+          "resume": "确认恢复该玩家的提交申请？"
+        }
+      },
+      "ratingBan": {
+        "label": "禁止评级",
+        "confirm": {
+          "ban": "确认禁止该玩家评级？",
+          "unban": "确认再次允许该玩家评级？"
+        }
+      },
+      "merge": {
+        "label": "合并玩家",
+        "placeholder": "输入目标玩家 ID",
+        "button": "合并",
+        "confirm": {
+          "message": "确认合并此玩家的通关记录？该操作不能撤销。",
+          "warning": "所有通关记录都将被转移到目标玩家名下，且此玩家的记录会被删除。",
+          "buttons": {
+            "understand": "我明白",
+            "confirm": "确认合并"
+          }
+        }
+      },
+      "discord": {
+        "label": "Discord ID",
+        "placeholder": "输入 Discord ID 以验证",
+        "buttons": {
+          "validate": "验证"
+        },
+        "confirm": {
+          "message": "确认更新此玩家的 Discord 信息？"
+        }
+      }
+    },
+    "errors": {
+      "nameUpdate": "更新玩家名称失败",
+      "countryUpdate": "更新国家失败",
+      "banUpdate": "更新封禁状态失败",
+      "pauseUpdate": "更新提交暂停状态失败",
+      "ratingBanUpdate": "更新禁止评级状态失败",
+      "discordFetch": "获取 Discord ID 失败",
+      "discordUpdate": "更新 Discord 信息失败",
+      "discordRemove": "删除 Discord 信息失败",
+      "mergePlayer": "合并玩家失败",
+      "invalidTargetId": "目标玩家 ID 无效",
+      "aliasesUpdate": "别名更新失败"
+    },
+    "success": {
+      "discordUpdate": "Discord 信息更新成功",
+      "discordRemove": "Discord 信息删除成功",
+      "mergePlayer": "合并玩家成功",
+      "aliasesUpdated": "别名更新成功"
+    }
+  }
+} 

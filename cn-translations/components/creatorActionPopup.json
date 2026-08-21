@@ -1,0 +1,95 @@
+{
+  "actionPopup": {
+    "close": "关闭",
+    "modes": {
+      "update": "更新",
+      "discord": "Discord",
+      "merge": "合并",
+      "split": "拆分",
+      "levels": "关卡"
+    },
+    "update": {
+      "name": {
+        "label": "名称",
+        "placeholder": "输入创作者名称"
+      },
+      "verifyCreator": "认证创作者",
+      "aliases": {
+        "label": "别名",
+        "placeholder": "添加别名",
+        "add": "添加"
+      },
+      "updateButton": "更新创作者"
+    },
+    "merge": {
+      "warning": {
+        "title": "警告",
+        "message": "这将删除 {{creatorName}} 并重新分配所有制作人至此选中的创作者。此操作不可撤销。"
+      },
+      "selectTarget": {
+        "label": "选择目标创作者",
+        "placeholder": "搜索并选中目标创作者……",
+        "noOptions": "键入以搜索创作者……"
+      },
+      "mergeButton": "合并创作者",
+      "creatorLabel": "{{name}} (ID：{{id}}，创作关卡数：{{count}}){{aliases}}"
+    },
+    "split": {
+      "newNamesAndRoles": {
+        "label": "新创作者名称和身份",
+        "namePlaceholder": "输入创作者名称 {{index}}",
+        "rolePlaceholder": "选择身份",
+        "addAnother": "+ 添加另一名称"
+      },
+      "splitButton": "拆分创作者"
+    },
+    "discord": {
+      "currentUser": {
+        "label": "当前用户",
+        "avatarAlt": "用户头像",
+        "idLabel": "ID:",
+        "unlinkButton": "解绑用户"
+      },
+      "discordId": {
+        "label": "Discord ID",
+        "placeholder": "输入 Discord ID",
+        "validateButton": "验证"
+      },
+      "confirm": {
+        "avatarAlt": "Discord 头像",
+        "message": "这是正确的 Discord 用户吗？",
+        "confirmButton": "确认",
+        "cancelButton": "取消"
+      },
+      "unlinkConfirm": {
+        "message": "你确定解绑此用户？",
+        "yesButton": "是，解绑",
+        "cancelButton": "取消"
+      }
+    },
+    "levels": {
+      "charter": "采音师：",
+      "vfx": "特效师：",
+      "difficulty": "难度"
+    },
+    "errors": {
+      "loadCreatorsFailed": "加载创作者失败",
+      "invalidDiscordId": "Discord ID 无效或未找到用户",
+      "updateFailed": "更新创作者失败",
+      "mergeFailed": "合并创作者失败",
+      "splitFailed": "拆分创作者失败",
+      "fetchDiscordFailed": "获取 Discord 用户失败",
+      "updateDiscordFailed": "更新 Discord 信息失败",
+      "removeDiscordFailed": "移除 Discord 信息失败",
+      "unlinkFailed": "解绑用户失败"
+    },
+    "success": {
+      "updated": "创作者更新成功",
+      "merged": "创作者合并成功",
+      "split": "创作者拆分成功",
+      "discordUpdated": "Discord 信息更新成功",
+      "discordRemoved": "Discord 信息移除成功",
+      "userUnlinked": "用户解绑成功"
+    }
+  }
+}

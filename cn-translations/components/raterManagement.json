@@ -1,0 +1,45 @@
+{
+  "title": "管理评级员",
+  "loading": "加载评级员中……",
+  "search": {
+    "placeholder": "按用户名或 ID 搜索"
+  },
+  "superAdmin": {
+    "password": {
+      "placeholder": "输入超管密码"
+    }
+  },
+  "addRater": {
+    "placeholder": "输入 Discord ID",
+    "button": "添加评级员"
+  },
+  "raterEntry": {
+    "unknown": "未知",
+    "adminBadge": "管理员",
+    "buttons": {
+      "makeAdmin": "设为管理员",
+      "removeAdmin": "删除管理员",
+      "delete": "删除"
+    },
+    "discord": {
+      "idInput": "输入 Discord ID",
+      "validateButton": "验证",
+      "confirmMessage": "更新 Discord 信息至 @{{username}}？",
+      "confirmButton": "确认",
+      "cancelButton": "取消",
+      "idLabel": "ID：{{id}}"
+    }
+  },
+  "errors": {
+    "passwordRequired": "需要密码",
+    "invalidPassword": "超管密码无效",
+    "deleteConfirm": "确认删除评级员？",
+    "updateAdminFailed": "更新管理员状态失败",
+    "deleteFailed": "删除评级员失败",
+    "discordFetchFailed": "获取 Discord ID 失败",
+    "updateDiscordFailed": "更新 Discord 信息失败",
+    "loadFailed": "加载评级员失败",
+    "addFailed": "添加评级员失败",
+    "userNotFound": "未找到用户"
+  }
+} 

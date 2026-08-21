@@ -1,0 +1,50 @@
+{
+    "title": "地图包搜索帮助",
+    "closeButton": "关闭",
+    "sections": {
+      "search": {
+        "title": "特定字段搜索",
+        "description": "你可以使用两个不同的运算符搜索特定的包字段：冒号（:）表示部分匹配，等号（=）表示完全匹配。",
+        "examples": {
+          "title": "可用字段",
+          "nameField": "按地图包名称搜索（例如，“name:my pack”或“name=My Cool Pack”）",
+          "ownerField": "按地图包所有者用户名搜索（例如，“owner:v0w4n”或“owner=v0w4n”）",
+          "levelIdField": "搜索包含特定关卡的地图包（例如“levelId:123”或“levelId=456”）",
+          "viewModeField": "按地图包可见性模式搜索（例如，公共地图包为“viewMode：0”）",
+          "pinnedField": "按是否固定状态搜索（例如，已固定地图包为“pinned:true”）"
+        }
+      },
+      "operators": {
+        "title": "搜索运算符",
+        "description": "你可以使用运算符组合多个搜索条件。",
+        "examples": {
+          "title": "运算符示例",
+          "and": "搜索同时满足两个条件（和）的资源包。这将查找名为“my pack”且所有者为“v0w4n”的地图包。",
+          "or": "搜索符合任一条件（或）的包。这将搜索准确的“My Pack”或名称中带有“cool pack”的任何地图包",
+          "complex": "结合“和”和“或”条件的复杂搜索。此搜索查找“teo_72”固定的地图包或“v0w4n”的任何地图包",
+          "not": "使用“\\！”将排除包含该字段的结果 - 此表达式将排除名称中带有“cool”的已固定地图包"
+        }
+      },
+      "viewModes": {
+        "title": "“查看模式”参数",
+        "description": "地图包可见性模式控制谁可以看到你的地图包。",
+        "examples": {
+          "title": "查看模式示例",
+          "public": "公开 - 每个人都可以看到并搜索此包",
+          "linkOnly": "仅限链接 - 仅通过链接可见，不可搜索",
+          "private": "私密 - 只有地图包所有者可以看到此包",
+          "forcedPrivate": "强制私密 - 管理员锁定的私密地图包"
+        }
+      },
+      "tips": {
+        "title": "搜索技巧",
+        "points": {
+          "caseSensitive": "搜索不区分大小写 - “PACK”和“pack”将给出相同的结果",
+          "partial": "冒号（:）允许部分匹配 - 'name:cool' 将匹配 'My Cool Pack'",
+          "spaces": "搜索词中允许使用空格 - “name:my cool pack” 有效",
+          "order": "每个组合中的条件顺序并不重要",
+          "boolean": "布尔值（例如“pinned:true”或“pinned:false”）适用于 true 或 false 字段"
+        }
+      }
+    }
+  }

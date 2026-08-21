@@ -1,0 +1,219 @@
+{
+  "edit": {
+    "title": "编辑关卡信息",
+    "close": "×",
+    "manageAliases": "管理别名",
+    "form": {
+      "labels": {
+        "song": "曲名",
+        "suffix": "后缀",
+        "creator": "制作者",
+        "charter": "谱师",
+        "vfxer": "特效师",
+        "team": "制作团队",
+        "baseScore": "基础分",
+        "ppBaseScore": "无暇基础分",
+        "previousBaseScore": "先前基础分",
+        "tags": "标签",
+        "videoLink": "视频链接",
+        "dlLink": "下载链接",
+        "workshopLink": "创意工坊链接",
+        "publicComments": "公开注释",
+        "isExternallyAvailable": "是否外部可用",
+        "previousDifficulty": "先前评级"
+      },
+      "placeholders": {
+        "baseScore": "基础分",
+        "ppBaseScore": "无瑕基础分",
+        "previousBaseScore": "先前基础分",
+        "rerateNumber": "重评评级",
+        "rerateReason": "重评原因",
+        "selectSong": "点击选择歌曲",
+        "suffix": "可选后缀（例如，\"Nerfed\"）"
+      },
+      "badges": {
+        "selected": "已选择"
+      },
+      "checkboxes": {
+        "toRate": "标记为待评级"
+      },
+      "buttons": {
+        "save": {
+          "default": "保存更改"
+        },
+        "delete": {
+          "default": "删除",
+          "deleting": "删除中……",
+          "hide": "隐藏",
+          "unhide": "取消隐藏",
+          "processing": "处理中……"
+        },
+        "restore": {
+          "default": "恢复关卡",
+          "restoring": "恢复中……"
+        },
+        "permanentDelete": {
+          "default": "永久删除",
+          "deleting": "删除中……"
+        },
+        "manageTags": "管理标签"
+      }
+    },
+    "confirmations": {
+      "unsavedChanges": "你有未保存的更改，确定要退出吗？",
+      "delete": "确认删除本关卡？删除后可以恢复。",
+      "hide": "确认隐藏本关卡？",
+      "unhide": "确认取消隐藏本关卡？",
+      "restore": "确认恢复本关卡？",
+      "permanentDelete": "确认永久删除本关卡？此操作无法撤销。所有通关记录、评级及现有文件（下载与精选预览图等）都将被删除。"
+    },
+    "errors": {
+      "update": "更新关卡失败",
+      "delete": "软删除失败",
+      "toggleHidden": "切换隐藏状态失败",
+      "restore": "恢复关卡失败",
+      "permanentDelete": "永久删除关卡失败",
+      "cannotCreateSong": "无法在编辑关卡时创建新歌曲。请选择现有歌曲。"
+    },
+    "xaccCurve": {
+      "title": "X精准度-分数曲线",
+      "openButtonTitle": "编辑关卡X精准度-分数曲线（会重算所有通关记录）",
+      "hint": "设置两个内部分数锚点（95% 固定为基准分）。三点拟合双曲线；下方显示推导的 E 与 G。",
+      "constraintHint": "若锚点无法精确拟合，将保留上一组 E/G，锚点可能显示在曲线外。",
+      "fitWarning": "锚点与当前 E/G 双曲线不完全重合：{{error}}。标记显示你设置的值，请调整锚点或分数以拟合。",
+      "baseScoreFallback": "缺少关卡基础分数，锚点分数按 {{base}} 缩放。",
+      "tilecountFallback": "缺少物量，预览使用 100 物量。",
+      "resetDefaults": "恢复站点默认值",
+      "save": "保存",
+      "saving": "保存中……",
+      "cancel": "取消",
+      "toastSaved": "X精准度-分数曲线已保存",
+      "toastSavedWithPasses": "X精准度-分数曲线已保存，已重算 {{count}} 个通关记录分数。",
+      "sliderDisplay": "滑块 {{value}}",
+      "inputMode": {
+        "accuracy": "精准度与分数",
+        "judgements": "判定结果与分数",
+        "heading": "锚点输入方式",
+        "computedAccuracy": "精准度（由判定结果计算）",
+        "passEmpty": "该关卡暂无通关记录",
+        "passLoading": "加载通关记录中……",
+        "loadFromPassPin1": "将通关记录加载到基准点1",
+        "loadFromPassPin2": "将通关记录加载到基准点2"
+      },
+      "labels": {
+        "pin1": "基准点1",
+        "pin2": "基准点2",
+        "pinAccuracy": "精度",
+        "pinScore": "分数",
+        "pole": "极点偏移 (E)",
+        "top": "顶部倍率 (G)"
+      },
+      "errors": {
+        "save": "保存X精准度-分数曲线失败",
+        "fit": "无法为这些锚点拟合有效双曲线"
+      }
+    },
+    "chartStats": {
+      "title": "谱面数据",
+      "openButtonTitle": "编辑 BPM、物量与时长信息",
+      "clearHint": "留空可隐藏对应条目。",
+      "preview": "预览",
+      "save": "保存",
+      "saving": "保存中……",
+      "cancel": "取消",
+      "toastSaved": "谱面数据已保存",
+      "labels": {
+        "bpm": "BPM",
+        "tilecount": "物量",
+        "lengthSeconds": "时长（秒）"
+      },
+      "errors": {
+        "save": "保存谱面数据失败",
+        "bpm": "BPM 必须为大于 0 的数字",
+        "tilecount": "物量必须为非负整数",
+        "length": "时长必须为非负数（秒，可含小数）"
+      }
+    },
+    "tags": {
+      "title": "管理关卡标签",
+      "currentTags": "当前标签",
+      "noTags": "未分配标签",
+      "removeTag": "移除标签",
+      "addTags": "添加标签",
+      "searchPlaceholder": "搜索标签中……",
+      "loading": "加载标签中……",
+      "noResults": "无匹配结果",
+      "noAvailableTags": "无可用标签",
+      "addTag": "添加标签",
+      "errors": {
+        "fetchTags": "标签获取失败",
+        "saveTags": "标签保存失败"
+      }
+    }
+  },
+  "payloadSwap": {
+    "openButton": "信息互换",
+    "openButtonTitle": "与另一个关卡互换信息",
+    "title": "互换关卡信息",
+    "close": "关闭",
+    "explanation": "这将在两个不同 ID 的关卡之间互换关卡信息。",
+    "note": "通关记录，评级信息，创作者信息，地图包信息以及其他关联的信息将互换。收藏数保持不变。",
+    "thisLevel": "本关卡",
+    "otherLevel": "另一关卡",
+    "noTarget": "未选择关卡",
+    "chooseTarget": "选择",
+    "changeTarget": "修改",
+    "cancel": "取消",
+    "confirm": "互换信息",
+    "swapping": "互换中……",
+    "toastSuccess": "关卡信息已互换",
+    "errors": {
+      "sameLevel": "选择不同的关卡",
+      "swap": "关卡信息互换失败"
+    }
+  },
+  "download": {
+    "title": "下载选项",
+    "close": "关闭",
+    "closePopup": "关闭窗口",
+    "oversizedNotice": "此关卡文件过大，无法进行转换。仅提供原始压缩文件下载。",
+    "step1": {
+      "prompt": "选择下载方式：",
+      "downloadOriginal": "下载原始文件",
+      "convertDownload": "转换并下载"
+    },
+    "step2": {
+      "dropEvents": "删除事件",
+      "keepEvents": "保留事件",
+      "tooltips": {
+        "dropEvents": "从关卡中移除选中的事件和滤镜",
+        "keepEvents": "仅保留选中的事件并移除滤镜"
+      },
+      "selectEventsPlaceholder": {
+        "drop": "选择要删除的事件",
+        "keep": "选择要保留的事件"
+      },
+      "cameraZoom": "摄像头缩放：",
+      "customBackground": "使用自定义背景颜色",
+      "color": "颜色：",
+      "opacity": "不透明度：",
+      "removeForegroundFlash": "移除前景闪光",
+      "dropFilters": "移除滤镜：",
+      "dropFiltersPlaceholder": "选择要移除的滤镜",
+      "back": "返回",
+      "downloadConverted": "下载已转换关卡",
+      "downloadV2": "下载 v2 版本"
+    },
+    "errors": {
+      "corrupted": "下载链接已损坏",
+      "fileMissing": "服务器上的关卡文件已损坏或丢失。",
+      "reupload": "请在编辑窗口中重新上传此关卡。",
+      "noBackup": "无可用备份。请联系管理员。",
+      "downloadLegacy": "通过原始备份链接下载"
+    }
+  },
+  "creditsEdit": {
+    "searchPlaceholder": "搜索创作者…",
+    "noResults": "没有匹配的创作者"
+  }
+} 

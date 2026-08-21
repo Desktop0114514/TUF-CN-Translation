@@ -1,0 +1,14 @@
+{
+  "title": "凭证信息",
+  "noEvidence": "无可用凭证",
+  "previous": "上一图片",
+  "next": "下一图片",
+  "delete": "删除凭证",
+  "confirmDelete": "你确定删除此凭证吗？",
+  "type": "类型",
+  "resetZoom": "重置缩放",
+  "reset": "重置",
+  "externalLinkHint": "点击打开外部链接",
+  "openInNewTab": "新标签打开",
+  "extraInfo": "额外信息"
+}

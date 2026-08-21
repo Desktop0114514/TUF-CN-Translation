@@ -1,0 +1,13 @@
+{
+  "title": "某些关卡无法被精选",
+  "titleAllInvalid": "无关卡可被精选",
+  "message": "{{validCount}} 个关卡可供选择。以下关卡存在问题：",
+  "messageAllInvalid": "这些关卡无法被精选：",
+  "invalidHeading": "无法继续（{{count}}）",
+  "proceed": "以 {{count}} 个关卡继续",
+  "submitting": "创建中……",
+  "reasons": {
+    "notFound": "未找到关卡",
+    "cannotManage": "你无法管理此关卡的精选状况"
+  }
+}

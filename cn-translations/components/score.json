@@ -1,0 +1,13 @@
+{
+  "card": {
+    "labels": {
+      "score": "分数",
+      "accuracy": "精准度",
+      "speed": "飙速"
+    },
+    "tooltips": {
+      "watchVideo": "观看视频",
+      "potentialScore": "该关卡不可下载，修复下载链接后恢复正常加分行为。"
+    }
+  }
+} 

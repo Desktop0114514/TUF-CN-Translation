@@ -1,0 +1,58 @@
+{
+  "title": "管理已上传关卡",
+  "dropToUpload": "松开以上传",
+  "errors": {
+    "invalidZip": "压缩文件无效",
+    "invalidZipSize": "压缩文件过大（最大 {{maxSize}} MB）",
+    "fetchFailed": "获取关卡文件失败",
+    "uploadFailed": "上传关卡文件失败",
+    "selectFailed": "选择关卡文件失败",
+    "deleteFailed": "删除关卡文件失败",
+    "missingUrl": "请输入 URL",
+    "cdnNotAllowed": "该链接指向站点 CDN，请使用直接下载链接。",
+    "invalidUrl": "无效的 URL",
+    "importFailed": "从 URL 导入压缩包失败"
+  },
+  "sections": {
+    "levelSelection": {
+      "title": "选择关卡文件",
+      "originalZip": {
+        "title": "原始压缩文件：{{name}}",
+        "size": "大小：{{size}} MB"
+      },
+      "songFiles": {
+        "title": "音乐文件",
+        "size": "({{size}} MB)"
+      },
+      "currentTarget": "当前选中：{{name}}"
+    }
+  },
+  "buttons": {
+    "select": "选择关卡",
+    "currentlySelected": "当前选中",
+    "uploadNew": "上传新关卡",
+    "import": "导入",
+    "deleteCurrent": "删除当前关卡",
+    "close": "✖",
+    "cancel": "取消上传"
+  },
+  "upload": {
+    "progress": "上传中……{{progress}}%",
+    "success": "关卡文件上传成功",
+    "importSuccess": "关卡文件导入成功",
+    "importFromUrl": "正在从 URL 导入…",
+    "urlStageDownload": "下载",
+    "urlStageCdn": "CDN"
+  },
+  "uploadFromUrl": {
+    "title": "从 URL 上传",
+    "placeholder": "https://… 或 Steam 创意工坊链接",
+    "submit": "导入",
+    "closePanelAria": "关闭并返回上传选项"
+  },
+  "confirmDelete": "你确定要删除此关卡文件吗？此操作无法撤消。",
+  "confirmCloseDuringUpload": "上传中。你确定要取消吗？",
+  "select": {
+    "success": "已选择关卡文件"
+  }
+}

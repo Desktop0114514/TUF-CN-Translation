@@ -1,0 +1,11 @@
+{
+  "label": "关卡缩略图",
+  "chooseFile": "选择缩略图文件",
+  "upload": "上传缩略图",
+  "remove": "删除缩略图",
+  "help": "上传关卡缩略图（JPEG、PNG、WebP，最大 10MB）。建议尺寸：1200x800。",
+  "uploadSuccess": "缩略图上传成功",
+  "uploadError": "缩略图上传失败",
+  "removeSuccess": "缩略图删除成功",
+  "removeError": "缩略图删除失败"
+}

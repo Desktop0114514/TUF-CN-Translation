@@ -1,0 +1,26 @@
+{
+  "states": {
+    "hide": "隐藏",
+    "show": "显示",
+    "only": "仅",
+    "all": "所有",
+    "none": "无",
+    "wf": "世界首通",
+    "wfpp": "世界首杀",
+    "either": "任一",
+    "both": "同时",
+    "12k": "12键",
+    "16k": "16键",
+    "PASS": "已通过",
+    "LEVEL": "新关卡",
+    "percent": "%",
+    "pixel": "像素",
+    "keyword": "侧",
+    "on": "开",
+    "off": "关"
+  },
+  "accessDenied": {
+    "title": "拒绝访问",
+    "message": "你需要适当的权限才能访问此页面。"
+  }
+} 

@@ -1,0 +1,106 @@
+{
+  "title": "管理创作者/团队",
+  "loading": "加载中……",
+  "modes": {
+    "assign": "分配现有",
+    "create": "新建"
+  },
+  "role": {
+    "label": "身份"
+  },
+  "currentCreator": {
+    "label": "当前选中的创作者",
+    "none": "未选择创作者"
+  },
+  "currentTeam": {
+    "label": "当前选中的团队",
+    "none": "未选择团队"
+  },
+  "search": {
+    "placeholder": "搜索创作者……",
+    "noResults": "未找到创作者",
+    "teamPlaceholder": "搜索团队……",
+    "noTeamsFound": "未找到团队"
+  },
+  "createForm": {
+    "title": "新建创作者",
+    "name": "创作者名称",
+    "namePlaceholder": "输入创作者名称",
+    "aliases": "别名（可选）",
+    "aliasesPlaceholder": "输入用逗号分开的别名",
+    "aliasesHelp": "添加多个用逗号分开的别名（示例：别名1，别名2）)"
+  },
+  "teamForm": {
+    "title": "创建新团队",
+    "name": "团队名称",
+    "namePlaceholder": "输入团队名称",
+    "aliases": "团队别名（可选）",
+    "aliasesPlaceholder": "输入用逗号分开的团队别名",
+    "aliasesHelp": "添加多个用逗号分开的别名（示例：别名1，别名2）)"
+  },
+  "form": {
+    "name": "创作者名称",
+    "namePlaceholder": "输入创作者名称",
+    "aliases": "别名",
+    "aliasPlaceholder": "输入别名"
+  },
+  "stats": {
+    "title": "创作者统计数据",
+    "totalLevels": "总关卡数",
+    "charterCount": "参与采音数",
+    "vfxerCount": "参与特效数",
+    "selectedRole": "选中的身份数"
+  },
+  "teamStats": {
+    "title": "团队统计数据",
+    "totalLevels": "总关卡数",
+    "memberCount": "成员数量",
+    "members": "成员"
+  },
+  "status": {
+    "verified": "✓ 已验证创作者"
+  },
+  "badges": {
+    "newRequest": "新请求"
+  },
+  "buttons": {
+    "assign": "分配创作者",
+    "assignTeam": "分配团队",
+    "confirm": "确认分配",
+    "create": "创建创作者",
+    "createTeam": "创建团队",
+    "createNew": "新建",
+    "addAlias": "添加别名",
+    "change": "更改",
+    "select": "选择创作者",
+    "selectTeam": "选择团队",
+    "manageTeam": "管理团队",
+    "manageCreator": "管理创作者"
+  },
+  "messages": {
+    "success": {
+      "creatorCreated": "创作者创建成功",
+      "creatorAssigned": "创作者分配成功",
+      "creatorCreatedAndAssigned": "创作者创建并分配成功",
+      "teamCreated": "团队创建成功",
+      "teamAssigned": "团队分配成功",
+      "teamCreatedAndAssigned": "团队创建并分配成功",
+      "teamUpdated": "团队更新成功"
+    },
+    "error": {
+      "createFailed": "创作者创建失败",
+      "assignFailed": "创作者分配失败",
+      "loadFailed": "创作者加载失败",
+      "loadDetailsFailed": "创作者详细信息加载失败",
+      "searchFailed": "创作者搜索失败",
+      "noCreditRequest": "未找到该身份下的创作请求",
+      "creatorNotFound": "未找到创作者",
+      "teamCreateFailed": "团队创建失败",
+      "teamAssignFailed": "团队分配失败",
+      "teamLoadFailed": "团队加载失败",
+      "teamNotFound": "未找到团队",
+      "invalidTeamData": "提供的团队数据无效",
+      "creditRequestIdMissing": "缺少制作组请求 ID"
+    }
+  }
+} 

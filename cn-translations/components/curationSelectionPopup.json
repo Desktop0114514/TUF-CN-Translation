@@ -1,0 +1,41 @@
+{
+  "title": "选择精选关卡",
+  "description": "选择一个精选关卡来加入每周精选",
+  "descriptionMulti": "按关卡上的精选类型筛选，然后选择一个或多个精选",
+  "filters": {
+    "facetBuilderTitle": "按精选类型筛选（简单或高级）",
+    "search": "搜索",
+    "searchPlaceholder": "按歌曲、艺术家或创作者搜索……",
+    "type": "精选关卡类型",
+    "allTypes": "所有类型",
+    "mustInclude": "关卡必须包含（全部）",
+    "mustIncludeHint": "仅显示同时拥有所选全部类型的关卡。",
+    "excludeTypes": "排除包含（任一）的关卡",
+    "excludeTypesHint": "隐藏至少拥有这些类型之一的关卡。",
+    "searchTypes": "搜索类型……",
+    "noneSelected": "未选类型 — 不限制",
+    "noneExcluded": "未排除",
+    "remove": "移除"
+  },
+  "multiSelectHint": "点击单行可多选，使用下方按钮应用。",
+  "loading": "正在加载精选关卡……",
+  "empty": "未找到精选关卡",
+  "creator": "创作者",
+  "appearances": {
+    "featured": "已在每周精选中展示{{times}}次",
+    "never": "未被展示过"
+  },
+  "actions": {
+    "select": "选择",
+    "applySelected": "应用已选 {{count}} 项"
+  },
+  "pagination": {
+    "previous": "上一页",
+    "next": "下一页",
+    "pageInfo": "第 {{current}} 页，共 {{total}} 页"
+  },
+  "errors": {
+    "fetchFailed": "加载精选关卡失败",
+    "noneSelected": "请至少选择一个精选关卡"
+  }
+}

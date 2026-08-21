@@ -1,0 +1,101 @@
+{
+  "featured": {
+    "by": "关卡设计 {{creator}}",
+    "button": "查看关卡"
+  },
+  "level": {
+    "creator": "关卡设计",
+    "clears": "通关总数",
+    "totalClears": "总通关",
+    "addToPack": "添加至地图包",
+    "buttons": {
+      "addToPack": "添加至地图包"
+    },
+    "like": {
+      "like": "收藏",
+      "unlike": "取消收藏",
+      "liked": "已收藏",
+      "unliked": "已取消收藏",
+      "failed": "收藏状态更新失败",
+      "loginRequired": "你必须登录以收藏关卡"
+    },
+    "links": {
+      "workshop": "创意工坊链接",
+      "download": "下载链接",
+      "unavailable": "无可用链接"
+    }
+  },
+  "pass": {
+    "stats": {
+      "xAccuracy": "X精准度",
+      "score": "分数",
+      "speed": "飙速"
+    },
+    "flags": {
+      "worldsFirst": "WF",
+      "worldsFirstPP": "WF PP",
+      "worldsFirstClearTooltip": "世界首通！",
+      "worldsFirstPurePerfectTooltip": "世界首杀！",
+      "keyCount": "{{count}}K",
+      "twelveKey": "12键",
+      "sixteenKey": "16键",
+      "noHoldTap": "非默认长按设置",
+      "adofaiV2": "<adofaiicon></adofaiicon> v2"
+    },
+    "links": {
+      "video": "观看视频"
+    }
+  },
+  "player": {
+    "title": "玩家",
+    "stats": {
+      "rankedScore": "排位分数",
+      "totalScoreV2": "总分",
+      "generalScore": "全局分数",
+      "ppScore": "完美无瑕分数",
+      "wfScore": "世界首通分数",
+      "wfPPScore": "世界首杀分数",
+      "score12K": "12键分数",
+      "averageXacc": "平均X精准度",
+      "totalPasses": "总通关数",
+      "universalPassCount": "U级通关数",
+      "worldsFirstCount": "世界首通数",
+      "worldsFirstPPCount": "世界首杀数",
+      "topDiff": "最高通关难度",
+      "top12kDiff": "最高12键通关难度"
+    }
+  },
+  "clear": {
+    "score": {
+      "ranked": "排位分数",
+      "general": "全局分数",
+      "pp": "完美无瑕分数",
+      "wf": "世界首通分数",
+      "12k": "12键分数"
+    },
+    "stats": {
+      "averageXacc": "平均X精准度",
+      "totalPasses": "总通关数",
+      "universalPassCount": "U级通关数",
+      "worldsFirstCount": "世界首通数",
+      "topDiff": "最高通关难度",
+      "top12kDiff": "最高12键通关难度"
+    }
+  },
+  "pack": {
+    "more": "更多关卡",
+    "clickToView": "点击查看",
+    "addToFavorites": "收藏",
+    "removeFromFavorites": "取消收藏",
+    "edit": "编辑",
+    "viewMode": {
+      "public": "公开",
+      "linkonly": "仅限链接",
+      "private": "私密",
+      "forcedPrivate": "私密（已锁定）"
+    },
+    "stats": {
+      "levels": "关卡"
+    }
+  }
+} 

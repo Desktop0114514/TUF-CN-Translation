@@ -1,0 +1,107 @@
+{
+  "header": {
+    "headerPass": "我想提交通关记录",
+    "headerLevel": "我想提交我的关卡",
+    "tl_comment": "没找到这两个条目在哪里出现"
+  },
+  "button": {
+    "buttonPass": "提交通关记录",
+    "buttonLevel": "提交关卡"
+  },
+  "RulesAGuide": "查看规则和指南",
+  "level": {
+    "alert": {
+      "login": "请先登录",
+      "form": "表单填写不完整",
+      "success": "表单提交成功！",
+      "error": "错误：",
+      "loading": "提交中……"
+    },
+    "thumbnailInfo": "未找到视频",
+    "title": "提交关卡",
+    "videoInfo": {
+      "title": "视频标题",
+      "channel": "UP主名称",
+      "timestamp": "时间戳",
+      "nolink": "未提供链接"
+    },
+    "tooltip": "未知难度。仍然可以提交，但请确保管理员能够读懂。正确的难度格式范例：G13；P7~P13；21.1+；19~20.0+",
+    "submInfo": {
+      "song": "曲名",
+      "artist": "曲师",
+      "videoLink": "视频链接",
+      "charter": "采音师",
+      "diff": "难度",
+      "vfxer": "特效师（选填）",
+      "team": "团队（选填）",
+      "dlLink": "下载链接",
+      "workshop": "创意工坊链接",
+      "dlLinksOr": "或"
+    },
+    "submit": "提交",
+    "submitWait": " 请稍候……"
+  },
+  "pass": {
+    "alert": {
+      "login": "请先登录",
+      "form": "表单填写不完整",
+      "success": "表单提交成功！",
+      "error": "错误：",
+      "loading": "提交中……"
+    },
+    "score": {
+      "needId": "需要填写关卡 ID",
+      "needJudg": "判定填写不完整",
+      "needInfo": "通关信息不完整",
+      "noInfo": "计算分数所需信息不完整"
+    },
+    "thumbnailInfo": "未找到视频",
+    "title": "提交通关记录",
+    "videoInfo": {
+      "videoLink": "视频链接",
+      "title": "视频标题",
+      "channel": "UP主名称",
+      "timestamp": "时间戳",
+      "nolink": "未提供链接" 
+    },
+    "levelInfo": {
+      "song": "曲名",
+      "charter": "谱师",
+      "artist": "曲师"
+    },
+    "holdTooltip": "如果你没有使用默认长按选项，请勾选此项（0.9倍分数）",
+    "12kTooltip": "如果你使用了12键及以下通过本关卡，请勾选此项",
+    "16kTooltip": "如果你使用了16键及以上通过本关卡，请勾选此项",
+    "tooltip": "未知难度。仍然可以提交，但请确保管理员能够读懂。正确的难度格式范例：G13；P7~P13；21.1+；19~20.0+",
+    "levelFetching": {
+      "input": "输入关卡 ID",
+      "fetching": "获取中",
+      "goto": "跳转到关卡",
+      "notfound": "未找到关卡"
+    },
+    "submInfo": {
+      "levelId": "关卡 ID",
+      "altname": "排行榜名称",
+      "nohold": "非默认长按设置",
+      "speed": "飙速（选填；例：1.2）",
+      "feelDiff": "体感难度（例：G12）",
+      "team": "团队（选填）",
+      "dlLink": "下载链接",
+      "workshop": "创意工坊链接",
+      "is16K": "16+键通关",
+      "is12K": "12键通关"
+    },
+    "judgements": {
+      "tooearly": "太快！！",
+      "early": "太快！",
+      "ePerfect": "稍快！",
+      "perfect": "完美！",
+      "lPerfect": "稍慢！",
+      "late": "太慢！"
+    },
+    "acc": "精准度：",
+    "scoreCalc": "分数：",
+    "submit": "提交",
+    "submitWait": " 请稍候……"
+  }
+} 

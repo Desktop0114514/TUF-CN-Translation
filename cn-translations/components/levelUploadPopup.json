@@ -1,0 +1,13 @@
+{
+  "title": "关卡上传中",
+  "close": "关闭",
+  "uploading": "上传中",
+  "uploadingSubtext": "请稍候，你的文件正在上传至服务器。",
+  "processing": "处理中",
+  "processingSubtext": "请稍候，我们正在处理你的关卡文件。",
+  "caching": "缓存中",
+  "cachingSubtext": "正在缓存你上传的关卡。",
+  "completed": "上传完成",
+  "completedSubtext": "你的关卡已上传并处理成功。",
+  "error": "上传失败"
+}

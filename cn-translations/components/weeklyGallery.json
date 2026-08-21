@@ -1,0 +1,8 @@
+{
+  "empty": "无精选关卡",
+  "navigation": {
+    "previous": "上一页",
+    "next": "下一页",
+    "goTo": "前往第 {{position}} 页"
+  }
+}

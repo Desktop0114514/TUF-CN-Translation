@@ -1,0 +1,28 @@
+{
+  "countrySelect": {
+    "placeholder": "选择国家",
+    "search": {
+      "placeholder": "搜索国家……"
+    }
+  },
+  "playerInput": {
+    "placeholder": "搜索玩家……",
+    "loading": "加载中……",
+    "minChars": "输入至少1个字符以搜索",
+    "noResults": "未找到玩家",
+    "creation": {
+      "button": "创建新玩家 \"{{name}}\"",
+      "error": "创建玩家失败"
+    }
+  },
+  "errors": {
+    "loading": "加载玩家数据失败",
+    "saving": "保存玩家数据失败",
+    "notFound": "未找到玩家",
+    "duplicate": "玩家已存在",
+    "invalid": "玩家数据无效"
+  },
+  "buttons": {
+    "create": "创建新玩家 \"{{name}}\""
+  }
+} 

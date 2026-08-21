@@ -1,0 +1,255 @@
+{
+  "tabs": {
+    "details": "详细信息",
+    "announcement": "公告",
+    "discordRoles": "Discord 身份组"
+  },
+  "discordRoles": {
+    "title": "同步 Discord 身份组"
+  },
+  "modal": {
+    "create": {
+      "title": "创建新等级"
+    },
+    "edit": {
+      "title": "编辑等级"
+    },
+    "close": "关闭",
+    "password": {
+      "title": "需要超管密码",
+      "placeholder": "输入超管密码",
+      "confirm": "确认更改"
+    },
+    "channel": {
+      "editTitle": "编辑频道",
+      "addTitle": "添加新频道",
+      "label": "频道标签",
+      "labelPlaceholder": "输入频道标签",
+      "webhookUrl": "Webhook 链接",
+      "webhookUrlPlaceholder": "输入 Webhook 链接"
+    },
+    "role": {
+      "editTitle": "编辑身份组",
+      "addTitle": "添加新身份组",
+      "roleId": "身份组 ID",
+      "roleIdPlaceholder": "输入身份组 ID",
+      "label": "身份组标签",
+      "labelPlaceholder": "输入身份组标签",
+      "messageFormat": "消息格式",
+      "messageFormatPlaceholder": "例如，{count} 个新的 {difficultyName} 通关记录！{ping}",
+      "messageFormatHint": "分组消息模板。使用变量：{count}，{difficultyName}，{ping}。消息将按身份组 ID 和难度名称（若含）进行分组。"
+    }
+  },
+  "form": {
+    "labels": {
+      "id": "ID",
+      "name": "名称",
+      "type": "类型",
+      "icon": "图标链接",
+      "legacyIcon": "传统图标链接",
+      "emoji": "表情",
+      "legacyEmoji": "传统表情",
+      "color": "颜色",
+      "baseScore": "基础分",
+      "previousBaseScore": "先前的基础分",
+      "sortOrder": "排序顺序",
+      "legacy": "传统名称"
+    },
+    "optional": "可选",
+    "placeholders": {
+      "color": "#RRGGBB",
+      "id": "如果为空则自动赋值"
+    },
+    "helpText": {
+      "id": "留空则自动分配最小可用 ID"
+    },
+    "icon": {
+      "change": "修改图标",
+      "select": "选择图标",
+      "help": "上传图标文件（JPEG，PNG，WebP或SVG格式，最大 5MB）"
+    },
+    "legacyIcon": {
+      "change": "修改传统图标",
+      "select": "选择传统图标",
+      "help": "上传传统图标文件（JPEG，PNG，WebP或SVG格式，最大 5MB） - 可选"
+    }
+  },
+  "difficultyTypes": {
+    "PGU": "PGU",
+    "SPECIAL": "特殊等级",
+    "LEGACY": "传统等级"
+  },
+  "announcements": {
+    "title": "{{diffName}} 的公告指令",
+    "firstOfKind": "首创",
+    "mode": {
+      "label": "指令模式",
+      "static": "不变的",
+      "conditional": "有条件的"
+    },
+    "directive": {
+      "name": "名称",
+      "description": "描述",
+      "add": "添加指令",
+      "remove": "删除指令",
+      "isActive": "可用",
+      "triggerType": "触发器类型",
+      "copy": "复制指令设置",
+      "paste": "粘贴指令设置",
+      "copySuccess": "已复制指令设置至剪贴板",
+      "copyError": "复制指令设置失败",
+      "pasteSuccess": "已从剪贴板粘贴指令设置",
+      "pasteError": "无效指令格式。请粘贴有效的指令 JSON 文件。",
+      "addSuccess": "新指令已添加",
+      "removeSuccess": "已删除指令",
+      "saveSuccess": "指令保存成功",
+      "saveError": "指令保存失败",
+      "channelAddSuccess": "频道添加成功",
+      "channelUpdateSuccess": "频道更新成功",
+      "channelDeleteSuccess": "频道删除成功",
+      "roleAddSuccess": "身份组添加成功",
+      "roleUpdateSuccess": "身份组更新成功",
+      "roleDeleteSuccess": "身份组删除成功",
+      "messageGroupKey": "消息组密钥",
+      "messageGroupKey.placeholder": "例如，universal-clears，galactic-clears",
+      "messageGroupKey.hint": "具有相同组密钥的指令将被合并到一条消息中。",
+      "messageFormat": "消息格式模板",
+      "messageFormat.placeholder": "例如，{count} {difficultyName} Clears! {ping}",
+      "messageFormat.hint": "分组消息内容模板。可用变量：",
+      "messageFormat.variables": "可用变量：",
+      "messageFormat.variablesList": "{count} - 通关记录数量，{difficultyName} - 难度名称 {ping} - @身份组",
+      "optional": "可选"
+    },
+    "notifications": {
+      "saved": "指令保存成功"
+    },
+    "errors": {
+      "saveFailed": "指令保存失败",
+      "groupKeyFormatRequired": "如果提供了消息组密钥，则需要消息格式。",
+      "formatGroupKeyRequired": "如果提供了消息格式，则需要消息组密钥。",
+      "invalidFormatVariables": "消息格式包含无效变量。有效变量包括：{count}，{difficultyName}，{ping}"
+    },
+    "channel": {
+      "notifications": {
+        "updated": "频道更新成功",
+        "created": "频道创建成功",
+        "deleted": "频道删除成功"
+      },
+      "errors": {
+        "saveFailed": "频道保存失败",
+        "deleteFailed": "频道删除失败"
+      }
+    },
+    "role": {
+      "notifications": {
+        "updated": "身份组更新成功",
+        "created": "身份组创建成功",
+        "deleted": "身份组删除成功"
+      },
+      "errors": {
+        "saveFailed": "身份组保存失败",
+        "deleteFailed": "身份组删除失败"
+      }
+    },
+    "triggerType": {
+      "PASS": "通关公告",
+      "LEVEL": "关卡公告"
+    },
+    "condition": {
+      "type": {
+        "label": "条件类型",
+        "options": {
+          "ACCURACY": "精准度",
+          "WORLDS_FIRST": "世界首通",
+          "WORLDS_FIRST_PP": "世界首杀",
+          "BASE_SCORE": "基础分数",
+          "CUSTOM": "自定义"
+        }
+      },
+      "operator": {
+        "label": "运算符",
+        "options": {
+          "EQUAL": "等于",
+          "GREATER_THAN": "大于",
+          "LESS_THAN": "小于",
+          "GREATER_THAN_EQUAL": "不小于",
+          "LESS_THAN_EQUAL": "不大于"
+        }
+      },
+      "value": "值",
+      "customFunction": "自定义功能"
+    },
+    "actions": {
+      "title": "动作",
+      "add": "添加动作",
+      "remove": "删除动作",
+      "channel": {
+        "create": "创建频道",
+        "label": "频道",
+        "add": "添加频道",
+        "edit": "编辑频道",
+        "delete": "删除频道"
+      },
+      "pingType": {
+        "label": "提醒类型",
+        "options": {
+          "NONE": "没有提醒",
+          "ROLE": "身份组提醒",
+          "EVERYONE": "提醒所有人"
+        }
+      },
+      "role": {
+        "create": "创建身份组",
+        "label": "身份组",
+        "add": "添加身份组",
+        "edit": "编辑身份组",
+        "delete": "删除身份组"
+      }
+    }
+  },
+  "channels": {
+    "form": {
+      "id": "频道 ID",
+      "idPlaceholder": "输入 Discord 频道 ID",
+      "label": "显示标签",
+      "labelPlaceholder": "输入该频道显示名称",
+      "webhookUrl": "Discord Webhook 链接",
+      "webhookUrlPlaceholder": "输入 Discord Webhook 链接"
+    }
+  },
+  "roles": {
+    "form": {
+      "id": "身份组 ID",
+      "idPlaceholder": "输入 Discord 身份组 ID",
+      "name": "身份组名称",
+      "namePlaceholder": "输入身份组名称",
+      "label": "显示标签",
+      "labelPlaceholder": "输入该身份组显示名称"
+    }
+  },
+  "buttons": {
+    "create": "创建"
+  },
+  "errors": {
+    "passwordRequired": "需要超管密码",
+    "invalidPassword": "超管密码无效",
+    "loadDirectives": "加载指令失败",
+    "saveDirectives": "保存公告指令失败",
+    "channelSaveFailed": "保存频道失败",
+    "channelDeleteFailed": "删除频道失败",
+    "channelEditFailed": "编辑频道失败",
+    "roleSaveFailed": "保存身份组失败",
+    "roleDeleteFailed": "删除身份组失败",
+    "roleEditFailed": "编辑身份组失败",
+    "createFailed": "创建等级失败",
+    "updateFailed": "更新等级失败"
+  },
+  "loading": {
+    "directives": "正在加载公告指令……"
+  },
+  "notifications": {
+    "saved": "指令保存成功",
+    "updated": "等级更新成功",
+    "created": "等级创建成功"
+  }
+}

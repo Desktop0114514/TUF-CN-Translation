@@ -1,0 +1,121 @@
+{
+  "title": "关卡提交",
+  "noSubmissions": "没有待审核的关卡提交",
+  "loading": "正在加载提交……",
+  "error": "加载提交时出错",
+  "details": {
+    "song": "歌曲：",
+    "suffix": "后缀：",
+    "suffixPlaceholder": "可选后缀（例如，\"Nerfed\"）",
+    "videoLink": "视频链接：",
+    "videoLinkPlaceholder": "YouTube 或 Bilibili 链接",
+    "artist": "曲师：",
+    "charter": "采音师：",
+    "difficulty": "申请难度：",
+    "download": {
+      "label": "下载：",
+      "directLink": "直链",
+      "notAvailable": "无",
+      "cdnLink": "本地 CDN 链接"
+    },
+    "workshop": {
+      "label": "创意工坊：",
+      "link": "创意工坊链接"
+    },
+    "team": "团队：",
+    "vfxer": "特效师：",
+    "submitter": "提交者：",
+    "evidence": "凭证："
+  },
+  "buttons": {
+    "manageCreator": "管理创作者",
+    "manageTeam": "管理团队",
+    "manageSong": "管理歌曲",
+    "manageArtist": "管理艺术家",
+    "changeSong": "更改歌曲",
+    "changeArtist": "更改艺术家",
+    "addSongRequest": "请求为新歌曲",
+    "addArtistRequest": "添加新艺术家",
+    "removeArtist": "移除艺术家",
+    "allow": "允许",
+    "decline": "拒绝",
+    "addCharter": "添加采音师",
+    "addVfxer": "添加特效师",
+    "remove": "删除",
+    "searchCreator": "搜索",
+    "createCreator": "新建",
+    "assignCreator": "分配现有",
+    "addTeam": "添加团队",
+    "addCreator": "添加创作者"
+  },
+  "labels": {
+    "levelName": "关卡",
+    "creatorName": "创作者",
+    "submittedOn": "已提交"
+  },
+  "badges": {
+    "newRequest": "新建",
+    "unassigned": "未分配"
+  },
+  "messages": {
+    "success": {
+      "approved": "提交批准成功",
+      "rejected": "提交拒绝成功",
+      "suffixUpdated": "后缀更新成功",
+      "videoLinkUpdated": "视频链接更新成功"
+    },
+    "error": {
+      "generic": "发生错误",
+      "approve": "提交批准失败",
+      "reject": "提交拒绝失败"
+    },
+    "artistLockedToSong": "曲师已固定至所选歌曲且无法更改",
+    "songUpdated": "歌曲更新成功",
+    "artistUpdated": "艺术家更新成功",
+    "songRequestAdded": "歌曲请求添加成功",
+    "artistRequestAdded": "曲师请求添加成功",
+    "artistRequestRemoved": "曲师请求移除成功"
+  },
+  "warnings": {
+    "pendingProfiles": "将申请创建下列个人资料：",
+    "creatorExists": "同名创作者已存在",
+    "invalidCreator": "无效的创作者名称",
+    "duplicateCreator": "此创作者已被添加"
+  },
+  "creators": {
+    "search": {
+      "placeholder": "正在搜索现有创作者……",
+      "noResults": "未找到创作者",
+      "loading": "搜索中……"
+    },
+    "create": {
+      "title": "创建新创作者",
+      "namePlaceholder": "输入创作者名称",
+      "success": "创作者创建成功",
+      "error": "创作者创建失败"
+    },
+    "assign": {
+      "title": "指定创建者",
+      "success": "指定创建者成功",
+      "error": "指定创建者失败"
+    }
+  },
+  "errors": {
+    "profileUpdate": "无法使用个人资料更新提交内容",
+    "addCreatorFailed": "添加创作者失败",
+    "removeCreatorFailed": "删除创作者失败",
+    "cannotRemoveLastCharter": "无法删除最后一位采音师",
+    "needProfiles": "所有创作者资料必须在允许提交前分配",
+    "needSongAndArtist": "歌曲和曲师在允许提交前必须设置",
+    "needArtistForSong": "曲师在管理歌曲前必须设置",
+    "artistLockedToSong": "无法修改曲师信息：曲师信息已固定为所选歌曲的信息",
+    "suffixUpdateFailed": "后缀更新失败",
+    "videoLinkUpdateFailed": "视频链接更新失败",
+    "videoLinkRequired": "视频链接不能为空",
+    "updateSongFailed": "歌曲更新失败",
+    "updateArtistFailed": "艺术家更新失败",
+    "addSongRequestFailed": "歌曲请求添加失败",
+    "addArtistRequestFailed": "曲师请求添加失败",
+    "removeArtistRequestFailed": "曲师请求移除失败"
+  }
+} 

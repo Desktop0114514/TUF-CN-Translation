@@ -1,0 +1,102 @@
+{
+  "noSubmissions": "没有待审核的通关记录",
+  "details": {
+    "level": "关卡",
+    "player": "玩家",
+    "feelingDiff": "体感难度",
+    "expectedDiff": "预期难度",
+    "speed": "飙速",
+    "judgements": {
+      "label": "判定：",
+      "tilecountMismatchTooltip": "判定结果总数<b>{{hitSum}}</b>与物量数<b>{{tilecount}}</b>不一致。",
+      "tilecountMismatchTooltipWithAuto": "判定结果总数<b>{{hitSum}}</b>与物量数<b>{{tilecount}}</b>不一致（共 {{rawTilecount}}个，自动砖块{{autoTileCount}}个）",
+      "fields": {
+        "earlyDouble": "太快！！",
+        "earlySingle": "太快！",
+        "ePerfect": "稍快！",
+        "perfect": "完美！",
+        "lPerfect": "稍慢！",
+        "lateSingle": "太慢！",
+        "lateDouble": "太慢！！"
+      }
+    },
+    "flags": {
+      "label": "标签：",
+      "keyCount": "{{count}}键",
+      "keyCountLabel": "按键数目",
+      "keyCountPlaceholder": "可选",
+      "types": {
+        "12k": "12键",
+        "nht": "非默认长按设置",
+        "16k": "16键",
+        "adofaiV2": "ADOFAI v2"
+      }
+    },
+    "submitter": "提交者：",
+    "uploadTime": "上传时间",
+    "videoLink": "视频链接：",
+    "videoLinkPlaceholder": "YouTube 或 Bilibili 链接"
+  },
+  "playerAssignment": {
+    "title": "分配玩家",
+    "current": "目前分配的玩家",
+    "discord": {
+      "assignButton": "分配 Discord 信息"
+    },
+    "newProfile": "请求创建新个人资料",
+    "manageProfile": "管理玩家"
+  },
+  "buttons": {
+    "allow": "通过",
+    "decline": "拒绝",
+    "reset": "重置",
+    "clear": "清除",
+    "selectAll": "全选",
+    "autoAllow": "自动允许",
+    "autoReject": "自动拒绝"
+  },
+  "errors": {
+    "noPlayer": "请在通过前分配一名玩家",
+    "playerAssignment": "分配玩家失败",
+    "processing": "提交项目处理失败",
+    "autoAllow": "自动通过提交项目失败",
+    "profileUpdate": "无法通过个人资料更新通关记录",
+    "needProfileCreation": "通过前需创建个人资料",
+    "patch": "更新失败",
+    "invalidKeyCount": "按键数目必须为正整数",
+    "videoLinkUpdateFailed": "视频链接更新失败",
+    "videoLinkRequired": "链接不能为空"
+  },
+  "success": {
+    "playerAssigned": "成功分配给 {{playerName}}",
+    "autoAllow": "已自动通过 {{count}} 项通关记录",
+    "playerCreated": "成功创建并分配 {{playerName}}",
+    "patch": "提交信息已更新",
+    "videoLinkUpdated": "视频链接已更新"
+  },
+  "edit": {
+    "edit": "编辑",
+    "save": "保存",
+    "cancel": "取消",
+    "levelPlaceholder": "搜索或输入关卡 ID",
+    "fetchingLevel": "加载关卡中…",
+    "songPlaceholder": "曲名"
+  },
+  "loading": "加载项目中……",
+  "noItems": "未找到项目",
+  "search": {
+    "placeholder": "搜索项目……"
+  },
+  "stats": {
+    "selected": "已选中",
+    "total": "总计"
+  },
+  "modal": {
+    "title": "确认操作",
+    "confirmMessage": "将把 @{{username}} 分配给 {{playerName}}。继续？",
+    "tooltip": "{{discordUsername}} ➔ {{playerName}}"
+  },
+  "notifications": {
+    "autoAllow": "已自动通过 {{count}} 项通关记录"
+  }
+} 

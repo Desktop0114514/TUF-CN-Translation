@@ -1,0 +1,17 @@
+{
+  "title": "批量添加精选类型",
+  "levelIds": "关卡ID",
+  "levelIdsPlaceholder": "例如，1234, 5678 或一行一个",
+  "levelIdsParsed": "已解析 {{count}} 个关卡 ID",
+  "types": "精选类型",
+  "typesCurrent": "已选类型",
+  "typesAdd": "添加类型",
+  "typesSearchPlaceholder": "搜索精选类型……",
+  "typesNoneSelected": "未选择类型。",
+  "typesNoResults": "无匹配结果",
+  "typesNoneAvailable": "无法分配更多类型",
+  "removeType": "移除类型",
+  "addType": "添加类型",
+  "submit": "为 {{count}} 个关卡创建",
+  "submitting": "创建中……"
+}

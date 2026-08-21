@@ -1,0 +1,81 @@
+{
+  "main": {
+    "links": {
+      "home": "主页",
+      "levels": "关卡列表",
+      "leaderboard": "排行榜",
+      "creators": "创作者",
+      "packs": "地图包",
+      "info": "信息",
+      "more": "更多",
+      "pass": "通关列表",
+      "submission": "提交",
+      "rating": "待评级列表",
+      "curations": "精选关卡",
+      "signIn": "登录",
+      "admin": {
+        "rating": "待评级列表",
+        "submissions": "提交列表",
+        "announcements": "公告列表",
+        "dashboard": "数据列表",
+        "difficulties": "关卡列表",
+        "backups": "备份列表",
+        "back": "返回",
+        "admin": "管理员页面",
+        "creators": "创作者视图"
+      }
+    },
+    "dropdowns": {
+      "creators": {
+        "creators": "创作者",
+        "artists": "艺术家",
+        "songs": "歌曲"
+      },
+      "packs": {
+        "allPacks": "所有地图包"
+      },
+      "more": {
+        "passes": "通关列表",
+        "rating": "待评级列表",
+        "tufHelper": "TUF Helper",
+        "tufHelperLite": "TUFHelperLite",
+        "tufExtension": "TUFExtension",
+        "tos": "服务条款",
+        "privacyPolicy": "隐私政策",
+        "aboutUs": "关于我们",
+        "apiDocs": "API 文档",
+        "assets": "资源",
+        "developers": "开发者门户"
+      },
+      "user": {
+        "myProfile": "个人资料",
+        "tufStellar": "TUFStellar",
+        "mySubmissions": "提交记录",
+        "notifications": "通知",
+        "settings": "设置",
+        "admin": "管理员页面",
+        "logout": "退出登录"
+      },
+      "admin": {
+        "rating": "待评级列表",
+        "submissions": "提交列表",
+        "announcements": "公告列表",
+        "difficulties": "等级列表",
+        "creators": "创作者",
+        "tournaments": "赛事",
+        "backups": "备份",
+        "auditLog": "审核日志",
+        "curations": "精选关卡",
+        "songs": "歌曲",
+        "artists": "艺术家"
+      }
+    },
+    "badges": {
+      "underConstruction": "⫻开发中⫻"
+    }
+  },
+  "languages": {
+    "comingSoon": "（即将到来）",
+    "helpTranslate": "参与网站翻译"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "title": "地图包",
+  "search": {
+    "placeholder": "搜索中……",
+    "noResults": "未找到符合条件的地图包"
+  },
+  "filters": {
+    "title": "筛选条件",
+    "owner": {
+      "label": "所有者",
+      "placeholder": "按所有者筛选……",
+      "myPacks": "我的地图包"
+    },
+    "viewMode": {
+      "label": "可见性",
+      "all": "所有",
+      "public": "公开",
+      "linkonly": "仅限链接",
+      "private": "私密",
+      "forcedPrivate": "强制私密"
+    },
+    "pinned": {
+      "label": "仅限已固定"
+    }
+  },
+  "sort": {
+    "title": "排序",
+    "options": {
+      "recent": "最近优先",
+      "name": "按名称（A-Z）",
+      "oldest": "最老优先"
+    },
+    "order": {
+      "asc": "升序",
+      "desc": "降序"
+    }
+  },
+  "empty": {
+    "title": "未找到地图包",
+    "message": "没有符合你当前筛选条件的地图包。",
+    "suggestions": {
+      "clearFilters": "尝试重置筛选条件",
+      "createPack": "创建你的第一个地图包"
+    }
+  },
+  "loading": {
+    "message": "正在加载地图包",
+    "loadMore": "加载更多地图包"
+  },
+  "errors": {
+    "loadFailed": "加载地图包失败",
+    "retry": "重试"
+  }
+}

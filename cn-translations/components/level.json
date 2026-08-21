@@ -1,0 +1,232 @@
+{
+  "helpPopup": {
+    "title": "搜索帮助",
+    "closeButton": "关闭",
+    "v2": {
+      "subtitle": "高级搜索是一套简短的查询语法。通过组合字段、运算符与范围可以快速缩小结果。",
+      "examplesTitle": "示例",
+      "groups": {
+        "basics": {
+          "title": "基础（解析规则）",
+          "intro": "用 field:value 或 field=value 输入搜索条件。英文逗号 , 表示与（AND）条件，竖线 | 表示且用来分开或（OR）条件。",
+          "examples": {
+            "and": "<b><code>song:hello, artist:camellia</code></b><br/>两个条件都要满足（AND），这将寻找由“camellia”作曲、带有“hello”的关卡。",
+            "or": "<b><code>song=goTe | song:xnor</code></b><br/>满足任一条件即可（OR），这将搜索任何曲名中带有 goTe 的关卡（不带 EX）或带有 XNOR 的关卡。",
+            "not": "<b><code>song:onus, \\!nerfed</code></b><br/>排除包含某词语的结果（NOT），这将排除曲名中含 Onus 的带“nerfed”的关卡。"
+          }
+        },
+        "text": {
+          "title": "文本（名称/身份组）",
+          "intro": "不区分大小写。: 表示部分匹配， = 表示完全匹配。",
+          "examples": {
+            "partialVsExact": "<b><code>song:go</code></b> 为部分匹配，<b><code>song=goTe</code></b> 为完全匹配。",
+            "multiWord": "值中允许空格：<b><code>artist:Camellia (feat. Nanahira)</code></b> 有效。",
+            "mixTextAndNumeric": "<b><code>song:hello, bpm:>150</code></b><br/>文本与数值条件可混合。"
+          }
+        },
+        "numeric": {
+          "title": "数值（范围/时长）",
+          "intro": "支持精确值与比较。用 >、<、>=、<= 指定范围。",
+          "examples": {
+            "bpmRange": "<b><code>bpm:>100, bpm:<200</code></b> 搜索 100 到 200 BPM的谱面。",
+            "tilesMin": "<b><code>tilecount:>=1000</code></b> 搜索至少有 1000 物量的谱面。",
+            "timeUnits": "<b><code>time:>10m15s</code></b> 或 <b><code>time:<50s</code></b><br/>时长支持单位有h（时）、m（分）、s（秒）、ms（毫秒）。",
+            "timeMsPlain": "<b><code>time:>130000</code></b><br/>未加单位时按毫秒计算。",
+            "likesRange": "<b><code>likes:>10</code></b> 搜索至少有 10 个收藏的谱面（支持数值与范围）。",
+            "clearsRange": "<b><code>clears:>=100</code></b> 搜索被通过了至少 100 次的谱面（支持数值与范围）。"
+          }
+        },
+        "idsAndLinks": {
+          "title": "ID 与链接（精确/内部）",
+          "intro": "部分字段用于精确匹配或内部标识。",
+          "examples": {
+            "idExact": "<b><code>id=1234</code></b> 按关卡ID搜索。",
+            "idRange": "<b><code>id:>1000</code></b> 搜索关卡ID大于 1000 的关卡（支持范围）。",
+            "linkMatch": "<b><code>dlLink:drive.google</code></b> 按下载链接部分文本搜索。<b><code>workshopLink:steamcommunity</code></b> 以同样方式匹配 Steam 创意工坊链接。"
+          }
+        },
+        "tips": {
+          "title": "技巧",
+          "intro": "一些容易忽略的细节。",
+          "bullets": {
+            "caseInsensitive": "不区分大小写：SONG 与 song 效果相同。",
+            "spacesAllowed": "值中允许空格：song:Example Song 有效。",
+            "orderDoesNotMatter": "同组内条件顺序无关：artist:foo, song:bar 和 song:bar, artist:foo 效果相同。",
+            "aliasesMayMatch": "歌曲名或曲师名可能会匹配已知别名，不只匹配显示名称。",
+            "groupingMentalModel": "A,B|C,D 可理解为 (A AND B) OR (C AND D)：逗号构造 AND 组，| 分割 OR 组。"
+          }
+        }
+      },
+      "fields": {
+        "operatorColon": {
+          "title": "部分匹配",
+          "desc": "用 : 进行部分匹配（例：song:go）。"
+        },
+        "operatorEquals": {
+          "title": "完全匹配",
+          "desc": "用 = 进行完全匹配（例：song=goTe）。"
+        },
+        "operatorComma": {
+          "title": "与 AND",
+          "desc": "所有条件都必须满足。"
+        },
+        "operatorPipe": {
+          "title": "或 OR",
+          "desc": "满足任一条件即可。"
+        },
+        "operatorNot": {
+          "title": "非 NOT",
+          "desc": "用 \\! 排除包含某词语的结果。"
+        },
+        "song": {
+          "title": "歌曲名",
+          "desc": "按歌曲名搜索（含别名）。"
+        },
+        "artist": {
+          "title": "曲师名",
+          "desc": "按曲师名搜索（含别名）。"
+        },
+        "creator": {
+          "title": "创作者（任意身份）",
+          "desc": "按创作者名称搜索，包含所有身份。"
+        },
+        "charter": {
+          "title": "采音师",
+          "desc": "按采音师名称搜索。"
+        },
+        "vfxer": {
+          "title": "特效师",
+          "desc": "按特效师名称搜索。"
+        },
+        "team": {
+          "title": "团队",
+          "desc": "按团队名称搜索（含别名）。"
+        },
+        "comment": {
+          "title": "公开注释",
+          "desc": "按公开注释文本搜索（如重评或 gimmick 说明）。"
+        },
+        "bpm": {
+          "title": "BPM",
+          "desc": "按 BPM 搜索（精确/范围）。"
+        },
+        "tilecount": {
+          "title": "物量数",
+          "desc": "按物量数搜索（精确/范围）。"
+        },
+        "time": {
+          "title": "谱面时长",
+          "desc": "按谱面时长搜索（时、分、秒或毫秒）。"
+        },
+        "likes": {
+          "title": "收藏数",
+          "desc": "按收藏数搜索。支持数值与范围。"
+        },
+        "clears": {
+          "title": "通关记录数",
+          "desc": "按通关记录数搜索。支持数值与范围。"
+        },
+        "id": {
+          "title": "关卡 ID",
+          "desc": "按关卡 ID 搜索。"
+        },
+        "hashtag": {
+          "title": "关卡 ID（简写）",
+          "desc": "<code>#123</code> 和 <code>id=123</code>效果相同。"
+        },
+        "dlLink": {
+          "title": "下载链接",
+          "desc": "按下载链接搜索。"
+        },
+        "workshopLink": {
+          "title": "创意工坊链接",
+          "desc": "按 Steam 创意工坊（或其他创意工坊）链接搜索，规则与下载链接相同。"
+        },
+        "legacyDllink": {
+          "title": "旧下载链接",
+          "desc": "按旧下载链接搜索。"
+        },
+        "videolink": {
+          "title": "视频链接",
+          "desc": "按视频链接搜索。"
+        }
+      }
+    },
+    "sections": {
+      "search": {
+        "title": "特定字段搜索",
+        "description": "你可以使用两个不同的运算符搜索特定字段：冒号 : 表示部分匹配，等号 = 表示完全匹配。",
+        "examples": {
+          "title": "可用字段",
+          "songField": "按歌曲名称搜索（示例：“song:go” 或 “song=goTe”）",
+          "artistField": "按曲师名称搜索（示例：“artist:cam” 或 “artist=Camellia”）",
+          "charterField": "按采音师名称搜索（示例：“charter:zag” 或“charter=Zagon”）",
+          "vfxerField": "按特效师名称搜索（示例：“vfxer:Asa” 或 “vfxer=Asansis”）",
+          "creatorField": "按创作者名称搜索所有身份（示例：“creator:Nep” 或 “creator=Nephrolepis”）"
+        }
+      },
+      "numeric": {
+        "title": "BPM、物量数与谱面时长",
+        "description": "用 bpm:、tilecount: 搜索；谱面时长（毫秒）用 time:，可用单位有 h（时）、m（分）、s（秒）、ms（毫秒）如 10m15s、50s，无后缀的数字表示毫秒；可在前加 >、<、>=、<=。同一搜索组内用英文逗号连接多个条件（与）。",
+        "examples": {
+          "title": "数值示例",
+          "bpmExact": "精确 BPM（亦可用 bpm=180）",
+          "tilesExact": "精确物量数",
+          "bpmRange": "BPM 在 100–200 之间（需要包含端点请用 >= 或 <=）",
+          "tilesMin": "至少 1000 个物量",
+          "timeComposite": "谱面时长超过 10 分 15 秒的关卡",
+          "timeMin": "谱面时长短于 50 秒的关卡",
+          "timeMsPlain": "谱面时长超过 130000 ms（无单位 = 毫秒）",
+          "combine": "可与歌曲名或曲师名等条件组合，例如 song:hello, bpm:>150"
+        }
+      },
+      "operators": {
+        "title": "搜索运算符",
+        "description": "你可以使用运算符组合多个搜索条件。",
+        "examples": {
+          "title": "运算符示例",
+          "and": "搜索同时满足两个条件（和）的关卡。这将寻找由“camellia”作曲、带有“hello”的关卡",
+          "or": "搜索符合任一条件（或）的关卡。这将搜索 goTe 关卡（不带 EX）或任何 XNOR 关卡",
+          "complex": "结合“与”和“或”条件的复杂搜索。此搜索会查找“gazizi”的“onus”关卡，或任何包含“ludicin”歌曲的关卡",
+          "not": "使用“\\!”将排除包含该词语的结果 - 此表达式将排除“nerfed” Onus 关卡"
+        }
+      },
+      "tips": {
+        "title": "搜索技巧",
+        "points": {
+          "caseSensitive": "搜索不区分大小写 - “SONG”和“song”将给出相同的结果",
+          "partial": "冒号（:）允许部分匹配 - “song:Ex”将匹配“Example”",
+          "exact": "等号（=）要求完全匹配 - “song=Example” 将仅匹配“Example”",
+          "spaces": "搜索词中允许使用空格 - “song:Example Song” 有效",
+          "order": "每个组中的条件顺序并不重要",
+          "roles": "使用“creator”搜索所有身份，或使用“charter”或“vfxer”搜索特定身份"
+        }
+      }
+    }
+  },
+  "tufHelperLiteBanner": {
+    "title": "在 ADOFAI 中直接打开 TUF 关卡",
+    "description": "使用 TUFHelperLite 模组，只需点击一下即可在 ADOFAI 中直接打开 TUF 关卡。浏览器可能会请求访问本地设备。",
+    "connect": "连接",
+    "connecting": "正在连接……",
+    "openWith": "使用 TUFHelperLite 打开",
+    "learnMore": "下载模组",
+    "neverShow": "不再显示此提示",
+    "dismiss": "本次会话中关闭 TUFHelperLite 提示",
+    "unavailableTitle": "未找到 TUFHelperLite",
+    "unavailableDescription": "请确认已安装 AdofaiIpc 和 TUFHelperLite模组，并且 ADOFAI 正在运行，然后重试。",
+    "ipcUpdateTitle": "需要安装 AdofaiIpc 模组",
+    "ipcUpdateDescription": "关闭游戏，重新安装最新版本的 AdofaiIpc 模组，并重启游戏。",
+    "downloadIpc": "下载 AdofaiIpc",
+    "clientUpdateTitle": "网站信息需要更新",
+    "clientUpdateDescription": "AdofaiIpc 版本比网站中的版本更新。刷新页面以加载最新版本。",
+    "refreshPage": "刷新",
+    "initializingTitle": "TUFHelperLite 已在运行",
+    "initializingDescription": "请等待模组在游戏中初始化完成，然后重试。",
+    "initializationFailedTitle": "TUFHelperLite 启动失败",
+    "initializationFailedDescription": "在UMM日志中检查 TUFHelperLite 错误。",
+    "outdatedToast": "TUFHelperLite 版本 {{version}} 已不再支持。更新至0.1.4或更新版本以使用该功能。",
+    "unknownVersion": "未知版本",
+    "retry": "重试"
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "button": {
+    "label": "打开参考列表",
+    "text": "参考列表"
+  },
+  "popup": {
+    "title": "{{tab}} 级难度",
+    "buttons": {
+      "close": "关闭",
+      "expandAll": "展开所有项目",
+      "collapseAll": "收起所有项目",
+      "editMode": "编辑模式",
+      "viewMode": "查看模式",
+      "saveChanges": "保存更改",
+      "help": "帮助",
+      "switchToExtended": "切换到扩展视图",
+      "switchToCompact": "切换到紧凑视图"
+    },
+    "loading": "正在加载参考列表……",
+    "errors": {
+      "loadFailed": "加载参考列表失败",
+      "saveFailed": "保存更改失败",
+      "invalidType": "参考列表类型无效：{{type}}"
+    },
+    "messages": {
+      "saveSuccess": "参考列表保存成功",
+      "parseError": "解析参考列表时出错：{{error}}"
+    },
+    "levelCount": {
+      "singular": "1 个关卡",
+      "plural": "{{count}} 个关卡"
+    },
+    "noType": "无类型",
+    "help": {
+      "title": "参考列表系统",
+      "description": "参考系统使用字母组合对参考列表进行分类：",
+      "types": {
+        "title": "类型",
+        "R": "Rolling - 轮指，在困难部分的主要手法是轮指的关卡。",
+        "I": "Indexing - 硬抗，需要高速（≥190 BPM）硬抗和 / 或长时间硬抗的关卡。",
+        "T": "Tech - 需要独特或非传统游玩模式方法的关卡，通常是由复杂的复节奏、长时间加减速或非直观的节奏组成的。该类型通常被称为“不规则” “复杂节奏”等。",
+        "K": "Keycount - 包含大量高按键数（12K 和 16K）游戏的关卡。通常与其他标签结合使用。",
+        "K+": "Keycount+ - 包含极高按键数（16K+）游戏或复杂按键数模式的关卡。"
+      }
+    },
+      "editMode": {
+      "placeholder": "输入关卡 ID，使用逗号分隔",
+      "help": {
+        "title": "参考列表系统",
+        "description": "参考系统使用字母组合对参考列表进行分类：",
+        "types": {
+          "title": "类型",
+          "R": "Rolling - 轮指，在困难部分的主要手法是轮指的关卡。",
+          "I": "Indexing - 硬抗，需要高速（≥190 BPM）硬抗和 / 或长时间硬抗的关卡。",
+          "T": "Tech - 需要独特或非传统击打模式方法的关卡，通常是由于复杂的复节奏、长时间加速/减速或非直观的节奏。该类型通常被称为“不规则” “复杂节奏”等。",
+          "K": "Keycount - 包含大量高按键数（12K 和 16K）游戏的关卡。通常与其他标签结合使用。",
+          "K+": "Keycount+ - 包含极高按键数（16K+）游戏或复杂按键数模式的关卡。"
+      },
+      "format": {
+          "title": "格式",
+          "single": "单一类型：R：123, 456",
+          "multiple": "多种类型：RI：789, 101",
+          "noType": "无类型：123, 456"
+        },
+        "rules": {
+          "title": "规则",
+          "list": [
+            "每行可以有一个类型前缀",
+            "不同类型可以组合（例如 RI、TK）",
+            "关卡 ID 必须用逗号分隔",
+            "空行将被忽略",
+            "非类型参考列表单独占一行"
+          ]
+        }
+      }
+    }
+  },
+  "errors": {
+    "loading": "加载等级失败",
+    "saving": "保存等级失败"
+  },
+  "title": "{{tab}} 等级",
+  "buttons": {
+    "reset": "重置",
+    "clear": "清除",
+    "selectAll": "全选"
+  },
+  "loading": "正在加载等级列表……",
+  "noItems": "未找到等级",
+  "search": {
+    "placeholder": "查找等级……"
+  },
+  "stats": {
+    "selected": "已选中",
+    "total": "总计",
+    "plural": "{{count}} 个关卡"
+  }
+} 

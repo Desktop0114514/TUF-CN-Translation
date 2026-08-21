@@ -1,0 +1,12 @@
+{
+  "title": "选择关卡文件",
+  "description": "压缩文件中找到多个关卡文件。请选择主关卡文件：",
+  "buttons": {
+    "submit": "提交"
+  },
+  "fileInfo": {
+    "song": "曲名：{{song}}",
+    "size": "大小：{{size}}",
+    "youtube": "使用 YouTube Stream"
+  }
+} 

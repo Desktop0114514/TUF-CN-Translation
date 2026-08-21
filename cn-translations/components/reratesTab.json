@@ -1,0 +1,26 @@
+{
+    "noRerates": "没有要公布的重评项目",
+    "facets": {
+        "diff": "难度",
+        "baseScore": "基础分",
+        "ppBaseScore": "完美无瑕基础分",
+        "curve": "分数曲线"
+    },
+    "errors": {
+        "removeLevel": "删除 {{song}} 失败，请重试。"
+    },
+    "card": {
+        "title": "{{song}} - {{artist}}",
+        "subtitle": {
+            "difficulty": "{{oldDifficulty}} ➔ {{newDifficulty}}",
+            "baseScore": "{{oldBaseScore}}分 ➔ {{newBaseScore}}分",
+            "ppBaseScore": "{{oldPpBaseScore}}分 ➔ {{newPpBaseScore}}分",
+            "team": " • {{team}}"
+        }
+    },
+    "buttons": {
+        "edit": "编辑关卡",
+        "remove": "删除关卡",
+        "removeTooltip": "移除但不进行公布"
+    }
+}
