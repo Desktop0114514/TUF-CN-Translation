@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "创作者",
+    "description": "浏览谱面创作者、制谱师和特效师"
+  },
+  "input": {
+    "placeholder": "按创作者名称搜索……"
+  },
+  "buttons": {
+    "searchHelp": "搜索帮助"
+  },
+  "tooltips": {
+    "searchHelp": "了解如何搜索创作者以及按精选类型筛选",
+    "filter": "筛选结果",
+    "sort": "排序结果",
+    "reset": "重置所有筛选",
+    "recentAsc": "升序排列",
+    "recentDesc": "降序排列"
+  },
+  "settings": {
+    "filter": {
+      "header": "筛选"
+    },
+    "sort": {
+      "header": "排序设置",
+      "sortOrder": "排序顺序",
+      "sortBy": "排序方式"
+    },
+    "verificationFilter": {
+      "label": "认证状态",
+      "all": "所有状态"
+    },
+    "curationTypes": {
+      "label": "精选类型"
+    }
+  },
+  "sortOptions": {
+    "name": "名称",
+    "chartsTotal": "总关卡数",
+    "chartsCharted": "参与采音数",
+    "chartsVfxed": "参与特效数",
+    "chartsTeamed": "作为团队成员参与的关卡数",
+    "totalChartClears": "总关卡通关次数",
+    "totalChartLikes": "总关卡收藏次数"
+  },
+  "infiniteScroll": {
+    "end": "你已到达底部！"
+  },
+  "list": {
+    "empty": "未找到创作者。"
+  },
+  "card": {
+    "verified": "已认证",
+    "chartsTotal": "{{count}} 个关卡",
+    "noUser": "未关联账户",
+    "curationBadgesAria": "精选类型摘要"
+  },
+  "verificationStatus": {
+    "help": {
+      "declined": "该创作者拒绝让自己的关卡展示在论坛中。",
+      "pending": "等待创作者确认。新添加创作者的默认状态。",
+      "conditional": "该创作者同意在特定条件下展示。添加任何提交内容前请先协商。",
+      "allowed": "该创作者同意让自己的关卡展示在论坛中。"
+    }
+  },
+  "profile": {
+    "meta": {
+      "title": "{{name}} - 创作者资料",
+      "description": "{{name}} 的谱面与统计数据 — 在 The Universal Forums 上共有 {{count}} 个关卡"
+    },
+    "notFound": "未找到创作者",
+    "verified": "已认证",
+    "manageButton": "管理创作者",
+    "stats": {
+      "header": "创作者统计",
+      "chartsCharted": "参与制谱数",
+      "chartsVfxed": "参与特效制作数",
+      "chartsTeamed": "作为团队成员参与的关卡数",
+      "curatedLevels": "总精选关卡数",
+      "chartsTotal": "总关卡数",
+      "totalChartClears": "总关卡通关次数",
+      "totalChartLikes": "总关卡点赞次数"
+    },
+    "bio": {
+      "header": "个人简介",
+      "placeholder": "该创作者尚未填写个人简介。"
+    },
+    "uploadConditions": {
+      "tooltipAria": "查看关卡上传条件"
+    },
+    "curationPanel": {
+      "expandAria": "显示所有精选类型和关卡数量",
+      "collapseAria": "隐藏精选类型列表",
+      "dialogLabel": "已署名关卡中的精选类型"
+    },
+    "levels": {
+      "header": "谱面",
+      "empty": "该创作者暂时没有关卡。",
+      "searchPlaceholder": "搜索该创作者的谱面……",
+      "expand": "展开",
+      "collapse": "收起",
+      "exportAs": "导出为",
+      "exportDisabled": "无匹配结果。",
+      "export": {
+        "title": "导出 {{contextName}}",
+        "defaultContextName": "关卡",
+        "description": "下载一份包含所有符合{{contextName}}条件的电子表格。",
+        "export": "导出",
+        "exporting": "导出中……",
+        "unavailable": "不可用",
+        "progress": "已选中 {{total}} 个中的 {{fetched}} 个",
+        "errors": {
+          "exportFailed": "导出关卡信息失败。请重试。"
+        }
+      }
+    },
+    "sections": {
+      "difficultyBreakdown": {
+        "title": "关卡数统计",
+        "expand": "展开",
+        "collapse": "收起"
+      }
+    },
+    "funFacts": {
+      "expandAria": "显示所有统计数据",
+      "collapseAria": "隐藏详细统计数据",
+      "groups": {
+        "identity": "身份信息",
+        "credits": "创作贡献",
+        "content": "谱面内容",
+        "audience": "受众",
+        "curation": "精选与重评",
+        "timeline": "时间线",
+        "breakdownByType": "关卡难度"
+      },
+      "identity": {
+        "aliasCount": "别名数量",
+        "teamsJoined": "加入团队数"
+      },
+      "credits": {
+        "levelsAsCharter": "作为采音师参与的关卡数",
+        "levelsAsVfxer": "作为特效师参与的关卡数"
+      },
+      "content": {
+        "totalTilesMade": "采过的物量数",
+        "totalLevelDurationMs": "总谱面时长",
+        "averageTilecount": "平均物量",
+        "averageLevelLengthMs": "平均关卡长度",
+        "averageBpm": "平均 BPM",
+        "totalClearsOnLevels": "关卡总通关次数",
+        "totalLikesOnLevels": "关卡总点赞次数",
+        "totalDownloadsOnLevels": "关卡总下载次数"
+      },
+      "audience": {
+        "uniquePlayersCleared": "通关过的玩家数",
+        "worldsFirstsOnLevels": "关卡世界首通次数",
+        "worldsFirstPPsOnLevels": "关卡世界首杀次数",
+        "totalTilesPlayedOnLevels": "总经过砖块数"
+      },
+      "timeline": {
+        "firstLevelAt": "首个谱面",
+        "latestLevelAt": "最新谱面"
+      },
+      "difficultyType": {
+        "PLANETARY": "P级谱面",
+        "GALACTIC": "G级谱面",
+        "UNIVERSAL": "U级谱面",
+        "SPECIAL": "特殊",
+        "PGU": "PGU",
+        "LEGACY": "传统",
+        "UNKNOWN": "其他"
+      }
+    }
+  }
+}

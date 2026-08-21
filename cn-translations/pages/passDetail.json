@@ -1,0 +1,133 @@
+{
+  "meta": {
+    "title": "{{playerName}} 通关 {{song}} - {{artist}}",
+    "description": "{{playerName}} 通关了 {{artist}} 的 {{song}} — {{difficulty}} · 分数 {{score}}"
+  },
+  "banners": {
+    "deleted": "该通关记录已被删除",
+    "hidden": "该通关记录已从通关记录列表中隐藏"
+  },
+  "level": {
+    "baseScore": "{{score}}分",
+    "credits": {
+      "team": "{{team}}",
+      "charter": "由 {{charter}} 制作谱面",
+      "vfxer": "由 {{vfxer}} 制作特效"
+    }
+  },
+  "player": {
+    "rank": "#{{rank}}",
+    "score": {
+      "current": "{{score}}",
+      "difference": {
+        "positive": "+{{score}}"
+      },
+      "previous": "{{score}}"
+    },
+    "clearDate": "通关于 {{date}}"
+  },
+  "stats": {
+    "score": {
+      "label": "分数",
+      "value": "{{score}}"
+    },
+    "accuracy": {
+      "label": "精准度",
+      "value": "{{accuracy}}%"
+    },
+    "speed": {
+      "label": "飙速",
+      "value": "{{speed}}x"
+    },
+    "feelingRating": {
+      "label": "体感难度",
+      "value": "{{rating}}",
+      "none": "无"
+    },
+    "expectedRating": {
+      "label": "预期难度",
+      "value": "{{rating}}",
+      "none": "无"
+    }
+  },
+  "flags": {
+    "worldsFirst": "WF",
+    "worldsFirstPP": "WF PP",
+    "keyCount": "{{count}}键",
+    "12k": "12键",
+    "16k": "16键",
+    "noHoldTap": "非默认长按设置",
+    "adofaiV2": "<adofaiicon></adofaiicon> v2",
+    "adofaiV2Note": "录制于 ADOFAI v2"
+  },
+  "judgements": {
+    "title": "判定结果",
+    "types": {
+      "earlyPerfect": {
+        "label": "稍快！",
+        "value": "{{count}}"
+      },
+      "perfect": {
+        "label": "完美！",
+        "value": "{{count}}"
+      },
+      "latePerfect": {
+        "label": "稍慢！",
+        "value": "{{count}}"
+      },
+      "tooEarly": {
+        "label": "太快！！",
+        "value": "{{count}}"
+      },
+      "early": {
+        "label": "太快！",
+        "value": "{{count}}"
+      },
+      "late": {
+        "label": "太慢！",
+        "value": "{{count}}"
+      },
+      "tooLate": {
+        "label": "太慢！！",
+        "value": "{{count}}"
+      }
+    }
+  },
+  "video": {
+    "notAvailable": {
+      "text": "无视频",
+      "watchOnYoutube": "在 YouTube 或 Bilibili 上观看"
+    }
+  },
+  "buttons": {
+    "edit": "编辑通关记录"
+  },
+  "actions": {
+    "hide": "隐藏",
+    "unhide": "取消隐藏"
+  },
+  "confirm": {
+    "hide": {
+      "title": "隐藏通关记录",
+      "message": "你确定从通关记录列表中隐藏此通关记录吗？它将仅对你可见。",
+      "confirm": "隐藏",
+      "processing": "隐藏中……"
+    },
+    "unhide": {
+      "title": "取消隐藏通关记录",
+      "message": "你确定在通关记录列表中展示此通关记录吗？它将对所有人可见。",
+      "confirm": "取消隐藏",
+      "processing": "取消中……"
+    }
+  },
+  "feelingRating": {
+    "title": "编辑体感难度",
+    "placeholder": "例如 U15、G18~G20",
+    "saving": "保存中……"
+  },
+  "errors": {
+    "toggleHidden": "可见性更改失败",
+    "updateFeelingRating": "体感难度更新失败",
+    "feelingRatingRequired": "体感难度不能为空"
+  }
+}

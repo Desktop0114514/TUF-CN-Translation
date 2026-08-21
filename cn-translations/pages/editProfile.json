@@ -1,0 +1,133 @@
+{
+  "title": "编辑个人资料",
+  "error": {
+    "newPasswordsDoNotMatch": "新密码不匹配",
+    "failedToChangePassword": "更改密码失败",
+    "failedToLinkAccount": "绑定 {provider} 账户失败",
+    "failedToUnlinkAccount": "解绑 {provider} 账户失败",
+    "failedToUpdateProfile": "更新个人资料失败",
+    "invalidFileType": "文件格式无效。请上传 JPEG、PNG、WebP、GIF 或 SVG 图像",
+    "failedToUploadAvatar": "上传头像失败",
+    "failedToRemoveAvatar": "删除头像失败",
+    "usernameAlphanumeric": "用户名只能包含字母、数字、下划线（_）和句点（.）",
+    "usernameLength": "用户名必须介于 2 到 32 个字符之间",
+    "usernameConsecutivePeriods": "用户名不能包含连续两个句点（..）",
+    "usernameChangeRateLimited": "用户名每天只能更改一次，请稍后再试。"
+  },
+  "success": {
+    "passwordChanged": "密码修改成功！",
+    "accountLinked": "{provider} 账户绑定成功！",
+    "accountUnlinked": "{provider} 账户解绑成功！",
+    "profileUpdated": "个人资料更新成功",
+    "avatarUploaded": "头像更新成功",
+    "avatarRemoved": "头像删除成功"
+  },
+  "avatar": {
+    "dragDropOrClick": "拖动文件至此或点击上传",
+    "removeAvatar": "删除头像",
+    "removing": "正在删除……",
+    "confirmRemove": "你确定移除你的头像吗？此操作不可撤销。"
+  },
+  "nicknameMoved": {
+    "hint": "昵称在 设置 ➔ 玩家 中更改。"
+  },
+  "form": {
+    "labels": {
+      "username": "用户名",
+      "nickname": "昵称",
+      "email": "电子邮箱",
+      "country": "国家或地区"
+    },
+    "emailVerification": {
+      "message": "你需要验证你的电子邮箱",
+      "arrow": "点此开始"
+    },
+    "emailMissing": {
+      "message": "请添加邮箱以验证你的账户"
+    },
+    "buttons": {
+      "saveChanges": "保存更改",
+      "saving": "正在保存……"
+    }
+  },
+  "emailChange": {
+    "title": "更改邮箱",
+    "setTitle": "设置邮箱",
+    "editTitle": "更改邮箱",
+    "setEditTitle": "设置邮箱",
+    "current": "当前邮箱",
+    "noEmailOnFile": "未设置邮箱",
+    "new": "新邮箱",
+    "confirm": "确认新邮箱",
+    "submit": "更新邮箱",
+    "setSubmit": "添加邮箱",
+    "updating": "更新中……",
+    "success": "邮箱已更新，请查收邮件验证新地址。",
+    "setSuccess": "邮箱已添加，请查收邮件完成验证。",
+    "empty": "请输入新邮箱地址。",
+    "invalidFormat": "请输入有效的邮箱地址。",
+    "mismatch": "两次输入的新邮箱不一致。",
+    "unchanged": "新邮箱不能与当前邮箱相同。",
+    "rateLimited": "更改邮箱过于频繁，请稍后再试。",
+    "failed": "无法更新邮箱，请重试。"
+  },
+  "password": {
+    "title": "密码",
+    "addPassword": "添加密码",
+    "newPassword": "新密码",
+    "confirmPassword": "确认密码",
+    "currentPassword": "当前密码",
+    "confirmNewPassword": "确认新密码",
+    "createPassword": "创建密码",
+    "changePassword": "更改密码",
+    "updatePassword": "更新密码"
+  },
+  "passkeys": {
+    "title": "通行密钥",
+    "subtitle": "使用设备指纹、面容解锁或安全密钥登录。",
+    "add": "添加通行密钥",
+    "empty": "无通行密钥。",
+    "added": "添加日期：",
+    "lastUsed": "上次使用：",
+    "never": "从未使用",
+    "synced": "已同步",
+    "rename": "重命名",
+    "renamePrompt": "通行密钥名称",
+    "delete": "移除",
+    "deleteConfirm": "移除通行密钥\"{{name}}\"？",
+    "addSuccess": "通行密钥已添加",
+    "addError": "无法添加通行密钥",
+    "deleteSuccess": "通行密钥已移除",
+    "deleteError": "无法移除通行密钥",
+    "unsupported": "此浏览器不支持通行密钥。"
+  },
+  "linkedAccounts": {
+    "title": "已绑定账户",
+    "discord": "Discord",
+    "providerId": "Discord 用户 ID：{{id}}",
+    "providerIdHint": "这是你的 Discord 用户在 Discord 系统中的数字 ID",
+    "linkDiscord": "绑定 Discord 账户",
+    "unlink": "解绑",
+    "cannotUnlinkLastProvider": "无法在没有密码的情况下解绑最后一个绑定账户"
+  },
+  "dangerZone": {
+    "title": "注销账户",
+    "description": "将永久注销你的账户及与该账户有关的数据。你有 3 天时间可以取消。在此期间你的信息不会出现在排行榜上。",
+    "deleteButton": "注销我的账户",
+    "scheduling": "正在处理……",
+    "confirmDelete": "确定安排注销账户？你的信息将在 3 天内从排行榜隐藏，之后账户将被永久注销。在此之前你可以随时取消。",
+    "pendingTitle": "已安排注销",
+    "scheduledAt": "申请于 {{date}}",
+    "executesAt": "永久注销于 {{date}}",
+    "cancelButton": "取消注销",
+    "canceling": "正在取消……",
+    "confirmCancel": "取消已安排的账户注销并恢复账户？",
+    "successScheduled": "已安排注销账户。",
+    "successCanceled": "已取消注销账户。",
+    "errorSchedule": "无法安排注销账户。",
+    "errorCancel": "无法取消注销账户。",
+    "includeCreatorCheckbox": "同时移除我的创作者资料与谱面署名。仅由我署名的关卡将隐藏（软删除）且不再显示创作者；合作谱面仅移除我的署名。",
+    "pendingIncludesCreator": "删除执行时将移除创作者资料、剥离您的署名（创作者显示为未知），单人关卡软删除以保留谱面文件。"
+  }
+}
+

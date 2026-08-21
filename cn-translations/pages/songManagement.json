@@ -1,0 +1,52 @@
+{
+  "title": "歌曲管理",
+  "meta": {
+    "title": "歌曲管理",
+    "description": "管理歌曲和它们的信息"
+  },
+  "search": {
+    "placeholder": "搜索歌曲……"
+  },
+  "filter": {
+    "verification": "认证状态",
+    "all": "所有"
+  },
+  "sort": {
+    "label": "排序依据",
+    "nameAsc": "名称（A-Z）",
+    "nameDesc": "名称（Z-A）",
+    "idAsc": "ID（由低到高）",
+    "idDesc": "ID（由高到低）"
+  },
+  "aliases": "别名",
+  "artists": "艺术家",
+  "buttons": {
+    "add": "添加歌曲",
+    "loadMore": "加载更多",
+    "create": "创建"
+  },
+  "form": {
+    "title": "创建新歌曲",
+    "name": "名称",
+    "namePlaceholder": "输入歌曲名称",
+    "verificationState": "认证状态",
+    "aliases": "别名",
+    "aliasPlaceholder": "输入别名",
+    "addAlias": "添加别名"
+  },
+  "messages": {
+    "created": "歌曲创建成功",
+    "deleted": "歌曲删除成功"
+  },
+  "errors": {
+    "fetchFailed": "歌曲获取失败",
+    "nameRequired": "需要名称",
+    "createFailed": "歌曲创建失败",
+    "deleteFailed": "歌曲删除失败"
+  },
+  "infScroll": {
+    "end": "已到达底部！"
+  },
+  "confirmDelete": "你确定删除此歌曲吗？",
+  "noSongs": "未找到歌曲"
+}

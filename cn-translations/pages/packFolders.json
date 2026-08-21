@@ -1,0 +1,40 @@
+{
+  "createFolder": "创建文件夹",
+  "rename": "重命名",
+  "confirmDelete": "你确定删除文件夹 \"{{name}}\"吗？此操作不可撤销。",
+  "moveToFolder": "移动至文件夹",
+  "moveToRoot": "移动至根目录",
+  "folderName": "文件夹名称",
+  "newFolder": "新建文件夹",
+  "emptyFolder": "此文件夹为空",
+  "dragPacksHere": "将地图包拖到这里进行整理",
+  "expandFolder": "展开文件夹",
+  "collapseFolder": "收起文件夹",
+  "folders": {
+    "title": "文件夹",
+    "create": "创建文件夹",
+    "rename": "重命名文件夹",
+    "delete": "删除文件夹",
+    "move": "移动文件夹"
+  },
+  "packs": {
+    "title": "地图包",
+    "create": "创建地图包",
+    "moveToFolder": "移动至文件夹",
+    "moveToRoot": "移动至根目录"
+  },
+  "errors": {
+    "createFolder": "创建文件夹失败",
+    "renameFolder": "重命名文件夹失败", 
+    "deleteFolder": "删除文件夹失败",
+    "movePack": "移动地图包失败",
+    "reorderItems": "项目重排序失败"
+  },
+  "success": {
+    "createFolder": "文件夹创建成功",
+    "renameFolder": "文件夹重命名成功",
+    "deleteFolder": "文件夹删除成功",
+    "movePack": "地图包移动成功",
+    "reorderItems": "项目重排序成功"
+  }
+}

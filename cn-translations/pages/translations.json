@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "翻译人员工具",
+    "description": "下载翻译文件，并对照英文原文校验翻译文件。"
+  },
+  "title": "翻译人员工具",
+  "verifier": {
+    "title": "翻译文件校验器",
+    "description": "上传包含翻译文件的压缩包来与英文语言文件校验。",
+    "supportedFormats": "支持的格式：.zip，.7z，.rar，.tar 或 .gz",
+    "expectedStructure": "目标文件结构：压缩文件中的语言文件与英文语言文件结构相符",
+    "submit": "校验",
+    "verifying": "校验中……",
+    "loginRequired": "登录以校验",
+    "loginCta": "登录"
+  },
+  "guide": {
+    "title": "如何使用翻译人员工具",
+    "steps": {
+      "download": {
+        "title": "下载英文语言文件",
+        "body": "在下方选择一种语言并下载翻译文件。这将作为你的模板。"
+      },
+      "extract": {
+        "title": "解压并翻译",
+        "body": "解压压缩文件并找到 .json 文件。翻译文本的同时保留键名。",
+        "basicExampleLabel": "基础翻译示例：",
+        "basicExample": "\"noLevels\": \"No new levels to announce\" → \"noLevels\": \"你的目标文本\"",
+        "placeholdersLabel": "变量值（很重要！）：",
+        "placeholdersBody": "一些文本包含 {{open}}value{{close}} （变量）占位符。他们必须被保留，但可以调整顺序：",
+        "placeholderExample": "\"welcome\": \"Welcome back, {{open}}username{{close}}!\"\n→ \"welcome\": \"{{open}}username{{close}}, willkommen zurück!\"\n\n\"progress\": \"{{open}}count{{close}} of {{open}}total{{close}} levels completed\"\n→ \"progress\": \"{{open}}count{{close}} von {{open}}total{{close}} Level abgeschlossen\"",
+        "placeholderWarning": "不要翻译占位符本身（例如，{{open}}username{{close}}, {{open}}count{{close}}，等等）"
+      },
+      "verify": {
+        "title": "打包并校验",
+        "body": "将你的翻译文件压缩为一个新的压缩文件（格式为.zip，.7z，.rar，.tar 或 .gz）并使用上方的校验器检查缺少的或错误的翻译文件。"
+      },
+      "submit": {
+        "title": "复合并提交",
+        "body": "检查翻译文本。如果所有事项都已完成，可即刻提交翻译文件！"
+      }
+    }
+  },
+  "languages": {
+    "title": "支持的语言",
+    "download": "下载 {{display}} 翻译文件",
+    "preparing": "准备下载中……",
+    "downloadError": "下载翻译文件时出错：{{message}}",
+    "status": {
+      "implemented": "已完成",
+      "partial": "已完成 {{percent}}%",
+      "pending": "尚未开工"
+    }
+  },
+  "results": {
+    "valid": "翻译已完成！",
+    "missingFiles": "缺少的文件",
+    "missingKeys": "缺少的键值：",
+    "extraKeys": "多余的键值：",
+    "error": "发生错误：{{message}}"
+  }
+}

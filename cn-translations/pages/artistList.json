@@ -1,0 +1,24 @@
+{
+  "title": "艺术家",
+  "meta": {
+    "title": "艺术家",
+    "description": "浏览所有艺术家"
+  },
+  "search": {
+    "placeholder": "搜索艺术家……"
+  },
+  "filter": {
+    "verificationState": "认证状态"
+  },
+  "sort": {
+    "label": "排序依据",
+    "nameAsc": "名称（A-Z）",
+    "nameDesc": "名称（Z-A）",
+    "idAsc": "ID（由低到高）",
+    "idDesc": "ID（由高到低）"
+  },
+  "infScroll": {
+    "end": "已到达底部！"
+  },
+  "noArtists": "未找到艺术家"
+}

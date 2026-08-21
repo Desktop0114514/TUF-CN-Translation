@@ -1,0 +1,20 @@
+{
+  "title": "歌曲信息",
+  "meta": {
+    "title": "{{name}}",
+    "description": "查看歌曲 {{name}} 的信息与关卡 · The Universal Forums"
+  },
+  "sections": {
+    "aliases": "别名",
+    "links": "链接",
+    "artists": "艺术家",
+    "extraInfo": "额外信息",
+    "evidence": "凭证",
+    "levels": "关卡"
+  },
+  "backToList": "返回",
+  "errors": {
+    "notFound": "未找到歌曲",
+    "loadFailed": "歌曲加载失败"
+  }
+}

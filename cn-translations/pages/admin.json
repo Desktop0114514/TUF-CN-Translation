@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "title": "管理员页面",
+    "description": "网站管理页面"
+  },
+  "title": "管理员页面",
+  "links": {
+    "rating": "评级",
+    "ratingDesc": "为关卡评级、编辑评级",
+    "submissions": "提交",
+    "submissionsDesc": "审核并管理提交的关卡和通关记录",
+    "announcements": "公告",
+    "announcementsDesc": "公布新关卡、评级和通关记录",
+    "difficulties": "等级",
+    "difficultiesDesc": "管理等级设置和公告指令",
+    "creators": "创作者",
+    "creatorsDesc": "为关卡分配创作者和团队",
+    "backups": "备份",
+    "backupsDesc": "管理数据库备份和系统维护",
+    "auditLog": "审核日志",
+    "auditLogDesc": "查看所有管理员操作的审核日志",
+    "curations": "精选关卡",
+    "curationsDesc": "分配质量等级到各个关卡并安排每周精选",
+    "songs": "歌曲",
+    "songsDesc": "管理歌曲及相关信息",
+    "artists": "艺术家",
+    "artistsDesc": "管理艺术家和他们的信息",
+    "tournaments": "赛事",
+    "tournamentsDesc": "管理各类赛事名次、名称关联与头像框奖励",
+    "oauthClients": "OAuth 应用",
+    "oauthClientsDesc": "搜索、冻结、认证或删除第三方 OAuth 应用"
+  },
+  "oauthClients": {
+    "meta": {
+      "title": "OAuth 应用 — 管理员页面",
+      "description": "管理第三方 OAuth 应用"
+    },
+    "title": "OAuth 应用",
+    "subtitle": "按应用名称、客户端ID、ID或开发者名称搜索。冻结滥用权限的应用或将其永久删除。",
+    "back": "返回",
+    "searchLabel": "搜索",
+    "searchPlaceholder": "名称，用户名，客户端ID或UUID……",
+    "search": "搜索",
+    "loading": "加载中……",
+    "resultCount": "显示{{total}}个中的{{shown}}个",
+    "empty": "无匹配结果。",
+    "verified": "已验证",
+    "clientId": "客户端ID",
+    "rowId": "ID",
+    "owner": "开发者",
+    "created": "创建日期：",
+    "freeze": "冻结",
+    "unfreeze": "解冻",
+    "verify": "验证",
+    "unverify": "取消验证",
+    "delete": "删除",
+    "deleteConfirm": "永久删除\"{{name}}\"？本应用的授权和令牌也将被删除。",
+    "deleted": "应用已删除",
+    "deleteFail": "无法删除应用",
+    "loadError": "加载 OAuth 客户端失败",
+    "prev": "上一页",
+    "next": "下一页",
+    "pageRange": "第 {{start}} 个到第 {{end}} 个，共 {{total}} 个",
+    "actionOk": {
+      "freeze": "应用已冻结",
+      "unfreeze": "应用已解冻",
+      "verify": "应用已验证",
+      "unverify": "已移除验证状态"
+    },
+    "actionFail": {
+      "freeze": "冻结失败",
+      "unfreeze": "解冻失败",
+      "verify": "验证失败",
+      "unverify": "解除验证失败"
+    }
+  }
+}
+ 

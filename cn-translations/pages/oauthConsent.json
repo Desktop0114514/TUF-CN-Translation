@@ -1,0 +1,31 @@
+{
+  "meta": {
+    "title": "授权申请 — TUF",
+    "description": "允许第三方应用获取你的 TUF 个人资料"
+  },
+  "title": "授权申请",
+  "needLogin": "登录以继续对该应用的授权。",
+  "loginLink": "登录",
+  "loadError": "无待办授权申请",
+  "approveError": "无法完成授权。",
+  "verified": "已验证应用",
+  "publisher": "发行者",
+  "wantsAccess": "想获取你的TUF账号信息",
+  "signedInAs": "登录身份：",
+  "notYou": "不是你？",
+  "allowDeveloper": "这将允许 {{name}} ：",
+  "redirectOutside": "一旦授权，你将被重定向至：",
+  "privacyWithLink": "该应用的隐私政策和条款适用。",
+  "privacyLink": "查看隐私政策",
+  "privacyNoAppPolicy": "此应用未提供隐私政策。在此处了解更多信息：",
+  "tufPrivacyPrefix": "你也可以查看",
+  "tufPrivacyLink": "TUF的隐私政策",
+  "activeSince": "到期时间：{{date}}",
+  "scopeLimit": "此应用仅能获取以上信息。",
+  "created": "已注册",
+  "redirect": "重定向至",
+  "homepage": "主页",
+  "scopesTitle": "此应用将能够",
+  "approve": "授权",
+  "deny": "取消"
+}

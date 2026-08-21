@@ -1,0 +1,102 @@
+{
+  "meta": {
+    "title": "排行榜",
+    "description": "查看玩家排名"
+  },
+  "input": {
+    "placeholder": "按玩家名称搜索……"
+  },
+  "tooltips": {
+    "filter": "筛选结果",
+    "sort": "排序结果",
+    "reset": "重置筛选条件",
+    "recentAsc": "升序",
+    "recentDesc": "降序"
+  },
+  "settings": {
+    "filter": {
+      "header": "筛选设置",
+      "country": "国家或地区",
+      "addStatFilters": "添加统计数据筛选条件",
+      "selectStatPlaceholder": "选择统计数据以筛选……",
+      "addFilterButton": "添加",
+      "min": "最小值",
+      "max": "最大值"
+    },
+    "sort": {
+      "header": "排序设置",
+      "sortOrder": "排序方式",
+      "sortBy": "排序依据"
+    }
+  },
+  "playerFlagFilter": {
+    "fields": {
+      "isBanned": "已封禁",
+      "isSubmissionsPaused": "已暂停提交申请",
+      "isRatingBanned": "已禁止评级"
+    }
+  },
+  "sortOptions": {
+    "rankedScore": "排位分数",
+    "totalScoreV2": "总分",
+    "generalScore": "全局分数",
+    "ppScore": "完美无瑕分数",
+    "wfScore": "世界首通分数",
+    "wfPPScore": "世界首杀分数",
+    "score12K": "12键分数",
+    "averageXacc": "平均X-精准度",
+    "totalPasses": "总通关数",
+    "universalPassCount": "U级通关数",
+    "worldsFirstCount": "世界首通数",
+    "worldsFirstPPCount": "世界首杀数",
+    "topDiff": "最高通关难度",
+    "top12kDiff": "最高12键通关难度"
+  },
+  "infiniteScroll": {
+    "end": "已经到底啦！"
+  },
+  "past": {
+    "button": "查看历史",
+    "backToPresent": "返回",
+    "title": "排行榜历史",
+    "metricRanked": "排位分数排名",
+    "metricGeneral": "全局分数排名",
+    "timelineLabel": "历史时间线",
+    "noData": "该日期没有历史排行榜数据。",
+    "metaTitle": "排行榜 — {{date}}",
+    "metaDescription": "{{date}} 时的排行榜排名",
+    "date": {
+      "year": "年",
+      "month": "月",
+      "day": "日"
+    },
+    "months": {
+      "1": "一月",
+      "2": "二月",
+      "3": "三月",
+      "4": "四月",
+      "5": "五月",
+      "6": "六月",
+      "7": "七月",
+      "8": "八月",
+      "9": "九月",
+      "10": "十月",
+      "11": "十一月",
+      "12": "十二月"
+    },
+    "monthsShort": {
+      "1": "1月",
+      "2": "2月",
+      "3": "3月",
+      "4": "4月",
+      "5": "5月",
+      "6": "6月",
+      "7": "7月",
+      "8": "8月",
+      "9": "9月",
+      "10": "10月",
+      "11": "11月",
+      "12": "12月"
+    }
+  }
+}

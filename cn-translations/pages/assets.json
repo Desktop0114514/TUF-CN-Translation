@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "title": "资源文件",
+    "description": "The Universal Forums 上所有资源的目录视图，包括标签、难度、精选类型、SVG 图标，以及位于 components/common/icons 和 src/assets 目录下的静态文件。"
+  },
+  "header": {
+    "title": "资源文件",
+    "lede": "本页汇总展示全部资源文件（标签、难度、精选类型），以及位于 <code>components/common/icons</code> 与 <code>src/assets</code> 目录下的 SVG 图标与静态文件。"
+  },
+  "sections": {
+    "tags": {
+      "title": "关卡标签",
+      "hint": "从难度服务的 `/tags` 接口加载（与网站其他部分使用的数据相同）。"
+    },
+    "difficulties": {
+      "title": "难度图标",
+      "hint": "显示来自上下文的所有难度条目，并按 `sortOrder` 排序。图标使用 CDN 的 `original` 尺寸。使用开关隐藏或显示 `type` 为 `LEGACY` 的条目。"
+    },
+    "curationTypes": {
+      "title": "精选类型",
+      "hint": "关卡页与创作者资料使用的精选类型目录。"
+    },
+    "jsxIcons": {
+      "title": "JSX 图标",
+      "hint": "<code>src/components/common/icons</code> 目录下的每个 <code>*.jsx</code> 图标文件。"
+    },
+    "staticAssets": {
+      "title": "静态资源（`src/assets`）",
+      "hint": "通过 Vite glob 查找的图片和字体文件。解析后的 URL 可复制到代码或文档中使用。字体文件显示占位标签。"
+    }
+  },
+  "filter": {
+    "label": "筛选",
+    "labelDifficultyName": "难度名称",
+    "placeholderJsx": "按路径或文件名筛选……",
+    "placeholderStatic": "按路径筛选……",
+    "placeholderTags": "按分组或标签名称搜索……",
+    "placeholderDifficultyName": "按难度名称筛选……",
+    "noMatches": "没有符合当前筛选条件的项。"
+  },
+  "status": {
+    "loading": "加载中……",
+    "empty": "没有数据。"
+  },
+  "jsx": {
+    "noComponent": "未找到组件导出"
+  },
+  "static": {
+    "copyUrl": "复制 URL"
+  },
+  "actions": {
+    "open": "打开",
+    "download": "下载",
+    "downloadAll": "全部下载",
+    "downloadAllBusy": "压缩中……",
+    "downloadAllEmpty": "没有可下载的图片",
+    "downloadAllSuccess": "已下载 {{count}} 张图片",
+    "downloadAllPartial": "已下载 {{ok}} 张图片（{{failed}} 张失败）",
+    "downloadAllFailed": "无法下载图片",
+    "groupAria": "资源文件操作",
+    "copyColorHex": "复制颜色 {{color}}",
+    "colorCopied": "已复制 {{color}}",
+    "colorCopyFailed": "无法复制到剪贴板"
+  },
+  "difficultiesFilter": {
+    "legacyToggleLabel": "LEGACY 难度图标"
+  }
+}

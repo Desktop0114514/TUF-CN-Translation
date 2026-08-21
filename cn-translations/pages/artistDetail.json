@@ -1,0 +1,21 @@
+{
+  "title": "艺术家信息",
+  "meta": {
+    "title": "{{name}}",
+    "description": "查看艺术家 {{name}} 的信息与关卡 · The Universal Forums"
+  },
+  "sections": {
+    "aliases": "别名",
+    "links": "链接",
+    "songs": "歌曲",
+    "extraInfo": "额外信息",
+    "evidence": "凭证",
+    "levels": "关卡",
+    "relations": "所属团队"
+  },
+  "backToList": "返回",
+  "errors": {
+    "notFound": "未找到艺术家",
+    "loadFailed": "艺术家加载失败"
+  }
+}

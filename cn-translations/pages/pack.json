@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "title": "地图包",
+    "description": "浏览并发现社区创建的地图包",
+    "myPacksTitle": "我的地图包",
+    "myPacksDescription": "管理和查看你的个人地图包"
+  },
+  "title": {
+    "allPacks": "地图包",
+    "myPacks": "我的地图包"
+  },
+  "subtitle": {
+    "allPacks": "发现并探索社区创建的地图包",
+    "myPacks": "管理你的个人地图包收藏集"
+  },
+  "search": {
+    "placeholder": "搜索地图包……",
+    "search": "搜索"
+  },
+  "filters": {
+    "title": "筛选",
+    "toggle": "调整筛选选项",
+    "owner": "所有者",
+    "ownerPlaceholder": "输入用户名",
+    "viewMode": "可见性",
+    "viewModePlaceholder": "选择可见性",
+    "pinnedOnly": "仅显示已固定"
+  },
+  "sort": {
+    "title": "排序",
+    "toggle": "切换排序选项",
+    "header": "排序依据",
+    "by": "排序依据",
+    "placeholder": "选择排序模式",
+    "recent": "最近",
+    "name": "名称",
+    "levels": "关卡数量",
+    "favorites": "收藏数量",
+    "ascending": "升序",
+    "order": "排序顺序",
+    "descending": "降序",
+    "myLikes": "我的收藏"
+  },
+  "viewMode": {
+    "all": "所有",
+    "public": "公开",
+    "linkonly": "仅限链接",
+    "private": "私密",
+    "forcedPrivate": "强制私密"
+  },
+  "actions": {
+    "createPack": "创建地图包",
+    "reset": "重置",
+    "listView": "列表",
+    "gridView": "网格",
+    "viewToggleGroup": "选择地图包如何展示"
+  },
+  "buttons": {
+    "searchHelp": "搜索帮助"
+  },
+  "toolTip": {
+    "search": "搜索帮助",
+    "filter": "切换筛选条件",
+    "sort": "切换排序选项",
+    "reset": "重置所有筛选条件"
+  },
+  "create": {
+    "success": "创建地图包成功！",
+    "error": "创建地图包失败"
+  },
+  "loading": {
+    "more": "正在加载更多地图包……"
+  },
+  "error": {
+    "loadFailed": "加载地图包失败",
+    "retry": "重试"
+  },
+  "endMessage": "没有更多地图包"
+}

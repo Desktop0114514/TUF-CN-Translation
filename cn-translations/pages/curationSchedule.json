@@ -1,0 +1,43 @@
+{
+  "meta": {
+    "title": "精选关卡计划管理",
+    "description": "管理周常精选关卡计划和展示区计划"
+  },
+  "title": "精选展示区周常计划",
+  "description": "使用第一和第二精选关卡列表来管理精选展示区周常计划",
+  "previousWeek": "上周",
+  "nextWeek": "下周",
+  "loading": "加载计划表中……",
+  "empty": "本周无计划",
+  "primaryHall": {
+    "title": "优秀关卡展示区",
+    "description": "本周主要优秀精选关卡"
+  },
+  "secondaryHall": {
+    "title": "传奇关卡展示区", 
+    "description": "本周额外的高质量精选关卡"
+  },
+  "actions": {
+    "backToCuration": "返回精选列表",
+    "addCuration": "添加精选关卡",
+    "remove": "删除",
+    "edit": "编辑位置"
+  },
+  "fill": {
+    "title": "自动安排本周项目",
+    "description": "用近期未出现过的、随机的、有等级偏好的关卡安排计划表。仅填充空位。",
+    "legendary": "安排“优秀”栏目",
+    "loved": "安排“传奇”栏目",
+    "both": "全部安排",
+    "notifications": {
+      "filled": "向计划表中添加了 {{added}} 个项目",
+      "none": "无添加项目（计划表已满或谱池为空）",
+      "failed": "自动安排计划表失败"
+    }
+  },
+  "notifications": {
+    "added": "成功添加精选关卡至计划表",
+    "removed": "成功于计划表移除精选关卡",
+    "updated": "计划表更新成功"
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "管理等级",
+    "description": "管理论坛上的关卡等级类型"
+  },
+  "header": {
+    "title": "管理等级",
+    "refresh": "刷新等级列表"
+  },
+  "access": {
+    "denied": {
+      "title": "拒绝访问",
+      "message": "你需要超管权限才能访问该页面。"
+    }
+  },
+  "buttons": {
+    "create": "创建新等级",
+    "understand": "我了解此操作的风险",
+    "discordRoles": "同步 Discord 身份组"
+  },
+  "loading": {
+    "difficulties": "正在加载等级列表……",
+    "deleting": "正在删除……",
+    "savingDifficulty": "等级保存中……",
+    "reorderingDifficulties": "等级排序更新中……",
+    "savingTag": "标签创建中……",
+    "updatingTag": "标签更新中……",
+    "deletingTag": "标签删除中……",
+    "reorderingTags": "标签排序更新中……",
+    "reorderingGroups": "分组排序更新中……",
+    "fetchingTags": "正在加载标签……"
+  },
+  "noItems": {
+    "message": "未找到等级"
+  },
+  "difficultyTypes": {
+    "PGU": "PGU",
+    "SPECIAL": "特殊等级"
+  },
+  "form": {
+    "labels": {
+      "id": "ID：",
+      "name": "名称：",
+      "type": "类型：",
+      "icon": "图标 URL：",
+      "legacyIcon": "旧版图标 URL:",
+      "emoji": "表情符号：",
+      "legacyEmoji": "旧版表情符号：",
+      "color": "颜色：",
+      "baseScore": "基础分：",
+      "sortOrder": "排序方式：",
+      "legacy": "旧版图标：",
+      "fallbackId": "回退等级 ID：",
+      "fallbackDiff": "回退等级："
+    },
+    "placeholders": {
+      "fallbackId": "输入该等级被删除时，分配给该等级下关卡的新等级 ID",
+      "fallbackDiff": "选择替换等级"
+    },
+    "helpText": {
+      "fallbackId": "{{name}} 等级被删除时，所有该等级下的关卡将会更新为此等级。",
+      "fallbackDiff": "{{name}} 等级被删除时，所有该等级下的关卡将会更新为此等级。"
+    }
+  },
+  "modal": {
+    "create": {
+      "title": "创建新等级"
+    },
+    "edit": {
+      "title": "编辑等级"
+    },
+    "delete": {
+      "title": "删除等级",
+      "warning": {
+        "title": "⚠️ 警告：危险操作 ⚠️",
+        "message": "你将要删除此等级：{{name}}",
+        "description": "此操作：",
+        "points": [
+          "无法恢复",
+          "将影响该等级下的所有关卡",
+          "在删除之前必须做好备份"
+        ],
+        "highlight": "请确保你已经做好了备份！"
+      }
+    }
+  },
+  "passwordModal": {
+    "initialTitle": "需要超管密码",
+    "initialMessage": "请输入超管密码以访问此界面",
+    "title": "需要超管密码",
+    "message": "请输入超管密码以{{action}}该等级。",
+    "placeholder": "输入密码",
+    "errors": {
+      "invalid": "密码无效",
+      "generic": "执行操作时出错"
+    }
+  },
+  "notifications": {
+    "created": "等级创建成功",
+    "updated": "等级更新成功",
+    "deleted": "等级删除成功",
+    "reordered": "等级重新排序成功",
+    "reorderFailed": "等级重排失败"
+  },
+  "tabs": {
+    "difficulties": "等级",
+    "tags": "标签",
+    "groups": "分组"
+  },
+  "tags": {
+    "createButton": "创建标签",
+    "noTags": "未找到标签。创建你的第一个标签！",
+    "ungrouped": "未分组",
+    "tagCount": "{{count}} 个标签{{plural}}",
+    "create": {
+      "title": "创建标签",
+      "name": "名称",
+      "color": "颜色",
+      "group": {
+        "label": "分组（可选）",
+        "placeholder": "输入分组名称"
+      },
+      "icon": {
+        "label": "图标（可选）",
+        "preview": "预览",
+        "remove": "移除图标"
+      },
+      "createButton": "创建",
+      "cancelButton": "取消"
+    },
+    "edit": {
+      "title": "编辑标签",
+      "name": "名称",
+      "color": "颜色",
+      "group": {
+        "label": "分组（可选）",
+        "placeholder": "输入分组名称"
+      },
+      "icon": {
+        "label": "图标（可选）",
+        "preview": "预览",
+        "remove": "移除图标"
+      },
+      "updateButton": "更新",
+      "cancelButton": "取消",
+      "unsavedChanges": "你有未保存的更改，确定要退出吗？"
+    },
+    "delete": {
+      "title": "删除标签",
+      "message": "你确定删除标签 \"{{name}}\" 吗？",
+      "description": "此操作不可撤销。此标签将从所有关卡中移除。",
+      "deleteButton": "删除",
+      "cancelButton": "取消"
+    },
+    "notifications": {
+      "fetchFailed": "标签获取失败",
+      "created": "标签创建成功",
+      "createFailed": "标签创建失败",
+      "updated": "标签更新成功",
+      "updateFailed": "标签更新失败",
+      "deleted": "标签删除成功",
+      "deleteFailed": "标签删除失败",
+      "reordered": "标签重排成功",
+      "reorderFailed": "标签重排失败"
+    }
+  },
+  "groups": {
+    "noGroups": "未找到分组。先创建带标签的分组！",
+    "notifications": {
+      "reordered": "分组重排成功",
+      "reorderFailed": "分组重排失败"
+    }
+  }
+} 

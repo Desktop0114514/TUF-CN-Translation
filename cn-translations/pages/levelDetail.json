@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "title": "{{song}} - {{artist}}",
+    "description": "{{artist}} 的 {{song}} — 由 {{creator}} 制作 · The Universal Forums",
+    "fallbackName": "关卡"
+  },
+  "banners": {
+    "deleted": "本关卡已被删除",
+    "hidden": "本关卡已被隐藏",
+    "notFound": "未找到关卡"
+  },
+  "song": {
+    "clickToViewDetails": "点击查看详细信息"
+  },
+  "buttons": {
+    "edit": "编辑关卡信息",
+    "close": "关闭",
+    "viewRating": "浏览先前评级",
+    "like": "收藏",
+    "unlike": "取消收藏",
+    "update": "上传关卡",
+    "saveRating": "保存评级",
+    "addToPack": "添加至地图包"
+  },
+  "tooltips": {
+    "loginRequired": "登录以收藏此关卡",
+    "editDisabled": "此关卡有超过两个采音师。如果你认为自己应该是所有者，请联系管理员。"
+  },
+  "links": {
+    "download": "下载关卡",
+    "workshop": "在创意工坊上查看",
+    "thumbnailNotFound": {
+      "text": "未找到视频封面",
+      "goToVideo": "跳转到视频"
+    }
+  },
+  "aliases": {
+    "header": "别名"
+  },
+  "artists": {
+    "more": "另有 {{count}} 个"
+  },
+  "stats": {
+    "firstClear": {
+      "label": "世界首通",
+      "value": "{{player}} | {{date}}"
+    },
+    "highestScore": {
+      "label": "最高分数",
+      "value": "{{player}} | {{score}}"
+    },
+    "highestSpeed": {
+      "label": "最高飙速",
+      "value": "{{player}} | {{speed}}×"
+    },
+    "highestAccuracy": {
+      "label": "最高准度",
+      "value": "{{player}} | {{accuracy}}%"
+    },
+    "totalClears": {
+      "label": "总通关次数",
+      "value": "{{count}}",
+      "tooltip": "共 {{total}} 次，共 {{unique}} 人"
+    },
+    "waiting": "加载中……"
+  },
+  "info": {
+    "title": "关卡信息",
+    "team": "团队",
+    "creator": "创作者",
+    "roles": {
+      "charter": "采音师",
+      "vfxer": "特效师"
+    },
+    "difficulty": "等级",
+    "baseScore": "基础分数",
+    "ppBaseScore": "无暇基础分数",
+    "aliases": "别名",
+    "comments": "评论",
+    "createdAt": "上传日期"
+  },
+  "leaderboard": {
+    "header": "排行榜",
+    "refresh": "刷新排行榜",
+    "refreshed": "已刷新排行榜！",
+    "notBeaten": "还没有人通过本关卡！",
+    "noClearsYet": "还没有通关记录！",
+    "challenge": "也许你要成为第一个吃螃蟹的人？",
+    "tooltips": {
+      "time": "按通过日期排序",
+      "accuracy": "按精准度排序",
+      "score": "按分数排序",
+      "speed": "按飙速排序"
+    },
+    "dedupe": {
+      "label": "隐藏重复通关"
+    }
+  },
+  "dialog": {
+    "fullInfo": "查看完整信息"
+  },
+  "components": {
+    "clearCard": {
+      "feeling": "体感难度："
+    }
+  },
+  "errors": {
+    "loginRequired": "你需要登录以收藏此关卡",
+    "likeFailed": "更新收藏状态失败"
+  },
+  "messages": {
+    "liked": "已收藏！",
+    "unliked": "已取消收藏"
+  },
+  "rerateHistory": {
+    "header": "重评历史",
+    "open": "显示重评历史",
+    "close": "关闭重评历史",
+    "noHistory": "重评历史不可用",
+    "previous": "先前",
+    "current": "当前",
+    "baseScore": "基础分",
+    "date": "日期",
+    "user": "用户"
+  },
+  "scoreGraph": {
+    "header": "分数与精度",
+    "open": "显示分数与精度图表",
+    "close": "关闭分数图表",
+    "missesLabel": "空敲",
+    "missesAria": "空敲数量",
+    "noTilecount": "需要物量数才能绘制此图表。",
+    "emptyCurve": "该关卡没有可用的分数曲线数据。",
+    "tooltipScore": "分数",
+    "tooltipMisses": "空敲",
+    "tooltipEPerfect": "稍快/慢",
+    "tooltipEarly": "太快/慢",
+    "disablePP": "隐藏完美无瑕",
+    "judgementsAria": "判定分布",
+    "judgementMiss": "空敲",
+    "judgementEarly": "太快",
+    "judgementEPerfect": "稍快",
+    "judgementPerfect": "完美",
+    "judgementLPerfect": "稍慢",
+    "judgementLate": "太慢"
+  },
+  "toRatePending": {
+    "header": "待重新评级",
+    "rerateNumber": "请求评级",
+    "rerateMessage": "重评信息",
+    "noDetails": "未填写额外信息。"
+  },
+  "tags": {
+    "header": "关卡标签"
+  },
+  "weeklyAppearance": {
+    "header": "周常展示",
+    "primary": "优秀",
+    "secondary": "传奇",
+    "position": "位于 {{position}}"
+  },
+  "packAppearance": {
+    "header": "关卡包收录",
+    "by": "作者 {{owner}}",
+    "levels": "个关卡",
+    "loading": "加载中…",
+    "unknownOwner": "未知"
+  },
+  "tournamentAppearance": {
+    "header": "赛事收录"
+  }
+}

@@ -1,0 +1,371 @@
+{
+  "meta": {
+    "title": "赛事管理",
+    "description": "管理赛事名次、关卡积分与头像框装饰"
+  },
+  "title": "赛事管理",
+  "subtitle": "创建赛事、录入名次、同步关卡积分，并绑定头像框装饰。",
+  "tabs": {
+    "events": "赛事",
+    "unresolved": "未关联名称",
+    "import": "导入",
+    "series": "赛事系列"
+  },
+  "subTabs": {
+    "details": "详情",
+    "tiers": "档位",
+    "placements": "获奖情况",
+    "cosmetics": "装饰"
+  },
+  "searchPlaceholder": "搜索赛事……",
+  "refresh": "刷新",
+  "newTournament": "新建赛事",
+  "editTournament": "编辑赛事",
+  "emptyList": "暂无赛事。请新建或导入 CSV。",
+  "save": "保存",
+  "delete": "删除",
+  "selectTournamentFirst": "请先在「赛事」标签页中选择一个赛事。",
+  "addRow": "添加行",
+  "savePlacements": "保存名次",
+  "syncCredits": "同步积分",
+  "withdrew": "退赛",
+  "autoLinkExact": "自动关联完全匹配",
+  "noUnresolved": "所有名次名称均已关联。",
+  "addReward": "添加装饰",
+  "syncEntitlements": "同步权益",
+  "createSeries": "创建赛事系列",
+  "hiddenBadge": "隐藏",
+  "reorder": {
+    "moveUp": "上移",
+    "moveDown": "下移",
+    "dragHandle": "拖动以排序"
+  },
+  "import": {
+    "dryRun": "试运行 CSV",
+    "importCsv": "导入 CSV",
+    "messages": {
+      "dryRunComplete": "试运行完成",
+      "importComplete": "导入完成"
+    },
+    "errors": {
+      "failed": "导入失败"
+    }
+  },
+  "packImport": {
+    "open": "地图包导入",
+    "title": "从地图包导入",
+    "subtitle": "从地图包引用导入提名名次，审阅差异后再应用。",
+    "packRef": "地图包引用",
+    "packRefPlaceholder": "例如 my-pack-slug",
+    "previewDiff": "预览差异",
+    "apply": "应用导入",
+    "adds": "建议新增",
+    "removes": "建议删除",
+    "diverged": "不一致（需人工审核）",
+    "noAdds": "无新增建议。",
+    "noRemoves": "无删除建议。",
+    "noDiverged": "无不一致行。",
+    "messages": {
+      "imported": "地图包导入已应用"
+    },
+    "errors": {
+      "packRefRequired": "地图包引用为必填项。",
+      "diffFailed": "差异预览失败",
+      "importFailed": "地图包导入失败"
+    }
+  },
+  "packCreate": {
+    "open": "从地图包导入",
+    "title": "从地图包创建赛事",
+    "subtitle": "从地图包创建关卡模式赛事并打开编辑。",
+    "packRef": "使用地图包",
+    "create": "创建赛事",
+    "messages": {
+      "created": "已从地图包创建赛事"
+    },
+    "errors": {
+      "packRefRequired": "地图包引用为必填项。",
+      "createFailed": "从地图包创建赛事失败"
+    }
+  },
+  "nominees": {
+    "title": "选择提名",
+    "allSelected": "已选全部符合条件的创作者（空筛选 = 同步时全员）",
+    "noneSelected": "未选择提名",
+    "selectedCount": "已选 {{count}} 人",
+    "empty": "该关卡无符合条件的创作者。",
+    "guestBadge": "访客",
+    "selectAll": "全选",
+    "clearAll": "清空",
+    "save": "保存筛选",
+    "errors": {
+      "loadFailed": "提名候选人加载失败"
+    }
+  },
+  "help": {
+    "open": "帮助",
+    "title": "赛事名次帮助",
+    "subtitle": "模式、扩展、积分、权重与地图包导入。",
+    "close": "关闭帮助",
+    "sections": {
+      "modes": {
+        "title": "名次模式",
+        "intro": "每行可继承赛事默认或单独覆盖。",
+        "bullets": {
+          "profile": "<b>档案</b> — 关联玩家或创作者；关卡仅作佐证。",
+          "level": "<b>关卡</b> — 同步后扩展为关卡上的创作者。",
+          "inherit": "<b>继承</b> — 使用详情中的赛事放置模式。"
+        }
+      },
+      "evidence": {
+        "title": "佐证 vs 扩展",
+        "intro": "在档案行附加关卡不会生成额外积分。",
+        "bullets": {
+          "profileLevel": "档案 + levelId 仅在卡片上显示关卡上下文。",
+          "noExpand": "仅关卡模式行会扩展为多条档案积分。"
+        }
+      },
+      "nominees": {
+        "title": "提名筛选",
+        "intro": "关卡行在同步前保存可选的接收人筛选。",
+        "bullets": {
+          "prefill": "选择提名会预填关卡积分（默认 charter/vfxer）。",
+          "emptyFilter": "同步时空筛选表示关卡上所有符合条件的人。",
+          "guests": "可包含访客；选择器会显示警告标记。"
+        }
+      },
+      "sync": {
+        "title": "同步积分",
+        "intro": "保存名次不会物化关卡积分。",
+        "bullets": {
+          "dryRun": "同步会先试运行预览新增/删除，再确认。",
+          "saveVsSync": "保存行元数据；同步写入 tournament_placement_credits。"
+        }
+      },
+      "weights": {
+        "title": "排序权重",
+        "intro": "赛事系列与赛事列表使用稠密 1..n 权重。",
+        "bullets": {
+          "series": "在赛事系列标签用上下按钮调整顺序。",
+          "tier": "编辑器中名次按档位排名权重排序。"
+        }
+      },
+      "pack": {
+        "title": "地图包导入",
+        "intro": "从地图包工具导入提名名次，再差异同步。",
+        "bullets": {
+          "import": "新地图包条目以 NOM（提名）名次导入。",
+          "diff": "差异同步建议增删；不一致行需人工处理。"
+        }
+      },
+      "cosmetics": {
+        "title": "装饰 / 头像框",
+        "intro": "奖励为每个匹配的积分授予一项权益。",
+        "bullets": {
+          "perCredit": "权益以积分 ID 为键，而非名次 ID。",
+          "entitlements": "修改奖励规则或积分后请同步权益。"
+        }
+      }
+    }
+  },
+  "series": {
+    "slug": "标识符",
+    "name": "名称",
+    "empty": "暂无赛事系列。请使用上方表单添加。",
+    "deleteConfirm": "确定删除「{{name}}」？关联的赛事将解除关联系列，仅绑定该系列的奖励将被移除。",
+    "messages": {
+      "created": "赛事系列创建成功",
+      "updated": "赛事系列更新成功",
+      "deleted": "赛事系列删除成功"
+    },
+    "errors": {
+      "required": "标识符和名称为必填项。",
+      "createFailed": "赛事系列创建失败",
+      "updateFailed": "赛事系列更新失败",
+      "deleteFailed": "赛事系列删除失败"
+    }
+  },
+  "messages": {
+    "tournamentCreated": "赛事创建成功",
+    "namesLinked": "已关联 {{count}} 个名称",
+    "placementLinked": "已关联",
+    "reordered": "顺序已更新",
+    "deleted": "赛事已删除"
+  },
+  "deleteConfirm": "确定删除赛事“{{name}}”及其全部名次、积分与奖励？",
+  "errors": {
+    "loadTournamentsFailed": "赛事加载失败",
+    "loadUnresolvedFailed": "未关联名称加载失败",
+    "resolveFailed": "自动关联失败",
+    "linkFailed": "关联失败",
+    "reorderFailed": "排序失败",
+    "deleteFailed": "赛事删除失败"
+  },
+  "popup": {
+    "title": "管理赛事",
+    "deleteConfirm": "确定删除赛事“{{name}}”及其全部名次、积分与奖励？",
+    "unsavedConfirm": "你有未保存的更改。确定放弃并离开？",
+    "placements": {
+      "tier": "档位",
+      "rowMode": "模式",
+      "nameLevel": "名称 / 关卡",
+      "linkedUsers": "关联用户",
+      "linkTypes": {
+        "player": "玩家",
+        "creator": "创作者"
+      },
+      "name": "名称",
+      "level": "关卡",
+      "link": "关联",
+      "nominees": "提名",
+      "team": "队伍",
+      "noLevel": "无关卡",
+      "pickLevel": "选择关卡",
+      "changeLevel": "更换",
+      "pickNominees": "选择提名",
+      "editNominees": "编辑提名",
+      "nomineeCount": "{{count}} 名提名",
+      "nomineeOverflow": "另有 {{count}} 位",
+      "empty": "暂无放置",
+      "resizeColumn": "调整列宽",
+      "rowModes": {
+        "inherit": "继承",
+        "profile": "档案",
+        "level": "关卡"
+      }
+    },
+    "credits": {
+      "syncConfirm": "同步积分？+{{add}} / -{{remove}}"
+    },
+    "rewards": {
+      "label": "标签",
+      "tier": "档位",
+      "tierAny": "任意（使用最大权重）",
+      "maxRankWeight": "最大排名权重",
+      "maxRankWeightPlaceholder": "例如：3 表示前几名",
+      "priority": "优先级",
+      "tierRef": "档位 #{{id}}"
+    },
+    "messages": {
+      "saved": "赛事已保存",
+      "deleted": "赛事已删除",
+      "placementsSaved": "名次已保存",
+      "rewardCreated": "装饰已创建",
+      "rewardDeleted": "装饰已删除",
+      "syncSuccess": "已同步（+{{granted}} / -{{revoked}}）",
+      "creditsSynced": "积分已同步（+{{add}} / -{{remove}}）"
+    },
+    "errors": {
+      "loadFailed": "赛事加载失败",
+      "deleteFailed": "删除失败",
+      "placementsFailed": "名次保存失败",
+      "rewardFailed": "装饰创建失败",
+      "rewardDeleteFailed": "装饰删除失败",
+      "syncFailed": "同步失败",
+      "creditsSyncFailed": "积分同步失败"
+    }
+  },
+  "visuals": {
+    "tournamentTitle": "赛事视觉",
+    "eventIcon": "赛事图标",
+    "defaultCardBg": "默认卡片背景",
+    "tierIcon": "档位图标",
+    "tierCardBg": "档位卡片背景",
+    "noImage": "无图片",
+    "messages": {
+      "uploadSuccess": "图片上传成功",
+      "removed": "图片已移除"
+    },
+    "errors": {
+      "uploadFailed": "图片上传失败",
+      "removeFailed": "图片移除失败"
+    }
+  },
+  "tiers": {
+    "code": "代码",
+    "label": "标签",
+    "kind": "类型",
+    "rankWeight": "排名权重",
+    "color": "颜色",
+    "addTier": "添加档位",
+    "save": "保存档位",
+    "saveFirst": "请先保存档位再上传图片",
+    "empty": "暂无档位",
+    "preset": {
+      "label": "按预设添加",
+      "show": "按预设添加",
+      "hide": "隐藏预设",
+      "hint": "从预设追加档位，已存在的代码会跳过。完成后请保存档位。",
+      "placeholder": "选择预设…",
+      "apply": "添加档位",
+      "applied": "已从预设添加 {{count}} 个档位",
+      "allExist": "该预设中的档位已全部存在"
+    },
+    "kindOptions": {
+      "ordinal": "名次",
+      "bracket": "小组",
+      "round": "轮次",
+      "stage": "阶段",
+      "qualifier": "预选赛",
+      "custom": "自定义"
+    },
+    "messages": {
+      "saved": "档位已保存"
+    },
+    "errors": {
+      "saveFailed": "档位保存失败"
+    }
+  },
+  "form": {
+    "fields": {
+      "shortName": "简称",
+      "fullName": "全称",
+      "aka": "别名",
+      "youtubeUrl": "YouTube链接",
+      "packRef": "使用地图包",
+      "externalUrl": "外部链接",
+      "sortYear": "排序年份",
+      "organizers": "主办方（逗号分隔）",
+      "owners": "视觉编辑者（所有者）",
+      "ownersHint": "可上传赛事与档位视觉资源的用户。上方主办方仍为展示用自由文本。",
+      "ownersPlaceholder": "搜索用户并添加为所有者…",
+      "ownersRemove": "移除",
+      "status": "状态",
+      "track": "赛事赛道",
+      "placementMode": "放置模式",
+      "showBestTiersOnly": "档案仅显示最佳档位",
+      "series": "赛事系列",
+      "tierTemplate": "档位模板",
+      "hidden": "隐藏",
+      "resultsFinal": "结果已定",
+      "notes": "备注"
+    },
+    "packRefSearchPlaceholder": "搜索地图包",
+    "packRefNoResults": "未找到地图包。",
+    "packRefTypeToSearch": "输入以搜索地图包…",
+    "packRefLoading": "正在搜索地图包…",
+    "packRefSearchFailed": "地图包搜索失败",
+    "packRefNotFound": "未找到",
+    "placementModes": {
+      "profile": "档案（关联玩家/创作者）",
+      "level": "关卡（扩展至创作者）"
+    },
+    "tracks": {
+      "player": "玩家赛事",
+      "creator": "创作者赛事"
+    },
+    "statuses": {
+      "draft": "草稿",
+      "ongoing": "进行中",
+      "completed": "已结束",
+      "cancelled": "已取消"
+    },
+    "seriesNone": "未分类",
+    "tierTemplateNone": "—",
+    "errors": {
+      "shortNameRequired": "简称为必填项。",
+      "shortNameExists": "已存在相同简称的赛事。",
+      "saveFailed": "保存失败"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "title": "The Universal Forums",
+    "description": "The Universal Forums (TUF) 是一个由社区驱动的，给音游玩家分享并竞争自制关卡的平台。"
+  },
+  "header": {
+    "title": "The Universal Forums",
+    "subtitle": "一个由社区驱动的音游玩家平台"
+  },
+  "sections": {
+    "featured": {
+      "title": "精选关卡",
+      "empty": "无精选关卡"
+    },
+    "recent": {
+      "title": "最近关卡",
+      "empty": "无最近关卡"
+    }
+  },
+  "card": {
+    "by": "关卡设计 {{creator}}"
+  },
+  "loading": {
+    "featured": "正在加载精选关卡……",
+    "recent": "正在加载最近关卡……"
+  }
+} 

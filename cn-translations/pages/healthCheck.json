@@ -1,0 +1,53 @@
+{
+  "title": "系统健康状态",
+  "metaDescription": "简要查看 TUF 各服务是否在响应。",
+  "lastUpdated": "上次更新：{{time}}",
+  "loadError": "暂时无法加载状态，请稍后再试。",
+  "overall": {
+    "online": "一切正常",
+    "degraded": "部分受限",
+    "offline": "服务异常"
+  },
+  "serviceState": {
+    "ok": "正常",
+    "down": "不可用"
+  },
+  "serviceChecks": {
+    "database": "数据库",
+    "mainServer": "主服务器",
+    "cdnService": "CDN",
+    "nginxService": "Nginx",
+    "skipped": "未监控"
+  },
+  "responseTime": {
+    "ms": "{{ms}} 毫秒",
+    "skipped": "—",
+    "unavailable": "—",
+    "ariaLabel": "最近一次检查的响应时间"
+  },
+  "refresh": {
+    "ariaLabel": "刷新状态"
+  },
+  "latency": {
+    "title": "响应时间趋势",
+    "yAxisLabel": "毫秒",
+    "loadError": "无法加载响应时间数据。",
+    "empty": "该时段尚无样本。",
+    "windowLabel": "时间范围",
+    "series": {
+      "database": "数据库",
+      "mainServer": "主服务器",
+      "cdn": "CDN"
+    },
+    "windows": {
+      "1h": "最近 1 小时",
+      "3h": "最近 3 小时",
+      "6h": "最近 6 小时",
+      "12h": "最近 12 小时",
+      "24h": "最近 24 小时",
+      "3d": "最近 3 天",
+      "7d": "最近 7 天",
+      "14d": "最近 14 天"
+    }
+  }
+}

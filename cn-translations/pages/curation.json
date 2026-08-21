@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "title": "管理精选关卡",
+    "description": "管理精选关卡和质量等级"
+  },
+  "title": "管理精选关卡",
+  "description": "为关卡分配质量等级并管理每周精选",
+  "filters": {
+    "type": "精选关卡类型",
+    "types": "精选类型",
+    "typesHint": "仅显示至少包含任一已选类型的关卡。不选则显示全部关卡。",
+    "selectedTypes": "按类型筛选",
+    "addTypes": "添加筛选类型",
+    "noTypesSelected": "未选择 — 包含全部类型",
+    "searchTypesPlaceholder": "搜索类型……",
+    "noTypeResults": "无匹配类型",
+    "noAvailableTypes": "已全部加入筛选",
+    "removeType": "从筛选中移除",
+    "addType": "加入筛选",
+    "allTypes": "所有类型",
+    "search": "搜索",
+    "searchPlaceholder": "按歌曲、艺术家或创作者搜索……"
+  },
+  "loading": "正在加载精选关卡……",
+  "empty": "未找到精选关卡",
+  "password": {
+    "title": "需要超管密码",
+    "description": "请输入你的超管密码以继续",
+    "placeholder": "输入密码",
+    "submit": "确认"
+  },
+  "initialPassword": {
+    "title": "需要超管权限",
+    "description": "此页面需要超管权限。请输入你的密码以继续。",
+    "placeholder": "输入超管密码",
+    "continue": "继续"
+  },
+  "notifications": {
+    "created": "创建精选关卡成功",
+    "updated": "更新精选关卡成功",
+    "deleted": "删除精选关卡成功",
+    "typeCreated": "精选关卡类型创建成功",
+    "typeUpdated": "精选关卡类型更新成功",
+    "levelAdded": "成功将关卡加入精选关卡",
+    "levelUpdated": "更新精选关卡成功",
+    "bulkSuccess": "批量创建完成：已创建 {{created}} 个关卡，已更新 {{updated}} 个关卡",
+    "bulkPartialSuccess": "批量创建 {{affected}} 个关卡完成，已跳过 {{skipped}} 个关卡",
+    "bulkFailed": "批量创建失败"
+  },
+  "actions": {
+    "addLevel": "添加关卡",
+    "bulkCreate": "批量添加",
+    "manageTypes": "管理类型",
+    "manageCurators": "管理精选委员",
+    "manageSchedule": "管理每周精选",
+    "editLevel": "编辑此关卡全部精选",
+    "editCuration": "编辑精选关卡",
+    "deleteCuration": "删除精选关卡"
+  },
+  "confirmations": {
+    "deleteCuration": "你确定你想要删除此精选关卡吗？"
+  },
+  "pagination": {
+    "pageLabel": "第 ",
+    "pageOf": " 页，共 {{total}} 页"
+  }
+}

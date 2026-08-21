@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "title": "登录",
+    "description": "登录至 The Universal Forums （TUF）"
+  },
+  "header": {
+    "title": "登录"
+  },
+  "form": {
+    "labels": {
+      "emailOrUsername": "邮箱或用户名",
+      "password": "密码"
+    },
+    "buttons": {
+      "login": "登录",
+      "loggingIn": "登录中……",
+      "discordLogin": "使用Discord账号登录"
+    },
+    "divider": "或者",
+    "links": {
+      "register": "没有账号？注册"
+    }
+  },
+  "mfa": {
+    "title": "检查你的收件箱",
+    "codePrompt": "输入发送至{{email}}的代码以结束登录进程。",
+    "yourEmail": "你的邮箱",
+    "codeLabel": "登录代码",
+    "codeRequired": "输入发送至你的邮箱的8位代码",
+    "invalidCode": "代码无效或已过期",
+    "confirm": "下一步",
+    "verifying": "验证中……",
+    "resend": "重新发送",
+    "resendIn": "{{seconds}}秒后可重新发送",
+    "resendCooldown": "请求另一代码前请先等候",
+    "sendFailed": "发送登录代码失败",
+    "expired": "登录已过期。请重试。",
+    "rememberDevice": "记住该设备30天",
+    "back": "返回登录",
+    "usePasskey": "使用通行密钥",
+    "passkeyFailed": "通行密钥验证失败。请重试。"
+  },
+  "passkey": {
+    "button": "用通行密钥登录",
+    "failed": "通行密钥登录失败。请重试。"
+  },
+  "errors": {
+    "generic": "未知错误。请稍后再试。",
+    "network": "网络连接错误。请稍后再试。",
+    "invalidCredentials": "邮箱、用户名或密码无效。",
+    "emailNotVerified": "登录前请验证邮箱。",
+    "rateLimit": "请求过多。请稍后重试",
+    "discordFailed": "无法启动 Discord 登录。请重试。如果问题仍然存在，请联系管理员。",
+    "captcha": {
+      "notLoaded": "reCAPTCHA 未加载",
+      "incomplete": "请完成 reCAPTCHA 验证",
+      "failed": "reCAPTCHA 验证失败。请重试。"
+    }
+  }
+} 

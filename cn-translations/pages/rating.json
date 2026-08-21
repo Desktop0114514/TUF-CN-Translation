@@ -1,0 +1,135 @@
+{
+  "meta": {
+    "title": "管理评级",
+    "description": "管理论坛上的关卡并为其评级"
+  },
+  "buttons": {
+    "references": "参考关卡列表",
+    "manageRaters": "管理评级员",
+    "help": "评级指南",
+    "topRaters": "评级员排行榜",
+    "zenMode": "沉浸模式",
+    "resumeZenMode": "继续沉浸模式"
+  },
+  "toggles": {
+    "detailedView": {
+      "label": "详细视图"
+    },
+    "hideRated": {
+      "label": "隐藏已评级关卡"
+    },
+    "lowDiff": {
+      "label": "低难度"
+    },
+    "fourVote": {
+      "label": "4+ 评级"
+    }
+  },
+    "sort": {
+    "byId": "关卡 ID",
+    "byRatings": "评级数",
+    "byRatingsFull": "按评级数排序",
+    "byDate": "最新上传"
+  },
+  "search": {
+    "placeholder": "按关卡名称，创作者或难度搜索"
+  },
+  "labels": {
+    "totalRatings": "{{count}} 个待评级关卡",
+    "connectedUsers": "{{count}} 人在线",
+    "connectedManagers": "({{count}} 名管理员)",
+    "disconnected": "未连接"
+  },
+  "tooltips": {
+    "sortAsc": "升序排序",
+    "sortDesc": "降序排序",
+    "lastUpdated": "上次更新时间",
+    "levelId": "关卡ID"
+  },
+  "messages": {
+    "loading": "正在加载评级……",
+    "error": "加载评级时出错",
+    "noRatings": {
+      "title": "没有需要评级的关卡",
+      "subtitle": "已全部评完！"
+    }
+  },
+  "infiniteScroll": {
+    "end": "已到底部！"
+  },
+  "zen": {
+    "meta": {
+      "title": "沉浸模式评级",
+      "description": "专注于评级本身"
+    },
+    "confirmPeek": "查看其他评级员的评级和理由？这将使用一次查看机会。",
+    "reportPrompt": "报告备注（可选）—— 描述媒体问题：",
+    "report": "报告媒体问题",
+    "exit": "暂停",
+    "noVideo": "无可用视频",
+    "noPeers": "无评级",
+    "setup": {
+      "title": "沉浸模式评级",
+      "subtitle": "沉浸评级，一次一个。",
+      "resumeHint": "上次沉浸模式尚未完成。",
+      "continue": "继续",
+      "discard": "放弃并重新开始",
+      "deckSize": "本次评级关卡数量",
+      "peekHint": "每 5 个关卡有 1 次查看机会",
+      "onlyLowDiff": "仅P级关卡",
+      "excludeUniversals": "不看U级关卡",
+      "sort": "优先级",
+      "sortLeast": "最新评级优先",
+      "sortMost": "最多评级优先",
+      "sortId": "按关卡ID",
+      "sortRecent": "最近更新",
+      "randomness": "混乱度",
+      "randomnessValue": "{{n}}",
+      "randomnessHint": "低——更遵循优先顺序；高——更随机",
+      "dealing": "处理中……",
+      "start": "开始",
+      "back": "返回"
+    },
+    "stats": {
+      "peeks": "剩余查看次数：{{n}}",
+      "streak": "连续完成{{n}}个"
+    },
+    "progress": {
+      "aria": "进度：已完成 {{done}} 个，共 {{total}} 个",
+      "goTo": "前往第 {{n}} 个",
+      "rated": "已评级",
+      "peeked": "已查看",
+      "skipped": "跳过",
+      "current": "当前",
+      "pending": "待办"
+    },
+    "actions": {
+      "skip": "跳过",
+      "peek": "查看他人评级（{{n}}）",
+      "peeked": "已查看",
+      "peekEmpty": "无剩余查看机会",
+      "saving": "保存中……",
+      "submit": "提交 →"
+    },
+    "done": {
+      "title": "沉浸模式评级已完成！",
+      "submitted": "已评级：{{n}}",
+      "skipped": "已跳过：{{n}}",
+      "peeks": "已使用查看次数：{{n}} / {{max}}",
+      "again": "完成",
+      "queue": "返回"
+    },
+    "messages": {
+      "emptyDeck": "无匹配结果",
+      "reportSent": "报告已发送"
+    },
+    "errors": {
+      "loginRequired": "登录以进行沉浸模式",
+      "dealFailed": "处理失败",
+      "reportFailed": "报告发送失败",
+      "ratingRequired": "输入你的评级",
+      "commentRequired": "需要理由",
+      "submitFailed": "提交失败"
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "meta": {
+    "title": "公告列表",
+    "description": "管理并发布论坛上的新关卡、关卡重评和通关记录"
+  },
+  "header": {
+    "title": "公告"
+  },
+  "tabs": {
+    "newLevels": "新关卡",
+    "rerates": "关卡重评",
+    "passes": "通关记录"
+  },
+  "buttons": {
+    "retry": "重试",
+    "refresh": "刷新",
+    "selectAll": "全选",
+    "deselectAll": "取消全选",
+    "announce": "公告选中项目",
+    "announcing": "公告发布中……"
+  },
+  "success": {
+    "queued": "公告已加入队列。请在侧边栏查看进度。"
+  },
+  "errors": {
+    "fetchFailed": "获取项目失败，请重试。",
+    "announceFailed": "公告发布失败，请重试。",
+    "invalidIds": "部分选中项目的 ID 无效。",
+    "discordBlocked": "Discord webhook 已被临时封锁。请于 {{time}} 后重试。"
+  },
+  "gate": {
+    "banner": "Discord 发送系统已被封锁。{{time}} 后重试。"
+  },
+  "panel": {
+    "title": "发送进度",
+    "inProgress": "进行中",
+    "recent": "近期",
+    "emptyInProgress": "暂无进行中的公告",
+    "emptyRecent": "暂无近期公告",
+    "noAnnouncements": "暂无公告",
+    "loading": "发送进度加载中……",
+    "mergedNote": "包含进行中项目",
+    "status": {
+      "queued": "已加入队列",
+      "sending": "发送中",
+      "blocked": "被封锁",
+      "completed": "已完成",
+      "failed": "失败",
+      "pending": "待办",
+      "delivered": "已发送",
+      "skipped": "已跳过",
+      "sent": "已发送"
+    }
+  }
+} 

@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "title": "关于我们",
+    "description": "深入了解 The Universal Forums (TUF) ——一个由社区驱动的，致力于收集、评级并整理《冰与火之舞》自制关卡的组织"
+  },
+  "header": {
+    "title": "关于 TUF"
+  },
+  "sections": {
+    "whoWeAre": {
+      "title": "我们是谁",
+      "content": "The Universal Forums (TUF) 是一个由社区驱动的组织，致力于收集、评级并整理《冰与火之舞》的自制关卡。我们的平台是玩家们共享成就、探索新内容，并与其他爱好者沟通交流的中央枢纽。"
+    },
+    "mission": {
+      "title": "我们的使命",
+      "intro": "我们致力于创建一个全面且易于访问的平台，旨在——",
+      "points": [
+        "为自制关卡提供准确的难度评级",
+        "维护一套可靠的排行榜系统",
+        "为玩家们提供一个支持性的社区",
+        "保存并展示玩家们的成就"
+      ]
+    },
+    "values": {
+      "title": "社区宣言",
+      "cards": {
+        "accuracy": {
+          "title": "准确",
+          "content": "我们在评级与打分方面维持高标准，确保公平竞争。"
+        },
+        "transparency": {
+          "title": "透明",
+          "content": "我们的评级过程与社区决策均向大众展示，公开透明。"
+        },
+        "inclusivity": {
+          "title": "包容",
+          "content": "我们欢迎所有玩家的加入，无论技术水平与游玩经验如何。"
+        },
+        "innovation": {
+          "title": "创新",
+          "content": "我们的平台不断更新迭代，以更好地服务《冰与火之舞》社区。"
+        }
+      }
+    },
+    "join": {
+      "title": "加入社区",
+      "links": {
+        "discord": "加入 Discord 服务器",
+        "github": "在 GitHub 上贡献"
+      }
+    },
+    "credits": {
+      "title": "制作人员",
+      "version": "{{version}} 由 V0W4N 开发",
+      "categories": {
+        "rating": {
+          "title": "评级团队",
+          "roles": {
+            "manager": "管理员",
+            "rater": "评级员"
+          }
+        }
+      }
+    }
+  }
+} 

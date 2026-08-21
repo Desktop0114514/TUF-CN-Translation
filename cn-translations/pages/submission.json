@@ -1,0 +1,29 @@
+{
+  "meta": {
+    "title": "提交内容",
+    "description": "向社区提交新的关卡或通关记录",
+    "type": "网页"
+  },
+  "header": {
+    "headerPass": "提交通关记录",
+    "headerLevel": "提交关卡"
+  },
+  "button": {
+    "buttonPass": "提交通关记录",
+    "buttonLevel": "提交关卡"
+  },
+  "label": {
+    "submit": "提交",
+    "pass": "通关记录",
+    "level": "关卡"
+  },
+    "banner": {
+    "submissionSuspended": "你的提交功能已被暂停",
+    "banned": "你的账号已被封禁",
+    "emailVerification": "你需要验证邮箱，才能提交内容，点击下方按钮跳转至验证页面",
+    "addEmail": "提交内容前需要先添加邮箱。点击下方按钮前往账户设置添加邮箱。",
+    "contact": "如果你认为这是一个错误，请通过 Discord 与我们联系",
+    "verifyEmail": "验证邮箱",
+    "addEmailButton": "添加邮箱"
+  }
+} 

@@ -1,0 +1,96 @@
+{
+  "meta": {
+    "title": "{{name}} - 地图包",
+    "description": "{{owner}} 的地图包 {{name}} — 共 {{count}} 个关卡 · The Universal Forums"
+  },
+  "loading": "正在加载地图包详细信息……",
+  "by": "创建者：",
+  "description": {
+    "label": "简介",
+    "readMore": "展开",
+    "showLess": "收起"
+  },
+  "backToPacks": "返回主页",
+  "viewMode": {
+    "public": "公开",
+    "linkonly": "仅限链接",
+    "private": "私密",
+    "forcedPrivate": "强制私密"
+  },
+  "stats": {
+    "levels": "关卡",
+    "items": "项目",
+    "created": "创建日期"
+  },
+  "items": {
+    "title": "地图包内容",
+    "dragHint": "拖动项目以重新排序或合并它们",
+    "empty": "此包为空。",
+    "dragToReorder": "拖动来重新排序"
+  },
+  "actions": {
+    "edit": "编辑此包",
+    "addFolder": "添加文件夹",
+    "addLevel": "添加关卡",
+    "collapseAll": "全部折叠",
+    "expandAll": "全部展开",
+    "addToFavorites": "收藏",
+    "removeFromFavorites": "取消收藏",
+    "downloadPack": "下载地图包",
+    "exportAs": "导出为",
+    "addToFolder": "添加到现有文件夹…",
+    "moveItem": "点击移动，或拖动",
+    "downloadFolder": "下载文件夹"
+  },
+  "download": {
+    "estimatedLong": "（预计：缺少 {{count}} 个大小元数据）",
+    "estimatedShort": "（预计，缺少 {{count}} 个）"
+  },
+  "folderProgress": {
+    "label": "{{percent}}%（{{cleared}}/{{total}}）",
+    "aria": "已完成{{percent}}%，已通过{{cleared}}个关卡，共{{total}}个"
+  },
+  "createFolder": {
+    "prompt": "输入新文件夹名称：",
+    "success": "文件夹创建成功",
+    "error": "文件夹创建失败"
+  },
+  "addLevel": {
+    "prompt": "输入关卡ID：",
+    "success": "关卡添加成功",
+    "partialSuccess": "已添加 {{added}} 个关卡（已跳过 {{skipped}} 个）",
+    "error": "关卡添加失败"
+  },
+  "renameFolder": {
+    "prompt": "输入新的文件夹名称：",
+    "success": "文件夹重命名成功",
+    "error": "文件夹重命名失败"
+  },
+  "deleteItem": {
+    "success": "项目删除成功",
+    "error": "项目删除失败"
+  },
+  "deleteFolder": {
+    "confirm": "你确定删除文件夹 \"{{name}}\" 吗？这将同时删除文件夹中的项目。"
+  },
+  "deleteLevel": {
+    "confirm": "你确定要从包中删除该关卡吗？"
+  },
+  "move": {
+    "cannotMoveIntoSelf": "你不能把文件夹移动到它自己里",
+    "success": "项目移动成功",
+    "error": "项目移动失败"
+  },
+  "edit": {
+    "success": "地图包更新成功",
+    "error": "地图包更新失败"
+  },
+  "error": {
+    "title": "出问题了",
+    "message": "无法加载此包。请重试。",
+    "retry": "重试",
+    "notFound": "未找到地图包",
+    "accessDenied": "你没有查看此包的权限",
+    "loadFailed": "加载地图包失败"
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "title": "备份",
+    "description": "管理论坛上的 MySQL 备份"
+  },
+  "header": {
+    "title": "备份列表",
+    "refresh": "刷新备份列表"
+  },
+  "stats": {
+    "totalSize": "总大小：{{size}}"
+  },
+  "sort": {
+    "newest": "最新",
+    "oldest": "最早"
+  },
+  "buttons": {
+    "create": "创建 MySQL 备份",
+    "restore": "恢复",
+    "upload": "上传",
+    "download": "下载",
+    "verifying": "验证中……"
+  },
+  "upload": {
+    "dragDropMessage": "拖动备份文件至此，或点击选择",
+    "errors": {
+      "fileTooBig": "文件大小超过最大文件大小 {{size}} 限制",
+      "validationFailed": "上传凭证验证失败"
+    }
+  },
+  "noBackups": {
+    "title": "无 MySQL 备份",
+    "message": "点击上方按钮创建你的第一个备份"
+  },
+  "timeAgo": {
+    "second": "{{count}} 秒前",
+    "seconds": "{{count}} 秒前",
+    "minute": "{{count}} 分钟前",
+    "minutes": "{{count}} 分钟前",
+    "hour": "{{count}} 小时前",
+    "hours": "{{count}} 小时前",
+    "day": "{{count}} 天前",
+    "days": "{{count}} 天前",
+    "month": "{{count}} 个月前",
+    "months": "{{count}} 个月前",
+    "year": "{{count}} 年前",
+    "years": "{{count}} 年前"
+  },
+  "passwordModal": {
+    "title": "需要超管密码",
+    "initialMessage": "请输入超管密码以继续",
+    "placeholder": "输入密码",
+    "errors": {
+      "invalid": "密码无效",
+      "generic": "执行此动作时发生错误",
+      "validation": "密码验证失败"
+    }
+  },
+    "confirmation": {
+    "title": "确认动作",
+    "createMessage": "确认新建备份？",
+    "deleteMessage": "确认删除此备份？此动作不可撤销。",
+    "restoreMessage": "确认恢复此备份？这将覆写当前数据。"
+  },
+  "notifications": {
+    "backupCreated": "MySQL 备份创建成功",
+    "backupRestored": "备份恢复成功",
+    "backupDeleted": "备份删除成功",
+    "downloadFailed": "备份下载失败",
+    "loadFailed": "备份加载失败",
+    "createFailed": "备份创建失败",
+    "restoreFailed": "备份恢复失败",
+    "deleteFailed": "备份删除失败",
+    "uploadSuccess": "备份上传成功",
+    "uploadFailed": "备份上传失败",
+    "validationFailed": "密码验证失败",
+    "renameSuccess": "备份重命名成功",
+    "renameFailed": "备份重命名失败"
+  },
+  "fileInfo": {
+    "created": "创建日期：{{date}}",
+    "size": "大小：{{size}}",
+    "newName": "输入新名称"
+  }
+} 

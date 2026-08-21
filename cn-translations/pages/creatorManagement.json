@@ -1,0 +1,52 @@
+{
+  "meta": {
+    "title": "创作者管理",
+    "description": "在TUF数据库中管理创作者和他们的别名"
+  },
+  "header": {
+    "title": "创作者管理"
+  },
+  "sort": {
+    "byName": "按名称排序",
+    "byId": "按ID排序",
+    "byCharts": "按谱面排序"
+  },
+  "buttons": {
+    "addCreator": "添加新创作者",
+    "manageCreator": "管理创作者",
+    "create": "创建创作者"
+  },
+  "form": {
+    "title": "添加新创作者",
+    "labels": {
+      "creatorName": "创作者名称",
+      "aliases": "别名"
+    },
+    "placeholders": {
+      "enterName": "输入创作者名称",
+      "enterAlias": "输入别名"
+    },
+    "buttons": {
+      "addAlias": "添加别名"
+    }
+  },
+  "filters": {
+    "excludeAliases": "从搜索中排除别名",
+    "searchPlaceholder": "按名称或别名搜索创作者……"
+  },
+  "creatorInfo": {
+    "id": "ID",
+    "charts": "谱面",
+    "aliases": "别名"
+  },
+  "messages": {
+    "noResults": "未找到创作者",
+    "noResultsSearch": "未找到匹配 \"{{query}}\" 的创作者",
+    "creatorCreated": "创作者创建成功",
+    "nameRequired": "需要创作者名称"
+  },
+  "errors": {
+    "createFailed": "创作者创建失败",
+    "generic": "发生错误"
+  }
+} 

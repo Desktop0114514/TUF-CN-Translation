@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "title": "主页",
+    "description": "欢迎来到 The Universal Forums (TUF) ——一个由社区驱动的，致力于收集、评级并整理《冰与火之舞》自制关卡的组织"
+  },
+  "title": {
+    "revamped": "翻新版"
+  },
+  "buttons": {
+    "browseLevels": "浏览关卡",
+    "browsePasses": "浏览通关记录",
+    "browsePacks": "浏览地图包",
+    "leaderboard": "排行榜"
+  },
+  "tooltips": {
+    "tufStellarOut": "TUFStellar 已上线！"
+  },
+  "stats": {
+    "overview": {
+      "title": "总览",
+      "totalLevels": "关卡数",
+      "totalPasses": "通关记录数",
+      "totalPlayers": "玩家数",
+      "passesLast30Days": "通关记录数（过去30天）"
+    },
+    "difficulties": {
+      "title": "关卡统计",
+      "graphModes": {
+        "passes": "按通关记录",
+        "levels": "按关卡数量"
+      }
+    },
+    "discord": {
+      "title": "加入我们的Discord服务器！"
+    },
+    "comingSoon": "还有更多有趣的内容即将到来……",
+    "donate": "在 Ko-fi 上赞助我！"
+  },
+  "weeklies": {
+    "title": "每周精选",
+    "description": "本周精选",
+    "primary": "传奇关卡",
+    "secondary": "优秀关卡",
+    "error": "加载本周精选失败",
+    "empty": "本周没有精选关卡"
+  },
+  "footer": {
+    "about": {
+      "title": "关于TUF",
+      "description": "The Universal Forums 是一个由社区驱动的，致力于收集、评级并整理《冰与火之舞》自制关卡的组织。"
+    },
+    "quickLinks": {
+      "title": "其他页面",
+      "browseLevels": "浏览关卡",
+      "browsePasses": "浏览通关记录",
+      "browsePacks": "浏览包",
+      "leaderboard": "排行榜",
+      "aboutUs": "关于我们",
+      "privacyPolicy": "隐私政策",
+      "termsOfService": "服务条款",
+      "apiDocs": "API 文档",
+      "developers": "开发者门户"
+    },
+    "community": {
+      "title": "社区链接",
+      "discord": "Discord",
+      "github": "GitHub"
+    },
+    "copyright": {
+      "main": "© {{year}} TUF团队。与 7th Beat Games 无关。",
+      "credit": "由 V0W4N 用 ❤️ 制作，中文翻译由 Alex1044 和 Desktop-0114514 提供"
+    }
+  }
+} 
